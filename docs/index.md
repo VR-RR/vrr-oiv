@@ -7,7 +7,7 @@ Voor het gebruik van QGIS als tekentool dient de laatste versie 64-bits versie v
 
 Download de installer en installeer hem via de ServiceDesk.
 
-https://qgis.org/nl/site/forusers/download.html
+[Download QGIS](https://qgis.org/nl/site/forusers/download.html)
 
 Verdere instellingen kunnen worden gedaan zonder tussenkomst van de ServiceDesk.
 
