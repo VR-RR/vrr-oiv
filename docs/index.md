@@ -1,3 +1,6 @@
+* TOC
+{:toc}
+
 # Installatie door ServiceDesk
 
 Voor het gebruik van QGIS als tekentool dient de laatste versie 64-bits versie van QGIS te worden geïnstalleerd. 
@@ -29,5 +32,3 @@ Start QGIS op door het openen van het VRR-OIV projectbestand.
 Dubbelklik op het bestand:
 
 `vrr_tekentool_oiv.qgz`
-
-
