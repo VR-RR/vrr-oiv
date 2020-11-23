@@ -34,3 +34,5 @@ Dubbelklik op het bestand:
 `vrr_tekentool_oiv.qgz`
 
 # Tekenen in QGIS
+
+[Tekenen in QGIS](tekenen.md)
