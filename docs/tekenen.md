@@ -89,3 +89,5 @@ Nu is het BAG-vlak toegevoegd aan de laag bouwlaag:
 Sla altijd je wijzigingen op die je aan de laag hebt doorgevoerd:
 
 ![alt text](./assets/wijzigingen_opslaan.png "Bogen toevoegen aan polygoon")
+
+[start](index.md)
