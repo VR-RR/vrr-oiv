@@ -26,7 +26,7 @@
                 <Format>image/png</Format>
               </ExternalGraphic>
               <Size>
-                <ogc:Literal>15</ogc:Literal>
+                <ogc:Literal>16</ogc:Literal>
               </Size>
               <Rotation><ogc:PropertyName>rotatie</ogc:PropertyName></Rotation>
             </Graphic>
@@ -51,7 +51,7 @@
                 <Format>image/png</Format>
               </ExternalGraphic>
               <Size>
-                <ogc:Literal>15</ogc:Literal>
+                <ogc:Literal>16</ogc:Literal>
               </Size>
               <Rotation><ogc:PropertyName>rotatie</ogc:PropertyName></Rotation>
             </Graphic>
