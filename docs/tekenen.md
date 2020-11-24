@@ -91,3 +91,13 @@ Sla altijd je wijzigingen op die je aan de laag hebt doorgevoerd:
 ![alt text](./assets/wijzigingen_opslaan.png "Bogen toevoegen aan polygoon")
 
 [start](index.md)
+
+## Hulplijnen tekenen
+
+Maak de kaartlaag **hulplijn** bewerkbaar in het lagenoverzicht. 
+
+Bepaal de vorm die je wil intekenen en kies uit de volgende opties:
+
+![alt text](./assets/qad_lijn.png "Bogen toevoegen aan polygoon")
+
+Met de optie **PLINE** teken je een hulplijn uit meerdere segmenten.
