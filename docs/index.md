@@ -1,4 +1,11 @@
-{site.pages}
+---
+layout: page
+title: Installatie en eerste gebruik QGIS
+description: Instructies voor installatie en eerste gebruik QGIS
+categories: [qgis, installatie]
+---
+
+{% site.pages %}
 
 * TOC
 {:toc}
