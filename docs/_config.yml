@@ -2,3 +2,4 @@ title: VRR OIV
 description: Tekentool voor de VRR
 show_downloads: true
 google_analytics:
+remote_theme: rundocs/jekyll-rtd-theme

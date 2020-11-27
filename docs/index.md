@@ -5,8 +5,6 @@ description: Instructies voor installatie en eerste gebruik QGIS
 categories: [qgis, installatie]
 ---
 
-{% site.pages %}
-
 * TOC
 {:toc}
 
