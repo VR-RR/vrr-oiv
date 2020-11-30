@@ -1,3 +1,7 @@
+---
+sort: 2
+---
+
 # Tekenen in QGIS
 
 QGIS werkt met net als andere GIS-systemen met lagen. Iedere laag bevat altijd 1 soort geometrie: punten, lijnen óf vlakken. Combinaties van geometrie soorten binnen 1 laag zijn dus niet mogelijk in GIS.

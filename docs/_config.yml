@@ -4,3 +4,5 @@ show_downloads: true
 google_analytics:
 remote_theme: rundocs/jekyll-rtd-theme
 lang: nl
+readme_index:
+  with_frontmatter: true

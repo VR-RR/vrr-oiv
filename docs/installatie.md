@@ -1,3 +1,7 @@
+---
+sort: 1
+---
+
 # Installatie door ServiceDesk
 
 Voor het gebruik van QGIS als tekentool dient de laatste LTR versie 64-bits versie van QGIS te worden geïnstalleerd. Op dit moment 3.16.0. 
