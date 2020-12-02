@@ -1,3 +1,14 @@
-# Welkom bij VRR OIV
+---
+title: Welkom bij de VRR OIV handleiding
+---
 
-Aan de linkerkant vind je de navigatie voor de beschikbare onderwerpen.
+# Welkom bij de VRR OIV handleiding
+
+Deze handleiding is bedoeld voor tekenaars en gebruikers van QGIS ten behoeve van het intekenen van digitale bereikbaarheidskaarten en gerelateerde producten.
+
+Deze handleiding wordt steeds bijgewerkt op het moment dat er nieuwe functionaliteiten worden ontwikkeld. Zie je ergens een fout of heb je verbetersuggesties? Mail dan a.u.b. naar [geo@vr-rr.nl](mailto:geo@vr-rr.nl). Of stel je vraag aan een van de GIS specialisten:
+
+rob.braggaar@vr-rr.nl & niek.bebelaar@vr-rr.nl
+
+## Gebruik van de handleiding
+Aan de linkerkant vind je de navigatie voor de beschikbare onderwerpen. Daarnaast vind je bovenaan altijd de pagina waarop je je bevindt. Klikken op VRR OIV zorgt ervoor dat je weer op de startpagina terug komt. Via de zoekbalk kun je op onderwerp of trefwoorden zoeken.
