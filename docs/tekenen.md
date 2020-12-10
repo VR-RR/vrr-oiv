@@ -1,104 +1,108 @@
 ---
 sort: 2
+title: Tekenen in QGIS
 ---
 
 # Tekenen in QGIS
 
-QGIS werkt met net als andere GIS-systemen met lagen. Iedere laag bevat altijd 1 soort geometrie: punten, lijnen óf vlakken. Combinaties van geometrie soorten binnen 1 laag zijn dus niet mogelijk in GIS.
+## Algemeen
 
-Om te kunnen tekenen (toevoegen, bewerken en verwijderen van data) in QGIS moet de laag op 'bewerkbaar' gezet worden.
-Klik daarvoor eerst op de laag in het lagenoverzicht aan de linkerkant, bijvoorbeeld bouwlaag:
+QGIS werkt met net als andere GIS-systemen met (kaart)lagen. Iedere laag bevat altijd 1 soort geometrie: punten, lijnen óf polygonen (vlakken). Combinaties van geometrie soorten binnen 1 laag zijn dus niet mogelijk in GIS. Vandaar dat de verschillende tekenelementen zijn verdeeld over meerdere GIS-lagen. Iedere laag heeft zo zijn eigen eigenschappen en mogelijkheden. Onder tekenen wordt een combinate van toevoegen, bewerken en verwijderen van data verstaan. Doordat iedere laag zijn eigen opmaak heeft levert dat in combinatie met de data een beeld op. Alle lagen bij elkaar vormen het uiteindelijke beeld wat naar de eindgebruiker toe zichtbaar zal worden (bijv. MOI).
+
+# QGIS Interface
+
+De gebruikersinterface van QGIS heeft een aantal onderdelen die hier even kort worden toegelicht. Een volledige handleiding van QGIS vind je [hier](https://docs.qgis.org/3.16/en/docs/index.html).
+
+## Lagen paneel
+
+Het lagen paneel biedt een overzicht van de beschikbare kaartlagen. 
+
+![alt text](./assets/interface_lagen.png "Lagen paneel")
+
+Onder het kopje tekenlagen vind je de bewerkbare lagen om bereikbaarheidskaarten in te tekenen.
+
+![alt text](./assets/interface_bewerkbaar_preview.png "Lagen paneel")
+
+Deze lagen zijn gegroepeerd per type bereikbaarheidskaart, zoals bijvoorbeeld een OIV object of een evenement. Daarnaast is het direct mogelijk om de uitvoer richting de MOI te bekijken door te klikken op MOI preview. Dezelfde service wordt dan getoond in QGIS die ook in de MOI of andere applicaties wordt gebruikt.
+
+# Tekenen
+
+## Bewerkbaar maken
+
+In QGIS zijn de lagen beveiligd tegen onbedoeld bewerken. Dus om te kunnen tekenen in QGIS moet de laag die je wil bewerken eerst op 'bewerkbaar' gezet worden. Klik daarvoor eerst op de betreffende laag in het lagenoverzicht aan de linkerzijde, bijvoorbeeld bouwlaag:
 
 ![alt text](./assets/klik_laag.png "Laag op bewerkbaar zetten")
 
- en dan op het potlood in de werkbalk bovenin.
+ en dan op het potlood icoon in de werkbalk bovenin.
 
 ![alt text](./assets/bewerkbaar.png "Bewerken knop")
 
-Voor de laagnaam verschijnt nu een potlood icoontje om aan te geven dat de laag bewerkbaar is. De huidig geselecteerde laag wordt verder aangeduid door een blauwe achtergrond bij klikken op de laag en een grijze achtergrond wanneer je op de kaart bezig bent maar wanneer de kaartlaag nog wel geselecteerd is.
+Voor de laagnaam verschijnt nu ook een potlood icoontje om aan te geven dat de laag bewerkbaar is. De huidig geselecteerde laag wordt verder aangeduid door een blauwe achtergrond bij klikken op de laag en een grijze achtergrond wanneer je op de kaart bezig bent maar wanneer de kaartlaag nog wel geselecteerd is (lagen paneel buiten focus).
 
 ![alt text](./assets/bouwlaag_laag.png "Bouwlaag bewerkbaar")
 
-## Bouwlaag toevoegen
+De bewerksessie is pas weer afgesloten zodra je weer in de werkbalk op het poltlood icoontje klikt en de wijzigingen worden pas daadwerkelijk opgeslagen zodra er wordt geklikt op **Wijzigingen laag opslaan**.
 
-Een bouwlaag is een vloer in een gebouw. Een bouwlaag begint bij laag 1 (de begane grond). De eerste verdieping is bouwlaag 2, enz.
+```tip
+Vergeet na het bewerken van een laag niet de wijzigingen op te slaan met de knop **Wijzigingen laag opslaan**
+```
 
-Een bouwlaag kan je zelf tekenen, of overnemen vanuit de BAG om tekenwerk te besparen.
+## Tekenhulpmiddelen
 
-### Bouwlaag zelf tekenen
+### Snappen
 
-Maak de kaartlaag **bouwlaag** bewerkbaar in het lagenoverzicht. 
+Met snappen kun je punten, lijnen en vlakken precies laten aansluiten op bestaande tekeningen.
 
-Bepaal de vorm die je wil intekenen en kies uit de volgende opties:
+Het snappen kan worden aangezet met het magneet icoon waarna in het menu gekozen kan worden waarop moet worden gesnapt en met welke nauwkeurigheid:
 
-![alt text](./assets/qad_polygons.png "Tekenmogelijkheden polygonen")
+![alt text](./assets/snappen_aanzetten.png "Snappen aanzetten en opties")
 
-Met het gereedschap **MPOLYGON** kan een polygoon (vlak) getekend worden bestaande uit verschillende vormen.
+```note
+Snappen werkt niet op basiskaarten (ondergrondraster lagen)
+```
 
-![alt text](./assets/qad_mpol.png "MPOLYGON tekengereedschap")
+### Geavanceerd digitaliseren 
 
-Door het links klikken op de kaart verschijnt de vorm van het vlak. Door met rechts te klikken verschijnen een aantal opties:
+Met geavanceerd digitaliseren is het mogelijk om nauwkeuriger te tekenen. Hiermee kunnen lijnen exact parallel of onder een specifieke hoek (loodrecht of iedere andere hoek) geplaatst worden. Ook is het mogelijk om direct de coördinaten van het volgende te plaatsen punt in te voeren.
 
-![alt text](./assets/qad_pol_options.png "MPOLYGON opties tijdens tekenen")
 
-Met **Enter** wordt het tekenen van het vlak voltooid. *Cancel* stopt het tekenen van het vlak volledig. Met de optie *Arc* kan een boog worden toegevoegd aan het vlak en door control in te drukken keer je de richting van de boog om.
 
-![alt text](./assets/qad_arc.png "Bogen toevoegen aan polygoon")
+![alt text](./assets/geavanceerd_digitaliseren.png "Polygoon toevoegen")
 
-Tijdens het tekenen van de boog zijn er met rechts klikken ook weer extra opties beschikbaar, nu gerelateerd aan het intekenen van de boog:
+Met het paneel geavanceerd digitaliseren geopend zie je het volgende:
 
-![alt text](./assets/qad_arc_options.png "Bogen toevoegen aan polygoon")
+![alt text](./assets/geavanceerd_digitaliseren_paneel.png "Polygoon toevoegen")
 
-Met de opties **Length** kan een segment van een bepaalde lengte worden toegevoegd aan het vlak. 
+Sneltoetsen:
 
-De optie **Undo** verwijderd alleen het laatst getekende punt van het vlak maar annuleert niet het tekenen van het huidige vlak.
+```
+d: afstand vastleggen
+a: hoek vastleggen
+x: x-coördinaat vastleggen
+y: y-coördinaat vastleggen
+c: constructiemodus
+p: loodrecht of parallel tekenen
+```
 
-**Snap Overrides** geeft de mogelijkheid om tijdens het tekenen de snapping opties aan te passen.
+Met de constructiemodus kan je meten en punten op de kaart klikken ter referentie, ze worden niet toegevoegd aan het te tekenen object. Met sneltoets **c** kan je snel wisselen tussen schetsen/hulppunten en punten plaatsen.
 
-In het menu van de QAD tekentool kan een selectie worden gemaakt waarop gesnapt moet worden:
 
-![alt text](./assets/qad_snap.png "Bogen toevoegen aan polygoon")
+## Vlakken tekenen
 
-Met *Enter* of rechtermuisklik *Enter* kan het intekenen van de bouwlaag worden voltooid.
+Begin het tekenen van een vlak met **Object polygoon toevoegen**:
 
-### Bouwlaag overnemen van BAG
+![alt text](./assets/tekenen_vlak.png "Polygoon toevoegen")
 
-Klik op de knop **Objecten selecteren per gebied of met een enkele klik**:
+De muis cursor veranderd in een crosshair en je kunt op de kaart klikken om het vlak te maken.
 
-![alt text](./assets/object_selecteren.png "Bogen toevoegen aan polygoon")
+![alt text](./assets/tekenen_vlak_start.png "Punten van het polygoon toevoegen")
 
-Selecteer de BAG laag in de lagenlijst:
+Druk op **OK** om het vlak te plaatsen. De wijzigingen worden nu lokaal toegevoegd.
 
-![alt text](./assets/bag_laag.png "Bogen toevoegen aan polygoon")
+## Lijnen tekenen
 
-Selecteer het BAG vlak wat je als bouwlaag wil gebruiken:
+De muis cursor veranderd in een crosshair en je kunt op de kaart klikken om de lijn te maken. Rechtermuisklik om de lijn te plaatsen en de attributen te vullen.  Druk op **OK** om de lijn te plaatsen. De wijzigingen worden nu lokaal toegevoegd.
 
-![alt text](./assets/selectie_bag.png "Bogen toevoegen aan polygoon")
+## Punten tekenen
 
-Klik op **Object kopiëren**:
-
-![alt text](./assets/object_kopieren.png "Bogen toevoegen aan polygoon")
-
-Selecteer de bouwlaag laag en kies objecten plakken:
-
-![alt text](./assets/objecten_plakken.png "Bogen toevoegen aan polygoon")
-
-Nu is het BAG-vlak toegevoegd aan de laag bouwlaag:
-
-![alt text](./assets/object_plakken.png "Bogen toevoegen aan polygoon")
-
-Sla altijd je wijzigingen op die je aan de laag hebt doorgevoerd:
-
-![alt text](./assets/wijzigingen_opslaan.png "Bogen toevoegen aan polygoon")
-
-[start](index.md)
-
-## Hulplijnen tekenen
-
-Maak de kaartlaag **hulplijn** bewerkbaar in het lagenoverzicht. 
-
-Bepaal de vorm die je wil intekenen en kies uit de volgende opties:
-
-![alt text](./assets/qad_lijn.png "Bogen toevoegen aan polygoon")
-
-Met de optie **PLINE** teken je een hulplijn uit meerdere segmenten.
+De muis cursor veranderd in een crosshair en je kunt op de kaart klikken om het punt te plaatsen. Na het plaatsen opent het formulier om de attribuutwaarden te vullen. Druk op **OK** om het punt te plaatsen. De wijzigingen worden nu lokaal toegevoegd.
