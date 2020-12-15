@@ -1,0 +1,9 @@
+name: bouwlaag
+title: Bouwlaag
+scale: [5000, 0]
+symbolizers:
+  - polygon:
+    fill-color: "#fff5e5"
+    stroke-width: 0.5
+    stroke-color: black
+    stroke-opacity: 0
