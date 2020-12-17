@@ -1,4 +1,4 @@
-CREATE TABLE bereikbaarheidskaart.muur (
+CREATE TABLE bereikbaarheidskaart.lijn (
     id SERIAL PRIMARY KEY,
     -- invulvelden
     omschrijving varchar(255) NOT NULL,
@@ -12,4 +12,4 @@ CREATE TABLE bereikbaarheidskaart.muur (
     geom geometry(MULTILINESTRING, 28992) NOT NULL
 );
 
-CREATE INDEX sidx_muur_geom ON bereikbaarheidskaart.muur USING gist (geom);
+CREATE INDEX sidx_lijn_geom ON bereikbaarheidskaart.lijn USING gist (geom);
