@@ -1,0 +1,11 @@
+feature-styles:
+  - rules:
+      - name: toegang
+        title: Toegang
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              fill-color: "#fff5e5"
+              stroke-width: 0.5
+              stroke-color: black
+              stroke-opacity: 0
