@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 141.7 87.8" style="enable-background:new 0 0 141.7 87.8;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#FFFFFF;}
-	.st1{fill:#1D1D1B;}
-</style>
-<g id="Laag_2">
-	<polygon class="st0" points="0,0 129.1,0 129.1,9.5 141.7,9.5 141.7,78.2 129.1,78.2 129.1,87.8 0,87.8 	"/>
-</g>
-<g id="_Laag_">
-	<title>F-NL-021 Lift</title>
-	<path class="st1" d="M129.1,9.5V0H0v87.8h129.1v-9.6h12.7V9.5H129.1z M62.9,43.9L3.7,83.6V4.2L62.9,43.9z M64.5,45l58.3,39.1H6.2
-		L64.5,45z M6.2,3.7h116.6L64.5,42.8L6.2,3.7z M138.1,74.5h-12.7v9.1L66.2,43.9l59.2-39.7v9.1h12.7V74.5z"/>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 87.76 141.73"><defs><style>.cls-1{fill:#fff;}.cls-2{fill:#1d1d1b;}</style></defs><title>F-NL-021 Lift</title><g id="Laag_2" data-name="Laag 2"><polygon class="cls-1" points="9.55 12.68 9.55 0 78.2 0 78.2 12.68 87.76 12.68 87.76 141.73 0 141.73 0 12.68 9.55 12.68"/></g><g id="_Laag_" data-name="&lt;Laag&gt;"><path class="cls-2" d="M9.55,12.68H0v129H87.76v-129H78.2V0H9.55ZM43.88,78.84l39.71,59.21H4.17ZM45,77.2l39.1-58.31V135.51ZM3.69,135.51V18.9l39.1,58.3ZM74.52,3.68V16.35h9.07L43.88,75.57,4.17,16.35h9.07V3.68Z"/></g></svg>
