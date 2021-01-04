@@ -9,7 +9,7 @@ CREATE TABLE bereikbaarheidskaart.vlak (
     datum_aangemaakt timestamp(0) NOT NULL DEFAULT now(),
     datum_gewijzigd timestamp(0) NULL,
     -- geometrie
-    geom geometry(MULTIPOLYGON, 28992) NOT NULL
+    geom geometry(POLYGON, 28992) NOT NULL
 );
 
 CREATE INDEX sidx_vlak_geom ON bereikbaarheidskaart.vlak USING gist (geom);

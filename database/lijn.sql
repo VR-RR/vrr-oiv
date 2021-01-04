@@ -9,7 +9,7 @@ CREATE TABLE bereikbaarheidskaart.lijn (
     datum_aangemaakt timestamp(0) NOT NULL DEFAULT now(),
     datum_gewijzigd timestamp(0) NULL,
     -- geometrie
-    geom geometry(MULTILINESTRING, 28992) NOT NULL
+    geom geometry(LINESTRING, 28992) NOT NULL
 );
 
 CREATE INDEX sidx_lijn_geom ON bereikbaarheidskaart.lijn USING gist (geom);
