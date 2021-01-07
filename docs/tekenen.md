@@ -17,7 +17,7 @@ De gebruikersinterface van QGIS heeft een aantal onderdelen die hier even kort w
 
 Het lagen paneel biedt een overzicht van de beschikbare kaartlagen. 
 
-![alt text](./assets/interface_lagen.png "Lagen paneel")
+![alt text](./assets/interface_lagen_vervaagd.png "Lagen paneel")
 
 Onder het kopje tekenlagen vind je de bewerkbare lagen om bereikbaarheidskaarten in te tekenen.
 
