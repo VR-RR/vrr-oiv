@@ -1,0 +1,41 @@
+feature-styles:
+  - rules:
+      - filter: ${omschrijving = 'zwart'}
+        name: zwart
+        title: Zwart
+        scale: [min, 3000]
+        symbolizers:
+          - line:
+              uom: metre
+              stroke-color: '#000000'
+              stroke-width: '0.03'
+      - filter: ${omschrijving = 'aanpijling'}
+        name: aanpijling
+        title: Aanpijling
+        scale: [min, 3000]
+        symbolizers:
+          - line:
+              uom: metre
+              stroke-color: '#000000'
+              stroke-width: '0.03'
+      - filter: ${omschrijving = 'zwart-stippel'}
+        name: zwart-stippel
+        title: Zwart-stippel
+        scale: [min, 3000]
+        symbolizers:
+          - line:
+              uom: metre
+              stroke-color: '#000000'
+              stroke-width: '0.03'
+              stroke-dasharray: '20 3'
+      - filter: ${omschrijving = 'hekwerk'}
+        name: hekwerk
+        title: Hekwerk
+        scale: [min, 3000]
+        symbolizers:
+          - line:
+              uom: metre
+              stroke-color: '#000000'
+              stroke-width: '0.03'
+              stroke-dasharray: '20 3 3'
+

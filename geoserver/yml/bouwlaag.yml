@@ -6,6 +6,3 @@ feature-styles:
         symbolizers:
           - polygon:
               fill-color: "#fff5e5"
-              stroke-width: 0.5
-              stroke-color: black
-              stroke-opacity: 0
