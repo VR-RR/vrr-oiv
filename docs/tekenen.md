@@ -1,6 +1,6 @@
 ---
 sort: 2
-title: Tekenen in QGIS algemeen
+title: Algemene tekeninstructies QGIS
 ---
 
 # Tekenen in QGIS
