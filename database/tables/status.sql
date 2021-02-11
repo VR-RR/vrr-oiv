@@ -1,7 +1,7 @@
-CREATE TABLE bereikbaarheidskaart.concept (
+CREATE TABLE bereikbaarheidskaart.status (
     id SERIAL PRIMARY KEY,
     -- invulvelden
-
+    status varchar(255) NOT NULL,
     -- metadata velden
     naam_aanmaker varchar(255) NULL,
     naam_bewerker varchar(255) NULL,
@@ -11,4 +11,4 @@ CREATE TABLE bereikbaarheidskaart.concept (
     geom geometry(POLYGON, 28992) NOT NULL
 );
 
-CREATE INDEX sidx_concept_geom ON bereikbaarheidskaart.concept USING gist (geom);
+CREATE INDEX sidx_status_geom ON bereikbaarheidskaart.status USING gist (geom);
