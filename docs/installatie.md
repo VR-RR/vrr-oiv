@@ -33,6 +33,14 @@ Als er meerdere QGIS versies geïnstalleerd staan op de pc kan je handmatig de v
 
 VRR OIV is de naam voor het QGIS projectbestand wat is geconfigureerd voor het tekenen van bereikbaarheidskaarten. Het is een gezipte map die je via [deze link](https://github.com/VR-RR/vrr-oiv/zipball/main){:target="_blank"} kan downloaden. Sla het bestand ergens op in een tijdelijke locatie, bijvoorbeeld de downloadsmap. Daarna is het nodig om het ZIP-bestand uit te pakken naar een locatie van waaruit je met VRR OIV wil gaan werken. Dit kan bijvoorbeeld je bureaublad zijn zodat je VRR OIV altijd bij de hand hebt.
 
+```danger
+## ZIP-bestanden
+
+Let op, open altijd het QGIS-project vanuit de **uitgepakte** map. Zit je nog in de **gezipte** map dan krijg je tijdens het openen van QGIS gerelateerde foutmeldingen. Sluit QGIS af en verwijder het .zip bestand. Werk alleen vanuit het uitgepakte mapje.
+
+```
+****
+
 ```note
 ## Updates van VRR OIV installeren
 
@@ -40,6 +48,7 @@ Soms komen er nieuwe functionaliteiten zoals iconen of lagen bij in het VRR OIV 
 
 ```
 ****
+
 
 # QGIS voorbereiden op het eerste gebruik door gebruiker
 
@@ -60,23 +69,7 @@ De locatie van de gebruikersmap kun je eventueel ook vinden vanuit QGIS via het 
 
 In deze map plaats je het bestand **qgis-auth.db** vanuit het release ZIP-bestand wat je hebt gedownload van Github in de stap hiervoor.
 
-![alt text](./assets/profielmap_openen.png "Profielmap openen")
-
 Bij het opstarten van QGIS voor de eerste keer wordt er dan gevraagd om een wachtwoord om de wachtwoordenkluis te ontgrendelen. Dit wachtwoord kun je opvragen bij een van de beheerders en is vanwege veiligheidsredenen niet online vindbaar.
-
-# Extra's en plug-ins (optioneel indien gewenst)
-
-Plug-ins zijn kleine uitbreidingen op QGIS die de gebruiker helpen bij het uitvoeren van specifieke taken.
-
-1. Klik op *Plug-ins beheren en installeren*:
-
-![alt text](./assets/install_plugins.png "Klik op Plug-ins beheren en installeren...")
-
-2. Installeer de plug-in *QAD*:
-
-Zoek naar QAD (1), kies QAD (2) en klik op installeren (3):
-
-![alt text](./assets/install_plugin.png "Klik op Plug-ins beheren en installeren...")
 
 # QGIS opstarten om te tekenen
 
@@ -85,3 +78,28 @@ Start QGIS op door het openen van het VRR-OIV projectbestand. Indien je de stapp
 Dubbelklik op het bestand om het in QGIS te openen:
 
 `vrr_tekentool_oiv.qgz`
+
+# Werken met plugins
+
+## Installatie plugins
+
+Plugins zijn kleine uitbreidingen op QGIS die de gebruiker helpen bij het uitvoeren van specifieke taken.
+Soms is het nodig om een plugin bij te werken, te installeren of te verwijderen.
+
+Installatie plugins:
+
+1. Klik op *Plugins beheren en installeren*:
+
+![alt text](./assets/install_plugins.png "Klik op Plugins beheren en installeren...")
+
+2. Zoek op de naam van de plugin via het zoekveld.
+
+3. Klik in de resultaten op de gevonden plugin.
+
+4. In het rechterpaneel opent de beschrijving van de plugin. Eronder worden knoppen getoond voor bijwerken installeren/deïnstalleren en activeren/deactiveren.
+
+![alt text](./assets/install_plugin.png "Werk de installatie van de plugin bij.")
+
+(1) zoekveld
+(2) resultatenlijst
+(3) installeerknop
