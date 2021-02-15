@@ -3,8 +3,6 @@ select
 	lay.*
 from
 	bereikbaarheidskaart.bouwlaag lay
-left join bereikbaarheidskaart.concept c on
-	(ST_Within(lay.geom,
-	c.geom))
+	left join bereikbaarheidskaart.status c on (ST_Within(lay.geom, c.geom)) and status = 'concept'
 where
 	c.id is null
