@@ -16,7 +16,8 @@ feature-styles:
               anchor: [0.5, 0.7]
               fill-color: '#2a2d2f'
               x-graphic-resize: stretch
-              x-graphic-margin: 2       
+              x-graphic-margin: 2
+              x-autoWrap: 160       
               graphic:       
                 symbols:
                 - mark:
@@ -41,7 +42,8 @@ feature-styles:
             anchor: [0.5, 0.7]
             fill-color: '#f7faf5'
             x-graphic-resize: stretch
-            x-graphic-margin: 2       
+            x-graphic-margin: 2 
+            x-autoWrap: 160      
             graphic:       
               symbols:
               - mark:
@@ -67,6 +69,7 @@ feature-styles:
             fill-color: '#f7faf5'
             x-graphic-resize: stretch
             x-graphic-margin: 2       
+            x-autoWrap: 160 
             graphic:       
               symbols:
               - mark:
@@ -91,7 +94,8 @@ feature-styles:
             anchor: [0.5, 0.7]
             fill-color: '#2a2d2f'
             x-graphic-resize: stretch
-            x-graphic-margin: 2       
+            x-graphic-margin: 2
+            x-autoWrap: 160       
             graphic:       
               symbols:
               - mark:
@@ -114,4 +118,5 @@ feature-styles:
             font-weight: normal
             placement: point
             anchor: [0.5, 0.7]
-            fill-color: '#2a2d2f' 
+            fill-color: '#2a2d2f'
+            x-autoWrap: 160
