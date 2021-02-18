@@ -1,0 +1,20 @@
+feature-styles:
+  - rules:
+      - filter: ${omschrijvi = 'Ondergronds'}
+        name: metro_ondergronds
+        title: Metro ondergronds
+        scale: [min, 30000]
+        symbolizers:
+            - polygon:
+                uom: metre
+                fill-color: '#00ffc5'
+                fill-opacity: 0.8
+      - filter: ${omschrijvi = 'bovengronds'}
+        name: metro_bovengronds
+        title: Metro bovengronds
+        scale: [min, 30000]
+        symbolizers:
+            - polygon:
+                uom: metre
+                fill-color: '#e69800'
+                fill-opacity: 0.8

@@ -1,0 +1,10 @@
+feature-styles:
+  - rules:
+      - name: metro_perron
+        title: Metro perron
+        scale: [min, 30000]
+        symbolizers:
+            - polygon:
+                uom: metre
+                fill-color: '#b2b2b2'
+                fill-opacity: 1

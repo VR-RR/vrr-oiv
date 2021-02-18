@@ -1,0 +1,42 @@
+feature-styles:
+  - rules:
+      - filter: ${omschrijving = 'inrit calamiteitenweg'}
+        name: spoor_inrit_calamiteitenweg_point
+        title: Inrit calamiteitenweg
+        scale: [min, 10000]
+        symbolizers:
+            - point:
+               uom: metre
+               size: 2
+               rotation: 225
+               symbols:
+               - mark:
+                   shape: triangle
+                   fill-color: '#FF0000'
+                   stroke-color: '#6e6e6e'
+                   stroke-width: .1
+      - filter: ${omschrijving = 'inrit calamiteitenweg'}
+        name: spoor_inrit_calamiteitenweg
+        title: Inrit calamiteitenweg
+        scale: [min, 1000]
+        symbolizers:
+            - text:
+               uom: metre
+               label: ${opmerking}
+               fill-color: '#ffffff'
+               font-family: SansSerif
+               font-size: 2
+               font-style: normal
+               font-weight: bold
+               anchor: [0,0]
+               displacement: [2,2]
+               x-graphic-resize: stretch
+               x-graphic-margin: 1.4
+               graphic:
+                 symbols:
+                 - mark:
+                     uom: metre
+                     shape: square
+                     stroke-color: '#6e6e6e'
+                     stroke-width: .1
+                     fill-color: '#ff0000'

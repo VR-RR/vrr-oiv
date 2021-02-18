@@ -1,0 +1,21 @@
+title: spoor_naam_station
+symbolizers:
+- text:
+    uom: metre
+    label: ${naam}
+    fill-color: '#ffffff'
+    placement: point
+    font-family: SansSerif
+    font-size: 7
+    font-style: normal
+    font-weight: bold
+    x-graphic-resize: stretch
+    x-graphic-margin: 1.8
+    graphic:
+      symbols:
+      - mark:
+          uom: metre
+          shape: square
+          stroke-color: '#0070ff'
+          stroke-width: .8
+          fill-color: '#0070ff'

@@ -1,0 +1,19 @@
+title: spoor_hectometerpunt
+symbolizers:
+- text:
+    uom: metre
+    label: ${km_geocode}
+    fill-color: 'black'
+    placement: point
+    font-family: SansSerif
+    font-size: 5
+    x-graphic-resize: stretch
+    x-graphic-margin: 1.4
+    graphic:
+      symbols:
+      - mark:
+          uom: metre
+          shape: square
+          stroke-color: '#6e6e6e'
+          stroke-width: .4
+          fill-color: '#ffffff'

@@ -1,0 +1,19 @@
+title: spoor_nummer_perrons
+symbolizers:
+- text:
+    uom: metre
+    label: ${nummer}
+    fill-color: '#0070ff'
+    placement: point
+    font-family: SansSerif
+    font-size: 5
+    x-graphic-resize: stretch
+    x-graphic-margin: 1.4
+    graphic:
+      symbols:
+      - mark:
+          uom: metre
+          shape: square
+          stroke-color: '#0070ff'
+          stroke-width: .8
+          fill-color: '#ffffff'

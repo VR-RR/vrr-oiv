@@ -1,0 +1,62 @@
+feature-styles:
+  - rules:
+      - filter: ${omschrijving = 'text_hectometer'}
+        name: metro_annotatie_text_hectometer
+        title: Metro annotatie text hectometer
+        scale: [min, 30000]
+        symbolizers:
+            - text:
+                uom: metre
+                label: ${label}
+                fill-color: '#000000'
+                font-family: SansSerif
+                font-size: 4
+                font-style: normal
+                font-weight: bold
+                placement: point
+                anchor: [0.0,0.0]
+                displacement: [0,0]
+                rotation: ${symboolrotatie}
+                halo:
+                  fill-color: '#ffffff'
+                  radius: 0.2
+      - filter: ${omschrijving = 'text'}
+        name: metro_annotatie_text
+        title: Metro annotatie text
+        scale: [min, 30000]
+        symbolizers:
+            - text:
+                uom: metre
+                label: ${label}
+                fill-color: '#000000'
+                font-family: SansSerif
+                font-size: ${symboolgrootte}
+                font-style: normal
+                font-weight: bold
+                placement: point
+                anchor: [0.0,0.0]
+                displacement: [0,0]
+                rotation: ${symboolrotatie}
+                halo:
+                  fill-color: '#ffffff'
+                  radius: 0.2
+      - filter: ${omschrijving = 'text'}
+        name: metro_annotatie_constructie
+        title: Metro annotatie constructie
+        scale: [min, 30000]
+        symbolizers:
+            - text:
+                uom: metre
+                label: ${label}
+                fill-color: '#000000'
+                font-family: SansSerif
+                font-size: ${symboolgrootte}
+                font-style: normal
+                font-weight: bold
+                placement: point
+                anchor: [0.0,0.0]
+                displacement: [0,0]
+                rotation: ${symboolrotatie}
+                halo:
+                  fill-color: '#ffffff'
+                  radius: 0.2

@@ -1,0 +1,15 @@
+feature-styles:
+  - rules:
+      - name: metro_rails
+        title: Metro rails
+        scale: [min, 30000]
+        symbolizers:
+            - line:
+                uom: metre
+                stroke-color: '#6e6e6e'
+                stroke-width: 2.2
+                stroke-dasharray: 0.2 0.4
+            - line:
+                uom: metre
+                stroke-color: '#6e6e6e'
+                stroke-width: 1.435

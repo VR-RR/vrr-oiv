@@ -1,0 +1,11 @@
+feature-styles:
+  - rules:
+      - name: metro_hectometerlijnen
+        title: Metro hectometerlijnen
+        scale: [min, 30000]
+        symbolizers:
+            - line:
+                uom: metre
+                stroke-color: '#006fab'
+                stroke-width: 0.2
+                stroke-dasharray: 0.2 0.2

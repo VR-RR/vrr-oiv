@@ -1,0 +1,10 @@
+feature-styles:
+  - rules:
+      - filter: ${objectnaam = 'kunstwerk'}
+        name: spoor_overige_objecten_kunstwerk
+        title: Kunstwerk spoor
+        scale: [min, 30000]
+        symbolizers:
+            - polygon:
+                stroke-color: '#6e6e6e'
+                fill-color: '#e2cafc'

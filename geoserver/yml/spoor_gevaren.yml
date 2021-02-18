@@ -1,0 +1,42 @@
+feature-styles:
+  - rules:
+      - filter: ${omschrijving = '25 KV ZONE'}
+        name: spoor_25kvzone
+        title: Spoor 25KV zone
+        scale: [min, 30000]
+        symbolizers:
+            - text:
+               uom: metre
+               label: ${omschrijving}
+               fill-color: '#ff0000'
+               font-family: SansSerif
+               font-size: 3
+               font-style: normal
+               font-weight: bold
+               placement: point
+               anchor: [0.0,0.0]
+               displacement: [0,0]
+               rotation: ${symboolrotatie}
+               halo:
+                 fill-color: '#ffff00'
+                 radius: 3
+      - filter: ${omschrijving = '1500V ZONE'}
+        name: spoor_1500vzone
+        title: Spoor 1500V zone
+        scale: [min, 30000]
+        symbolizers:
+            - text:
+               uom: metre
+               label: ${omschrijving}
+               fill-color: '#ff0000'
+               font-family: SansSerif
+               font-size: 3
+               font-style: normal
+               font-weight: bold
+               placement: point
+               anchor: [0.0,0.0]
+               displacement: [0,0]
+               rotation: ${symboolrotatie}
+               halo:
+                 fill-color: '#ffff00'
+                 radius: 3
