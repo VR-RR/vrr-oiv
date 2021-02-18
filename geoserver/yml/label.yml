@@ -45,7 +45,8 @@ feature-styles:
             fill-color: '#f7faf5'
             x-graphic-resize: stretch
             x-graphic-margin: 2 
-            x-autoWrap: 160      
+            x-autoWrap: 160
+            rotation: ${symboolrotatie}      
             graphic:       
               symbols:
               - mark:
@@ -53,6 +54,7 @@ feature-styles:
                   stroke-color: '#000000'
                   stroke-width: .1
                   fill-color: '#003e91'
+              rotation: ${symboolrotatie}
   - rules:
     - name: rood
       title: Rood
@@ -72,6 +74,7 @@ feature-styles:
             x-graphic-resize: stretch
             x-graphic-margin: 2       
             x-autoWrap: 160 
+            rotation: ${symboolrotatie}
             graphic:    
               symbols:              
               - mark:
@@ -98,7 +101,8 @@ feature-styles:
             fill-color: '#2a2d2f'
             x-graphic-resize: stretch
             x-graphic-margin: 2
-            x-autoWrap: 160       
+            x-autoWrap: 160
+            rotation: ${symboolrotatie}   
             graphic:       
               symbols:
               - mark:
@@ -106,6 +110,7 @@ feature-styles:
                   stroke-color: '#000000'
                   stroke-width: .1
                   fill-color: '#fad201'
+              rotation: ${symboolrotatie}
   - rules:
     - name: transparant
       title: Transparant
@@ -123,3 +128,4 @@ feature-styles:
             anchor: [0.5, 0.7]
             fill-color: '#2a2d2f'
             x-autoWrap: 160
+            rotation: ${symboolrotatie}
