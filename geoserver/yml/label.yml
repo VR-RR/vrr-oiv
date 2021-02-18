@@ -17,7 +17,8 @@ feature-styles:
               fill-color: '#2a2d2f'
               x-graphic-resize: stretch
               x-graphic-margin: 2
-              x-autoWrap: 160       
+              x-autoWrap: 160
+              rotation: ${symboolrotatie}     
               graphic:       
                 symbols:
                 - mark:
@@ -25,6 +26,7 @@ feature-styles:
                     stroke-color: '#000000'
                     stroke-width: .1
                     fill-color: '#f7fbf5'
+                rotation: ${symboolrotatie}
   - rules:
     - name: blauw
       title: Blauw
@@ -70,13 +72,14 @@ feature-styles:
             x-graphic-resize: stretch
             x-graphic-margin: 2       
             x-autoWrap: 160 
-            graphic:       
-              symbols:
+            graphic:    
+              symbols:              
               - mark:
                   shape: square
                   stroke-color: '#000000'
                   stroke-width: .1
                   fill-color: '#cc0605'
+              rotation: ${symboolrotatie}
   - rules:
     - name: geel
       title: Geel
