@@ -3,30 +3,32 @@ feature-styles:
       - name: wit
         title: Wit
         filter: ${omschrijving = 'wit'}
-        scale: [min, 5000]     
+        scale: [min, 30000]
         symbolizers:
-          - text:
-              uom: metre
-              label: ${label}
-              font-family: SansSerif
-              font-size: ${symboolgrootte}
-              font-style: normal
-              font-weight: normal
-              placement: point
-              anchor: [0.5, 0.7]
-              fill-color: '#2a2d2f'
-              x-graphic-resize: stretch
-              x-graphic-margin: 2
-              x-autoWrap: 160
-              rotation: ${symboolrotatie}     
-              graphic:       
-                symbols:
-                - mark:
-                    shape: square
-                    stroke-color: '#000000'
-                    stroke-width: .1
-                    fill-color: '#f7fbf5'
-                rotation: ${symboolrotatie}
+        - text:
+            fill-color: '#ffffff'
+            fill-opacity: 0.0
+            x-graphic-resize: stretch
+            x-graphic-margin: 1
+            graphic:
+              symbols:
+              - mark:
+                  uom: metre
+                  shape: square
+                  stroke-color: '#000000'
+                  stroke-width: .1
+                  fill-color: '#ffffff'
+              size: 4
+              rotation: ${symboolrotatie}
+            label: ${label}
+            uom: metre
+            font-family: SansSerif
+            font-size: ${symboolgrootte}
+            font-style: normal
+            font-weight: bold
+            placement: point
+            anchor: [0.0,0.0]
+            priority: 1000
   - rules:
     - name: blauw
       title: Blauw
