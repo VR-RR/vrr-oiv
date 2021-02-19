@@ -3,22 +3,22 @@ feature-styles:
       - name: wit
         title: Wit
         filter: ${omschrijving = 'wit'}
-        scale: [min, 30000]
+        scale: [min, 5000]
         symbolizers:
         - text:
-            fill-color: '#ffffff'
+            fill-color: '#2a2d2f'
             fill-opacity: 0.0
             x-graphic-resize: stretch
-            x-graphic-margin: 1
+            x-graphic-margin: .4
             graphic:
               symbols:
               - mark:
                   uom: metre
                   shape: square
                   stroke-color: '#000000'
-                  stroke-width: .1
-                  fill-color: '#ffffff'
-              size: 4
+                  stroke-width: .01
+                  fill-color: '#f7fbf5'
+                  fill-opacity: 0.75
               rotation: ${symboolrotatie}
             label: ${label}
             uom: metre
@@ -27,107 +27,115 @@ feature-styles:
             font-style: normal
             font-weight: bold
             placement: point
-            anchor: [0.0,0.0]
-            priority: 1000
+            x-conflictResolution: false
+            x-goodnesOfFit: 0
+            x-maxDisplacement: 0
+            x-partials: true
+            x-charSpacing: -1
+            anchor: [0.5,0.5]
+            priority: 100
   - rules:
-    - name: blauw
-      title: Blauw
-      filter: ${omschrijving = 'blauw'}
-      scale: [min, 5000]     
-      symbolizers:
+      - name: blauw
+        title: Blauw
+        filter: ${omschrijving = 'blauw'}
+        scale: [min, 5000]
+        symbolizers:
         - text:
-            uom: metre
-            label: ${label}
-            font-family: SansSerif
-            font-size: ${symboolgrootte}
-            font-style: normal
-            font-weight: normal
-            placement: point
-            anchor: [0.5, 0.7]
             fill-color: '#f7faf5'
+            fill-opacity: 0.0
             x-graphic-resize: stretch
-            x-graphic-margin: 2 
-            x-autoWrap: 160
-            rotation: ${symboolrotatie}      
-            graphic:       
+            x-graphic-margin: .4
+            graphic:
               symbols:
               - mark:
+                  uom: metre
                   shape: square
                   stroke-color: '#000000'
-                  stroke-width: .1
+                  stroke-width: .01
                   fill-color: '#003e91'
+                  fill-opacity: 0.75
               rotation: ${symboolrotatie}
-  - rules:
-    - name: rood
-      title: Rood
-      filter: ${omschrijving = 'rood'}
-      scale: [min, 5000]     
-      symbolizers:
-        - text:
-            uom: metre
             label: ${label}
+            uom: metre
             font-family: SansSerif
             font-size: ${symboolgrootte}
             font-style: normal
-            font-weight: normal
+            font-weight: bold
             placement: point
-            anchor: [0.5, 0.7]
+            x-conflictResolution: false
+            x-goodnesOfFit: 0
+            x-maxDisplacement: 0
+            x-partials: true
+            x-charSpacing: -1
+            anchor: [0.5,0.5]
+            priority: 100
+  - rules:
+      - name: rood
+        title: Rood
+        filter: ${omschrijving = 'rood'}
+        scale: [min, 5000]
+        symbolizers:
+        - text:
             fill-color: '#f7faf5'
+            fill-opacity: 0.0
             x-graphic-resize: stretch
-            x-graphic-margin: 2       
-            x-autoWrap: 160 
-            rotation: ${symboolrotatie}
-            graphic:    
-              symbols:              
-              - mark:
-                  shape: square
-                  stroke-color: '#000000'
-                  stroke-width: .1
-                  fill-color: '#cc0605'
-              rotation: ${symboolrotatie}
-  - rules:
-    - name: geel
-      title: Geel
-      filter: ${omschrijving = 'geel'}
-      scale: [min, 5000]     
-      symbolizers:
-        - text:
-            uom: metre
-            label: ${label}
-            font-family: SansSerif
-            font-size: ${symboolgrootte}
-            font-style: normal
-            font-weight: normal
-            placement: point
-            anchor: [0.5, 0.7]
-            fill-color: '#2a2d2f'
-            x-graphic-resize: stretch
-            x-graphic-margin: 2
-            x-autoWrap: 160
-            rotation: ${symboolrotatie}   
-            graphic:       
+            x-graphic-margin: .4
+            graphic:
               symbols:
               - mark:
+                  uom: metre
                   shape: square
                   stroke-color: '#000000'
-                  stroke-width: .1
-                  fill-color: '#fad201'
+                  stroke-width: .01
+                  fill-color: '#cc0605'
+                  fill-opacity: 0.75
               rotation: ${symboolrotatie}
-  - rules:
-    - name: transparant
-      title: Transparant
-      filter: ${omschrijving = 'transparant'}
-      scale: [min, 5000]     
-      symbolizers:
-        - text:
-            uom: metre
             label: ${label}
+            uom: metre
             font-family: SansSerif
             font-size: ${symboolgrootte}
             font-style: normal
-            font-weight: normal
+            font-weight: bold
             placement: point
-            anchor: [0.5, 0.7]
-            fill-color: '#2a2d2f'
-            x-autoWrap: 160
-            rotation: ${symboolrotatie}
+            x-conflictResolution: false
+            x-goodnesOfFit: 0
+            x-maxDisplacement: 0
+            x-partials: true
+            x-charSpacing: -1
+            anchor: [0.5,0.5]
+            priority: 100
+  - rules:
+      - name: geel
+        title: Geel
+        filter: ${omschrijving = 'geel'}
+        scale: [min, 5000]
+        symbolizers:
+        - text:
+            fill-color: '#f7faf5'
+            fill-opacity: 0.0
+            x-graphic-resize: stretch
+            x-graphic-margin: .4
+            graphic:
+              symbols:
+              - mark:
+                  uom: metre
+                  shape: square
+                  stroke-color: '#000000'
+                  stroke-width: .01
+                  fill-color: '#fad201'
+                  fill-opacity: 0.75
+              rotation: ${symboolrotatie}
+            label: ${label}
+            uom: metre
+            font-family: SansSerif
+            font-size: ${symboolgrootte}
+            font-style: normal
+            font-weight: bold
+            placement: point
+            x-conflictResolution: false
+            x-goodnesOfFit: 0
+            x-maxDisplacement: 0
+            x-partials: true
+            x-charSpacing: -1
+            anchor: [0.5,0.5]
+            priority: 100

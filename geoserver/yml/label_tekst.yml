@@ -1,9 +1,9 @@
 feature-styles:
   - rules:
-      - name: wit
-        title: Wit
-        filter: ${omschrijving = 'wit'}
-        scale: [min, 30000]
+      - name: wit_transparant_geel
+        title: Wit, transparant of geel
+        filter: ${omschrijving = 'wit' or omschrijving = 'transparant' or omschrijving = 'geel'}
+        scale: [min, 5000]
         symbolizers:
           - text:
               uom: metre
@@ -13,99 +13,39 @@ feature-styles:
               font-style: normal
               font-weight: normal
               placement: point
-              anchor: [0.0, 0.0]
-              fill-color: '#646464'
+              anchor: [0.5, 0.5]
+              displacement: [0.0, 0.0]
+              fill-color: '#2a2d2f'
               x-graphic-resize: stretch
-              x-graphic-margin: 1
+              x-graphic-margin: .4
+              x-conflictResolution: false
+              x-goodnesOfFit: 0
+              x-maxDisplacement: 0
+              x-partials: true
               rotation: ${symboolrotatie}
-              priority: 1000
+              priority: 100
   - rules:
-    - name: blauw
-      title: Blauw
-      filter: ${omschrijving = 'blauw'}
-      scale: [min, 5000]
-      symbolizers:
-        - text:
-            uom: metre
-            label: ${label}
-            font-family: SansSerif
-            font-size: ${symboolgrootte}
-            font-style: normal
-            font-weight: bold
-            placement: point
-            anchor: [0.5, 0.7]
-            fill-color: '#003e91'
-            x-graphic-resize: stretch
-            x-graphic-margin: 1
-            x-autoWrap: 160
-            rotation: ${symboolrotatie}
-            halo:
-              fill-color: '#ffffff'
-              fill-opacity: 0.8
-              radius: 0.4
-  - rules:
-    - name: rood
-      title: Rood
-      filter: ${omschrijving = 'rood'}
-      scale: [min, 5000]
-      symbolizers:
-        - text:
-            uom: metre
-            label: ${label}
-            font-family: SansSerif
-            font-size: ${symboolgrootte}
-            font-style: normal
-            font-weight: bold
-            placement: point
-            anchor: [0.5, 0.7]
-            fill-color: '#cc0605'
-            x-graphic-resize: stretch
-            x-graphic-margin: 1
-            x-autoWrap: 160
-            rotation: ${symboolrotatie}
-            halo:
-              fill-color: '#ffffff'
-              fill-opacity: 0.8
-              radius: 0.4
-  - rules:
-    - name: geel
-      title: Geel
-      filter: ${omschrijving = 'geel'}
-      scale: [min, 5000]
-      symbolizers:
-        - text:
-            uom: metre
-            label: ${label}
-            font-family: SansSerif
-            font-size: ${symboolgrootte}
-            font-style: normal
-            font-weight: bold
-            placement: point
-            anchor: [0.5, 0.7]
-            fill-color: '#fad201'
-            x-graphic-resize: stretch
-            x-graphic-margin: 1
-            x-autoWrap: 160
-            rotation: ${symboolrotatie}
-            halo:
-              fill-color: '#ffffff'
-              fill-opacity: 0.8
-              radius: 0.4
-  - rules:
-    - name: transparant
-      title: Transparant
-      filter: ${omschrijving = 'transparant'}
-      scale: [min, 5000]
-      symbolizers:
-        - text:
-            uom: metre
-            label: ${label}
-            font-family: SansSerif
-            font-size: ${symboolgrootte}
-            font-style: normal
-            font-weight: normal
-            placement: point
-            anchor: [0.5, 0.7]
-            fill-color: '#2a2d2f'
-            x-autoWrap: 160
-            rotation: ${symboolrotatie}
+      - name: blauw_rood
+        title: Blauw of rood
+        filter: ${omschrijving = 'blauw' or omschrijving = 'rood'}
+        scale: [min, 5000]
+        symbolizers:
+          - text:
+              uom: metre
+              label: ${label}
+              font-family: SansSerif
+              font-size: ${symboolgrootte}
+              font-style: normal
+              font-weight: normal
+              placement: point
+              anchor: [0.5, 0.5]
+              displacement: [0.0, 0.0]
+              fill-color: '#f7faf5'
+              x-graphic-resize: stretch
+              x-graphic-margin: .4
+              x-conflictResolution: false
+              x-goodnesOfFit: 0
+              x-maxDisplacement: 0
+              x-partials: true
+              rotation: ${symboolrotatie}
+              priority: 100
