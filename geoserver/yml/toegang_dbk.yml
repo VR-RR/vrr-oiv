@@ -112,3 +112,17 @@ feature-styles:
                 - external:
                     url: *indicator_flitslicht
                     format: image/png
+  - rules:
+      - name: windvaan
+        filter: ${omschrijving = 'windvaan'}
+        title: windvaan
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *windvaan
+                    format: image/png
