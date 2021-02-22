@@ -5,13 +5,6 @@ brandweerlift: &brandweerlift https://github.com/VR-RR/vrr-oiv/blob/main/qgis/ic
 lift: &lift https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-021%20Lift.png?raw=true
 schacht: &schacht https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-022_schacht_enof_kanaal.png?raw=true
 windvaan: &windvaan https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-034_windvaan.png?raw=true
-slagboom: &slagboom https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-035_slagboom.png?raw=true
-afsluitpaal_of_poller: &afsluitpaal_of_poller https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-036_afsluitpaal_enof_poller.png?raw=true
-trap_richting_omhoog: &trap_richting_omhoog https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-040_Trap(penhuis)_richting_omhoog.png?raw=true
-trap_richting_omlaag_en_omhoog: &trap_richting_omlaag_en_omhoog https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-041_Trap(penhuis)_richting_omlaag_omhoog.png?raw=true
-trap_richting_omlaag: &trap_richting_omlaag https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-042_Trap(penhuis)_richting_omlaag.png?raw=true
-calamiteitendoorsteek: &calamiteitendoorsteek https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/WVW_BB40_CADO.png?raw=true
-indicator_flitslicht: &indicator_flitslicht https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/indicator_flitslicht.png?raw=true
 
 feature-styles:
   - rules:
@@ -99,23 +92,9 @@ feature-styles:
                     url: *schacht
                     format: image/png
   - rules:
-      - name: indicator_flitslicht
-        filter: ${omschrijving = 'indicator_flitslicht'}
-        title: Indicator flitslicht
-        scale: [min, 5000]
-        symbolizers:
-          - point:
-              uom: metre
-              size: ${symboolgrootte / 3}
-              rotation: ${symboolrotatie}
-              symbols:
-                - external:
-                    url: *indicator_flitslicht
-                    format: image/png
-  - rules:
       - name: windvaan
         filter: ${omschrijving = 'windvaan'}
-        title: windvaan
+        title: Windvaan
         scale: [min, 5000]
         symbolizers:
           - point:
