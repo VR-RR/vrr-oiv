@@ -1,0 +1,92 @@
+handbrandmelder: &handbrandmelder https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Alarmering/F005_handbrandmelder.png?raw=true
+noodtelefoon: &noodtelefoon https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Alarmering/F006_noodtelefoon.png?raw=true
+brandmeldinstallatie_bmc: &brandmeldinstallatie_bmc https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Alarmering/F-NL-008_brandmeldinstallatie_brandmeldcentrale.png?raw=true
+brandmeldpaneel_bmp: &brandmeldpaneel_bmp https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Alarmering/F-NL-008_brandmeldinstallatie_brandmeldpaneel.png?raw=true
+sprinklermeldcentrale_smc: &sprinklermeldcentrale_smc https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Alarmering/F-NL-008_brandmeldinstallatie_sprinklermeldcentrale.png?raw=true
+nevenpaneel_np: &nevenpaneel_np https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Alarmering/F-NL-010_nevenpaneel.png?raw=true
+
+feature-styles:
+  - rules:
+      - name: handbrandmelder
+        filter: ${omschrijving = 'Handbrandmelder'}
+        title: Handbrandmelder
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *handbrandmelder
+                    format: image/png
+  - rules:
+      - name: noodtelefoon
+        filter: ${omschrijving = 'Noodtelefoon'}
+        title: Noodtelefoon
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *noodtelefoon
+                    format: image/png
+  - rules:
+      - name: brandmeldinstallatie_bmc
+        filter: ${omschrijving = 'Brandmeldinstallatie BMC'}
+        title: Brandmeldinstallatie BMC
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *brandmeldinstallatie_bmc
+                    format: image/png
+  - rules:
+      - name: brandmeldpaneel_bmp
+        filter: ${omschrijving = 'Brandmeldpaneel BMP'}
+        title: Brandmeldpaneel BMP
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *brandmeldpaneel_bmp
+                    format: image/png
+  - rules:
+      - name: sprinklermeldcentrale_smc
+        filter: ${omschrijving = 'Sprinklermeldcentrale SMC'}
+        title: Sprinklermeldcentrale SMC
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *sprinklermeldcentrale_smc
+                    format: image/png
+  - rules:
+      - name: nevenpaneel_np
+        filter: ${omschrijving = 'Nevenpaneel NP'}
+        title: Nevenpaneel PN
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *nevenpaneel_np
+                    format: image/png

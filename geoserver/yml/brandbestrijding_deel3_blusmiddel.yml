@@ -1,0 +1,62 @@
+blussysteem_hifog_hogedrukwatermist: &blussysteem_hifog_hogedrukwatermist https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F-NL-038_blussysteem_hi-fog.png?raw=true
+blussysteem_inert_blusgas: &blussysteem_inert_blusgas https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F-NL-038_blussysteem_inert.png?raw=true
+blussysteem_novec_blusgas: &blussysteem_novec_blusgas https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F-NL-038_blussysteem_novec.png?raw=true
+blussysteem_water: &blussysteem_water https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F-NL-038_blussysteem_water.png?raw=true
+
+feature-styles:
+  - rules:
+      - name: blussysteem_hifog_hogedrukwatermist
+        filter: ${omschrijving = 'blussysteem Hi-Fog (hogedrukwatermist)'}
+        title: blussysteem Hi-Fog (hogedrukwatermist)
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blussysteem_hifog_hogedrukwatermist
+                    format: image/png
+  - rules:
+      - name: blussysteem_inert_blusgas
+        filter: ${omschrijving = 'blussysteem inert (blusgas)'}
+        title: blussysteem inert (blusgas)
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blussysteem_inert_blusgas
+                    format: image/png
+  - rules:
+      - name: blussysteem_novec_blusgas
+        filter: ${omschrijving = 'blussysteem NOVEC (blusgas)'}
+        title: blussysteem NOVEC (blusgas)
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blussysteem_novec_blusgas
+                    format: image/png
+  - rules:
+      - name: blussysteem_water
+        filter: ${omschrijving = 'blussysteem water'}
+        title: blussysteem water
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blussysteem_water
+                    format: image/png
