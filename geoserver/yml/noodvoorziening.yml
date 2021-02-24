@@ -1,0 +1,367 @@
+eerste_hulp: &eerste_hulp https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E003_eerste_hulp.png?raw=true
+noodtelefoon: &noodtelefoon https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E004_noodtelefoon.png?raw=true
+vluchtrichting_nooduitgang: &vluchtrichting_nooduitgang https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E005_richtingspijl_recht.png?raw=true
+verzamelplaats: &verzamelplaats https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E007_verzamelplaats.png?raw=true
+verzamelplaats_1: &verzamelplaats_1 https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E007_verzamelplaats_nr1.png?raw=true
+verzamelplaats_2: &verzamelplaats_2 https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E007_verzamelplaats_nr2.png?raw=true
+verzamelplaats_3: &verzamelplaats_3 https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E007_verzamelplaats_nr3.png?raw=true
+verzamelplaats_4: &verzamelplaats_4 https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E007_verzamelplaats_nr4.png?raw=true
+verzamelplaats_5: &verzamelplaats_5 https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E007_verzamelplaats_nr5.png?raw=true
+dokter_arts: &dokter_arts https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E009_dokter-arts.png?raw=true
+aed: &aed https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E010_aed.png?raw=true
+oogdouche: &oogdouche https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E011_oogdouche.png?raw=true
+nooddouche: &nooddouche https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E012_nooddouche.png?raw=true
+brancard: &brancard https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E013_brancard.png?raw=true
+raam_met_vluchtladder: &raam_met_vluchtladder https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E016_raam_met_vluchtladder.png?raw=true
+vluchtraam: &vluchtraam https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E017_vluchtraam.png?raw=true
+noodstop: &noodstop https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E020_noodstop.png?raw=true
+vluchtmasker: &vluchtmasker https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E029_vluchtmasker.png?raw=true
+vluchtladder: &vluchtladder https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E059_vluchtladder.png?raw=true
+evacuatiestoel: &evacuatiestoel https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E060_evacuatiestoel.png?raw=true
+bhv_middelen: &bhv_middelen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E-NL-001_bhv_middelen.png?raw=true
+deurontgrendeling: &deurontgrendeling https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E-NL-003_deurontgrendeling.png?raw=true
+antidote_tegengif: &antidote_tegengif https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E-NL-009_antidote_tegengif.png?raw=true
+vlucht_trappenhuis_richting_omhoog: &vlucht_trappenhuis_richting_omhoog https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E-NL-010%20Vlucht-Trap(penhuis)%20Richting%20omhoog.png?raw=true
+vlucht_trappenhuis_richting_omlaag_en_omhoog: &vlucht_trappenhuis_richting_omlaag_en_omhoog https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E-NL-011%20Vlucht-Trap(penhuis)%20Richting%20omlaag%20omhoog.png?raw=true
+vlucht_trappenhuis_richting_omlaag: &vlucht_trappenhuis_richting_omlaag https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E-NL-012%20Vlucht-Trap(penhuis)%20Richting%20omlaag.png?raw=true
+
+feature-styles:
+  - rules:
+      - name: eerste_hulp
+        filter: ${omschrijving = 'eerste hulp'}
+        title: eerste hulp
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *eerste_hulp
+                    format: image/png
+      - name: noodtelefoon
+        filter: ${omschrijving = 'noodtelefoon'}
+        title: noodtelefoon
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *noodtelefoon
+                    format: image/png
+      - name: vluchtrichting_nooduitgang
+        filter: ${omschrijving = 'vluchtrichting / nooduitgang'}
+        title: vluchtrichting / nooduitgang
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *vluchtrichting_nooduitgang
+                    format: image/png
+      - name: verzamelplaats
+        filter: ${omschrijving = 'verzamelplaats'}
+        title: verzamelplaats
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *verzamelplaats
+                    format: image/png
+      - name: verzamelplaats_1
+        filter: ${omschrijving = 'verzamelplaats 1'}
+        title: verzamelplaats 1
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *verzamelplaats_1
+                    format: image/png
+      - name: verzamelplaats_2
+        filter: ${omschrijving = 'verzamelplaats 2'}
+        title: verzamelplaats 2
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *verzamelplaats_2
+                    format: image/png
+      - name: verzamelplaats_3
+        filter: ${omschrijving = 'verzamelplaats 3'}
+        title: verzamelplaats 3
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *verzamelplaats_3
+                    format: image/png
+      - name: verzamelplaats_4
+        filter: ${omschrijving = 'verzamelplaats 4'}
+        title: verzamelplaats 4
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *verzamelplaats_4
+                    format: image/png
+      - name: verzamelplaats_5
+        filter: ${omschrijving = 'verzamelplaats 5'}
+        title: verzamelplaats 5
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *verzamelplaats_5
+                    format: image/png
+      - name: dokter_arts
+        filter: ${omschrijving = 'dokter-arts'}
+        title: dokter-arts
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *dokter_arts
+                    format: image/png
+      - name: aed
+        filter: ${omschrijving = 'AED'}
+        title: AED
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *aed
+                    format: image/png
+      - name: oogdouche
+        filter: ${omschrijving = 'oogdouche'}
+        title: oogdouche
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *oogdouche
+                    format: image/png
+      - name: nooddouche
+        filter: ${omschrijving = 'nooddouche'}
+        title: nooddouche
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *nooddouche
+                    format: image/png
+      - name: brancard
+        filter: ${omschrijving = 'brancard'}
+        title: brancard
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *brancard
+                    format: image/png
+      - name: raam_met_vluchtladder
+        filter: ${omschrijving = 'raam met vluchtladder'}
+        title: raam met vluchtladder
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *raam_met_vluchtladder
+                    format: image/png
+      - name: vluchtraam
+        filter: ${omschrijving = 'vluchtraam'}
+        title: vluchtraam
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *vluchtraam
+                    format: image/png
+      - name: noodstop
+        filter: ${omschrijving = 'noodstop'}
+        title: noodstop
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *noodstop
+                    format: image/png
+      - name: vluchtmasker
+        filter: ${omschrijving = 'vluchtmasker'}
+        title: vluchtmasker
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *vluchtmasker
+                    format: image/png
+      - name: vluchtladder
+        filter: ${omschrijving = 'vluchtladder'}
+        title: vluchtladder
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *vluchtladder
+                    format: image/png
+      - name: evacuatiestoel
+        filter: ${omschrijving = 'evacuatiestoel'}
+        title: evacuatiestoel
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *evacuatiestoel
+                    format: image/png
+      - name: bhv_middelen
+        filter: ${omschrijving = 'BHV middelen'}
+        title: BHV middelen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *bhv_middelen
+                    format: image/png
+      - name: deurontgrendeling
+        filter: ${omschrijving = 'deurontgrendeling'}
+        title: deurontgrendeling
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *deurontgrendeling
+                    format: image/png
+      - name: antidote_tegengif
+        filter: ${omschrijving = 'antidote-tegengif'}
+        title: antidote-tegengif
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *antidote_tegengif
+                    format: image/png
+      - name: vlucht_trappenhuis_richting_omhoog
+        filter: ${omschrijving = 'vlucht-trap(penhuis) richting omhoog'}
+        title: vlucht-trap(penhuis) richting omhoog
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *vlucht_trappenhuis_richting_omhoog
+                    format: image/png
+      - name: vlucht_trappenhuis_richting_omlaag_en_omhoog
+        filter: ${omschrijving = 'vlucht-trap(penhuis) richting omlaag en omhoog'}
+        title: vlucht-trap(penhuis) richting omlaag en omhoog
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *vlucht_trappenhuis_richting_omlaag_en_omhoog
+                    format: image/png
+      - name: vlucht_trappenhuis_richting_omlaag
+        filter: ${omschrijving = 'vlucht-trap(penhuis) richting omlaag'}
+        title: vlucht-trap(penhuis) richting omlaag
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *vlucht_trappenhuis_richting_omlaag
+                    format: image/png

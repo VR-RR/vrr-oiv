@@ -139,7 +139,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte / 3}
+              size: ${symboolgrootte / 5}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -152,7 +152,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte / 3}
+              size: ${symboolgrootte / 5}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -165,7 +165,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte / 3}
+              size: ${symboolgrootte / 5}
               rotation: ${symboolrotatie}
               symbols:
                 - external:

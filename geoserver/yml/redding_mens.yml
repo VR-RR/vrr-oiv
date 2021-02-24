@@ -1,0 +1,87 @@
+slaapplaatsen: &slaapplaatsen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Redding/Redding%20mens/R-NL-001_slaapplaatsen.png?raw=true
+bedlegerige: &bedlegerige https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Redding/Redding%20mens/R-NL-002_bedlegerige.png?raw=true
+kinderen_0_4_jaar: &kinderen_0_4_jaar https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Redding/Redding%20mens/R-NL-003_kinderen_0-4_jaar.png?raw=true
+kinderen_5_12_jaar: &kinderen_5_12_jaar https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Redding/Redding%20mens/R-NL-004_kinderen_5-12_jaar.png?raw=true
+valide_personen: &valide_personen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Redding/Redding%20mens/R-NL-005_valide_personen.png?raw=true
+mindervalide_personen: &mindervalide_personen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Redding/Redding%20mens/R-NL-006_mindervalide_personen.png?raw=true
+
+feature-styles:
+  - rules:
+      - name: slaapplaatsen
+        filter: ${omschrijving = 'slaapplaatsen'}
+        title: slaapplaatsen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *slaapplaatsen
+                    format: image/png
+      - name: bedlegerige
+        filter: ${omschrijving = 'bedlegerige'}
+        title: bedlegerige
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *bedlegerige
+                    format: image/png
+      - name: kinderen_0_4_jaar
+        filter: ${omschrijving = 'kinderen 0-4 jaar'}
+        title: kinderen 0-4 jaar
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *kinderen_0_4_jaar
+                    format: image/png
+      - name: kinderen_5_12_jaar
+        filter: ${omschrijving = 'kinderen 5-12 jaar'}
+        title: kinderen 5-12 jaar
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *kinderen_5_12_jaar
+                    format: image/png
+      - name: valide_personen
+        filter: ${omschrijving = 'valide personen'}
+        title: valide personen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *valide_personen
+                    format: image/png
+      - name: mindervalide_personen
+        filter: ${omschrijving = 'mindervalide personen'}
+        title: mindervalide personen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *mindervalide_personen
+                    format: image/png
