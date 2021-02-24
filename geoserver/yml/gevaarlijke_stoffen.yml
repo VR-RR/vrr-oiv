@@ -1,0 +1,184 @@
+ontplofbare_stoffen_en_voorwerpen: &ontplofbare_stoffen_en_voorwerpen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Gevaarlijkestoffen/W002_explosieve_stoffen.png?raw=true
+gassen: &gassen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Gevaarlijkestoffen/W029_houder_onder_druk.png?raw=true
+brandbare_stoffen: &brandbare_stoffen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Gevaarlijkestoffen/W021%20Brandgevaarlijk.png?raw=true
+oxiderende_stoffen_organische_peroxiden: &oxiderende_stoffen_organische_peroxiden https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Gevaarlijkestoffen/W028_oxiderende_stoffen.png?raw=true
+giftige_stoffen: &giftige_stoffen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Gevaarlijkestoffen/W016_giftige_stoffen.png?raw=true
+infectueuze_stoffen: &infectueuze_stoffen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Gevaarlijkestoffen/W009_biologische_agentia_infectueus.png?raw=true
+radioactieve_stoffen: &radioactieve_stoffen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Gevaarlijkestoffen/W003_radioactief_materiaal.png?raw=true
+bijtende_stoffen: &bijtende_stoffen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Gevaarlijkestoffen/W023%20Bijtende%20stoffen.png?raw=true
+nfpa_gevarendiamant: &nfpa_gevarendiamant https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Gevaarlijkestoffen/W-NL-003_NFPA-gevarendiamant.png?raw=true
+langetermijngezondheidsschade: &langetermijngezondheidsschade https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Gevaarlijkestoffen/W-NL-005_langetermijngezondheidsschade.png?raw=true
+schadelijk_voor_het_milieu: &schadelijk_voor_het_milieu https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Gevaarlijkestoffen/W-NL-006_schadelijk_voor_het_milieu.png?raw=true
+
+feature-styles:
+  - rules:
+      - name: ontplofbare_stoffen_en_voorwerpen
+        filter: ${omschrijving = 'ontplofbare stoffen en voorwerpen'}
+        title: ontplofbare stoffen en voorwerpen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *ontplofbare_stoffen_en_voorwerpen
+                    format: image/png
+      - name: gassen
+        filter: ${omschrijving = 'gassen'}
+        title: gassen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *gassen
+                    format: image/png
+      - name: brandbare_stoffen
+        filter: ${omschrijving = 'brandbare stoffen'}
+        title: brandbare stoffen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *brandbare_stoffen
+                    format: image/png
+      - name: oxiderende_stoffen_organische_peroxiden
+        filter: ${omschrijving = 'oxiderende stoffen / organische peroxiden'}
+        title: oxiderende stoffen / organische peroxiden
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *oxiderende_stoffen_organische_peroxiden
+                    format: image/png
+      - name: giftige_stoffen
+        filter: ${omschrijving = 'giftige stoffen'}
+        title: giftige stoffen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *giftige_stoffen
+                    format: image/png
+      - name: infectueuze_stoffen
+        filter: ${omschrijving = 'infectueuze stoffen'}
+        title: infectueuze stoffen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *infectueuze_stoffen
+                    format: image/png
+      - name: radioactieve stoffen
+        filter: ${omschrijving = 'radioactieve stoffen'}
+        title: radioactieve stoffen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *radioactieve_stoffen
+                    format: image/png
+      - name: bijtende_stoffen
+        filter: ${omschrijving = 'bijtende stoffen'}
+        title: bijtende stoffen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *bijtende_stoffen
+                    format: image/png
+      - name: nfpa_gevarendiamant
+        filter: ${omschrijving = 'NFPA gevarendiamant'}
+        title: NFPA gevarendiamant
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *nfpa_gevarendiamant
+                    format: image/png
+      - name: langetermijngezondheidsschade
+        filter: ${omschrijving = 'langetermijngezondheidsschade'}
+        title: langetermijngezondheidsschade
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *langetermijngezondheidsschade
+                    format: image/png
+      - name: schadelijk_voor_het_milieu
+        filter: ${omschrijving = 'schadelijk voor het milieu'}
+        title: schadelijk voor het milieu
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *schadelijk_voor_het_milieu
+                    format: image/png
+      - name: gevi_bord
+        filter: ${omschrijving = 'GEVI bord'}
+        title: GEVI bord
+        scale: [min, 5000]
+        symbolizers:
+            - text:
+               uom: metre
+               label: |
+                      ${gevi_code}
+                      ${vn_un_nummer}
+               fill-color: '#000000'
+               font-family: SansSerif
+               font-size: 1.6
+               font-style: normal
+               font-weight: bold
+               anchor: [0.5,0.5]
+               displacement: [0,0]
+               x-graphic-resize: stretch
+               x-graphic-margin: 0.4
+               graphic:
+                 symbols:
+                 - mark:
+                     uom: metre
+                     shape: square
+                     stroke-color: '#000000'
+                     stroke-width: .2
+                     fill-color: '#fe9a00'

@@ -1,3 +1,10 @@
+brandweeringang:  &brandweeringang https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-005_brandweeringang.png?raw=true
+neveningang: &neveningang https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-006_neveningang_brandweer.png?raw=true
+sleutelkluis: &sleutelkluis https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-007_sleutelkluis.png?raw=true
+brandweerlift: &brandweerlift https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-020%20Brandweerlift.png?raw=true
+lift: &lift https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-021%20Lift.png?raw=true
+schacht: &schacht https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-022_schacht_enof_kanaal.png?raw=true
+windvaan: &windvaan https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-034_windvaan.png?raw=true
 slagboom: &slagboom https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-035_slagboom.png?raw=true
 afsluitpaal_of_poller: &afsluitpaal_of_poller https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-036_afsluitpaal_enof_poller.png?raw=true
 trap_richting_omhoog: &trap_richting_omhoog https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-040_Trap(penhuis)_richting_omhoog.png?raw=true
@@ -8,6 +15,97 @@ indicator_flitslicht: &indicator_flitslicht https://github.com/VR-RR/vrr-oiv/blo
 
 feature-styles:
   - rules:
+      - name: brandweeringang
+        filter: ${omschrijving = 'brandweeringang'}
+        title: Brandweeringang
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *brandweeringang
+                    format: image/png
+      - name: neveningang
+        filter: ${omschrijving = 'neveningang'}
+        title: Neveningang
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *neveningang
+                    format: image/png
+      - name: sleutelkluis
+        filter: ${omschrijving = 'sleutelbuis-kluis'}
+        title: Sleutelkluis
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *sleutelkluis
+                    format: image/png
+      - name: brandweerlift
+        filter: ${omschrijving = 'brandweerlift'}
+        title: Brandweerlift
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *brandweerlift
+                    format: image/png
+      - name: lift
+        filter: ${omschrijving = 'lift'}
+        title: Lift
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *lift
+                    format: image/png
+      - name: schacht
+        filter: ${omschrijving = 'schacht'}
+        title: Schacht
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *schacht
+                    format: image/png
+      - name: windvaan
+        filter: ${omschrijving = 'windvaan'}
+        title: Windvaan
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *windvaan
+                    format: image/png
       - name: slagboom
         filter: ${omschrijving = 'slagboom'}
         title: Slagboom
@@ -21,7 +119,6 @@ feature-styles:
                 - external:
                     url: *slagboom
                     format: image/png
-  - rules:
       - name: afsluitpaal_of_poller
         filter: ${omschrijving = 'afsluitpaal of poller'}
         title: Afsluitpaal of poller
@@ -35,7 +132,6 @@ feature-styles:
                 - external:
                     url: *afsluitpaal_of_poller
                     format: image/png
-  - rules:
       - name: trap_richting_omhoog
         filter: ${omschrijving = 'trap(penhuis) richting omhoog'}
         title: Trap richting omhoog
@@ -49,7 +145,6 @@ feature-styles:
                 - external:
                     url: *trap_richting_omhoog
                     format: image/png
-  - rules:
       - name: trap_richting_omlaag_en_omhoog
         filter: ${omschrijving = 'trap(penhuis) richting omlaag en omhoog'}
         title: Trap richting omlaag en omhoog
@@ -63,7 +158,6 @@ feature-styles:
                 - external:
                     url: *trap_richting_omlaag_en_omhoog
                     format: image/png
-  - rules:
       - name: trap_richting_omlaag
         filter: ${omschrijving = 'trap(penhuis) richting omlaag'}
         title: Trap richting omlaag
@@ -77,7 +171,6 @@ feature-styles:
                 - external:
                     url: *trap_richting_omlaag
                     format: image/png
-  - rules:
       - name: calamiteitendoorsteek
         filter: ${omschrijving = 'calamiteitendoorsteek (CADO)'}
         title: Calamiteitendoorsteek
@@ -91,7 +184,6 @@ feature-styles:
                 - external:
                     url: *calamiteitendoorsteek
                     format: image/png
-  - rules:
       - name: indicator_flitslicht
         filter: ${omschrijving = 'indicator_flitslicht'}
         title: indicator_flitslicht
