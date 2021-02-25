@@ -1,0 +1,73 @@
+paarden: &paarden https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Redding/Redding%20dier/R-NL-007_paarden.png?raw=true
+hoefdieren_groot: &hoefdieren_groot https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Redding/Redding%20dier/R-NL-008_hoefdieren_groot.png?raw=true
+hoefdieren_klein: &hoefdieren_klein https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Redding/Redding%20dier/R-NL-009_hoefdieren_klein.png?raw=true
+varkens: &varkens https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Redding/Redding%20dier/R-NL-010_varkens.png?raw=true
+pluimvee: &pluimvee https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Redding/Redding%20dier/R-NL-011_pluimvee.png?raw=true
+
+feature-styles:
+  - rules:
+      - name: paarden
+        filter: ${omschrijving = 'paarden'}
+        title: paarden
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *paarden
+                    format: image/png
+      - name: hoefdieren_groot
+        filter: ${omschrijving = 'hoefdieren groot'}
+        title: hoefdieren groot
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *hoefdieren_groot
+                    format: image/png
+      - name: hoefdieren_klein
+        filter: ${omschrijving = 'hoefdieren klein'}
+        title: hoefdieren klein
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *hoefdieren_klein
+                    format: image/png
+      - name: varkens
+        filter: ${omschrijving = 'varkens'}
+        title: varkens
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *varkens
+                    format: image/png
+      - name: pluimvee
+        filter: ${omschrijving = 'pluimvee'}
+        title: pluimvee
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *pluimvee
+                    format: image/png

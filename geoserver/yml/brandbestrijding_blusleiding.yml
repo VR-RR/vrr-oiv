@@ -79,8 +79,8 @@ feature-styles:
                     format: image/png
   - rules:
       - name: blusleiding_sprinklervoeding
-        filter: ${omschrijving = 'blusleiding sprinklervoeding '}
-        title: Blusleiding sprinklervoeding 
+        filter: ${omschrijving = 'blusleiding sprinklervoeding'}
+        title: Blusleiding sprinklervoeding
         scale: [min, 5000]
         symbolizers:
           - point:

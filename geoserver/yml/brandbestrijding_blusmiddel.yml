@@ -57,7 +57,7 @@ feature-styles:
               symbols:
                 - external:
                     url: *hoge_druk_brandslanghaspel
-                    format: image/jpg
+                    format: image/png
       - name: vaste_brandblusbatterij
         filter: ${omschrijving = 'vaste brandblusbatterij'}
         title: vaste brandblusbatterij

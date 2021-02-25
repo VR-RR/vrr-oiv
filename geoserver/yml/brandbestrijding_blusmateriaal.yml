@@ -1,0 +1,62 @@
+brandladder: &brandladder https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmateriaal/F003_brandladder.png?raw=true
+brandbestrijdingsmateriaal: &brandbestrijdingsmateriaal https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmateriaal/F004_brandbestrijdingsmateriaal.png?raw=true
+blusdeken: &blusdeken https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmateriaal/F016_blusdeken.png?raw=true
+opbergplaats_brandslangen_met_losse_straalpijpen: &opbergplaats_brandslangen_met_losse_straalpijpen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmateriaal/F-NL-001_brandslangen_losse_straalpijp.png?raw=true
+
+feature-styles:
+  - rules:
+      - name: brandladder
+        filter: ${omschrijving = 'brandladder'}
+        title: brandladder
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *brandladder
+                    format: image/png
+  - rules:
+      - name: brandbestrijdingsmateriaal
+        filter: ${omschrijving = 'brandbestrijdingsmateriaal'}
+        title: brandbestrijdingsmateriaal
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *brandbestrijdingsmateriaal
+                    format: image/png
+  - rules:
+      - name: blusdeken
+        filter: ${omschrijving = 'blusdeken'}
+        title: blusdeken
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blusdeken
+                    format: image/png
+  - rules:
+      - name: opbergplaats_brandslangen_met_losse_straalpijpen
+        filter: ${omschrijving = 'opbergplaats brandslangen met losse straalpijpen'}
+        title: opbergplaats brandslangen met losse straalpijpen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte / 3}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *opbergplaats_brandslangen_met_losse_straalpijpen
+                    format: image/png
