@@ -22,7 +22,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte / 3}
+              size: ${symboolgrootte / 2.4}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -35,7 +35,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte / 3}
+              size: ${symboolgrootte / 2.4}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -48,7 +48,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte / 3}
+              size: ${symboolgrootte / 2.4}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -61,7 +61,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte / 3}
+              size: ${symboolgrootte / 2.4}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -74,7 +74,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte / 3}
+              size: ${symboolgrootte / 2.4}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -87,7 +87,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte / 3}
+              size: ${symboolgrootte / 2.4}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -100,7 +100,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte / 3}
+              size: ${symboolgrootte / 2.4}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -113,7 +113,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte / 3}
+              size: ${symboolgrootte / 2.4}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -126,7 +126,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte / 3}
+              size: ${symboolgrootte / 2.4}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -139,7 +139,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte / 5}
+              size: ${symboolgrootte / 2.4}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -152,7 +152,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte / 5}
+              size: ${symboolgrootte / 2.4}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -165,7 +165,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte / 5}
+              size: ${symboolgrootte / 2.4}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -178,7 +178,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte / 3}
+              size: ${symboolgrootte / 2.4}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -191,7 +191,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte / 3}
+              size: ${symboolgrootte / 2.4}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
