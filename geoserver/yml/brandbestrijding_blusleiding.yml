@@ -15,13 +15,12 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte / 3}
+              size: ${symboolgrootte}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
                     url: *blusleiding_bl
                     format: image/png
-  - rules:
       - name: droge_blusleiding_dbl
         filter: ${omschrijving = 'droge blusleiding (DBL)'}
         title: Droge blusleiding (DBL)
@@ -29,13 +28,12 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte / 3}
+              size: ${symboolgrootte}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
                     url: *droge_blusleiding_dbl
                     format: image/png
-  - rules:
       - name: blusleiding_premix_foam_schuim
         filter: ${omschrijving = 'blusleiding premix-foam (schuim)'}
         title: Blusleiding premix-foam (schuim)
@@ -43,13 +41,12 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte / 3}
+              size: ${symboolgrootte}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
                     url: *blusleiding_premix_foam_schuim
                     format: image/png
-  - rules:
       - name: blusleiding_puur_foam_schuim
         filter: ${omschrijving = 'blusleiding puur-foam (schuim)'}
         title: Blusleiding puur-foam (schuim)
@@ -57,13 +54,12 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte / 3}
+              size: ${symboolgrootte}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
                     url: *blusleiding_puur_foam_schuim
                     format: image/png
-  - rules:
       - name: blusleiding_foam_schuim
         filter: ${omschrijving = 'blusleiding foam (schuim)'}
         title: Blusleiding foam (schuim)
@@ -71,13 +67,12 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte / 3}
+              size: ${symboolgrootte}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
                     url: *blusleiding_foam_schuim
                     format: image/png
-  - rules:
       - name: blusleiding_sprinklervoeding
         filter: ${omschrijving = 'blusleiding sprinklervoeding'}
         title: Blusleiding sprinklervoeding
@@ -85,13 +80,12 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte / 3}
+              size: ${symboolgrootte}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
                     url: *blusleiding_sprinklervoeding
                     format: image/png
-  - rules:
       - name: kade_aansluiting_blusboot_voedingspunt
         filter: ${omschrijving = 'kade aansluiting blusboot (voedingspunt)'}
         title: Kade aansluiting blusboot (voedingspunt)
@@ -99,7 +93,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte / 3}
+              size: ${symboolgrootte}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
