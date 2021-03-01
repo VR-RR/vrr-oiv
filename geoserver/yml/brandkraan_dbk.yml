@@ -1,0 +1,54 @@
+feature-styles:
+  - rules:
+      - filter: ${ligging = 'ondergronds' OR ligging = 'Ondergronds'}
+        name: brandkraan
+        title: Ondergrondse brandkraan        
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              size: 3.2
+              uom: metre
+              anchor: [0.5,0.5]
+              symbols:
+              - external:
+                  url: "./iconen/F-NL-004_ondergrondse_brandkraan.png"
+                  format: image/png
+#          - text:
+#              font-size: 1.3
+#              font-family: SansSerif
+#              font-weight: bold
+#              fill-color: '#000000'
+#              uom: metre
+#              label: ${diameter}
+#              placement: point
+#              anchor: [0.5,0.5]
+#              displacement: [0,-2.8]
+#              halo:
+#                fill-color: '#ffffff'
+#                radius: 0.2
+      - filter: ${ligging = 'bovengronds' OR ligging = 'Bovengronds'}
+        name: brandkraan
+        title: Bovengrondse brandkraan        
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              size: 3.2
+              uom: metre
+              anchor: [0.5,0.5]
+              symbols:
+              - external:
+                  url: "./iconen/F-NL-002_bovengrondse_brandkraan.png"
+                  format: image/png
+#          - text:
+#              font-size: 1.3
+#              font-family: SansSerif
+#              font-weight: bold
+#              fill-color: '#000000'
+#              uom: metre
+#              label: ${diameter}
+#              placement: point
+#              anchor: [0.5,0.5]
+#              displacement: [0,-2.8]
+#              halo:
+#                fill-color: '#ffffff'
+#                radius: 0.2
