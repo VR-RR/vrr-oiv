@@ -1,0 +1,1949 @@
+bovengrondse_brandkraan: &bovengrondse_brandkraan https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-002_bovengrondse_brandkraan.png?raw=true
+ondergrondse_brandkraan: &ondergrondse_brandkraan https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-004_ondergrondse_brandkraan.png?raw=true
+omloopafsluiter: &omloopafsluiter https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-009_hoofdafsluiter_blussysteem_omloop_ringleiding.png?raw=true
+geboorde_put: &geboorde_put https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-011_geboorde_put.png?raw=true
+ondergrondse_brandkraan_hogere_druk: &ondergrondse_brandkraan_hogere_druk https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-028_ondergrondse_brandkraan_hogere_druk.png?raw=true
+bovengrondse_brandkraan_hogere_druk: &bovengrondse_brandkraan_hogere_druk https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-029_bovengrondse_brandkraan_hogere_druk.png?raw=true
+water_reduceer_drukbegrenzer: &water_reduceer_drukbegrenzer https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-030_water-reduceer_drukbegrenzer.png?raw=true
+open_water_niet_bereikbaar: &open_water_niet_bereikbaar https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-031_open_water_niet_bereikbaar.png?raw=true
+open_water_bereikbaar: &open_water_bereikbaar https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-032_open_water_bereikbaar.png?raw=true
+bluswaterriool: &bluswaterriool https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-033_bluswaterriool.png?raw=true
+
+brandweeringang:  &brandweeringang https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-005_brandweeringang.png?raw=true
+neveningang: &neveningang https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-006_neveningang_brandweer.png?raw=true
+sleutelkluis: &sleutelkluis https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-007_sleutelkluis.png?raw=true
+brandweerlift: &brandweerlift https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-020%20Brandweerlift.png?raw=true
+lift: &lift https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-021%20Lift.png?raw=true
+schacht: &schacht https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-022_schacht_enof_kanaal.png?raw=true
+windvaan: &windvaan https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-034_windvaan.png?raw=true
+slagboom: &slagboom https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-035_slagboom.png?raw=true
+afsluitpaal_of_poller: &afsluitpaal_of_poller https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-036_afsluitpaal_enof_poller.png?raw=true
+trap_richting_omhoog: &trap_richting_omhoog https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-040_Trap(penhuis)_richting_omhoog.png?raw=true
+trap_richting_omlaag_en_omhoog: &trap_richting_omlaag_en_omhoog https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-041_Trap(penhuis)_richting_omlaag_omhoog.png?raw=true
+trap_richting_omlaag: &trap_richting_omlaag https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-042_Trap(penhuis)_richting_omlaag.png?raw=true
+calamiteitendoorsteek: &calamiteitendoorsteek https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/WVW_BB40_CADO.png?raw=true
+indicator_flitslicht: &indicator_flitslicht https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/indicator_flitslicht.png?raw=true
+
+
+handbrandmelder: &handbrandmelder https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Alarmering/F005_handbrandmelder.png?raw=true
+noodtelefoon: &noodtelefoon https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Alarmering/F006_noodtelefoon.png?raw=true
+brandmeldinstallatie_bmc: &brandmeldinstallatie_bmc https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Alarmering/F-NL-008_brandmeldinstallatie_brandmeldcentrale.png?raw=true
+brandmeldpaneel_bmp: &brandmeldpaneel_bmp https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Alarmering/F-NL-008_brandmeldinstallatie_brandmeldpaneel.png?raw=true
+sprinklermeldcentrale_smc: &sprinklermeldcentrale_smc https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Alarmering/F-NL-008_brandmeldinstallatie_sprinklermeldcentrale.png?raw=true
+nevenpaneel_np: &nevenpaneel_np https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Alarmering/F-NL-010_nevenpaneel.png?raw=true
+
+blusleiding_bl: &blusleiding_bl https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_bl.png?raw=true
+droge_blusleiding_dbl: &droge_blusleiding_dbl https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_dbl.png?raw=true
+blusleiding_premix_foam_schuim: &blusleiding_premix_foam_schuim https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_foam_premix.png?raw=true
+blusleiding_puur_foam_schuim: &blusleiding_puur_foam_schuim https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_foam_puur.png?raw=true
+blusleiding_foam_schuim: &blusleiding_foam_schuim https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_schuimvoeding.png?raw=true
+blusleiding_sprinklervoeding: &blusleiding_sprinklervoeding https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_sprinklervoeding.png?raw=true
+kade_aansluiting_blusboot_voedingspunt: &kade_aansluiting_blusboot_voedingspunt https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-012_kadeaansluiting.png?raw=true
+
+brandladder: &brandladder https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmateriaal/F003_brandladder.png?raw=true
+brandbestrijdingsmateriaal: &brandbestrijdingsmateriaal https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmateriaal/F004_brandbestrijdingsmateriaal.png?raw=true
+blusdeken: &blusdeken https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmateriaal/F016_blusdeken.png?raw=true
+opbergplaats_brandslangen_met_losse_straalpijpen: &opbergplaats_brandslangen_met_losse_straalpijpen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmateriaal/F-NL-001_brandslangen_losse_straalpijp.png?raw=true
+
+handbrandblusmiddel: &handbrandblusmiddel https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F001_brandblusser.png?raw=true
+brandslanghaspel: &brandslanghaspel https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F002_brandslanghaspel.png?raw=true
+hoge_druk_brandslanghaspel: &hoge_druk_brandslanghaspel https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F002_hogedruk_brandslanghaspel.JPG?raw=true
+vaste_brandblusbatterij: &vaste_brandblusbatterij https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F008_vaste_brandblusbatterij.png?raw=true
+verrijdbare_brandblusser: &verrijdbare_brandblusser https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F009_verrijdbare_brandblusser.png?raw=true
+activering_blussysteem: &activering_blussysteem https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F014_activering_blussysteem.png?raw=true
+blusmonitor: &blusmonitor https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F015_blusmonitor.png?raw=true
+blusmonitor_foam_schuim: &blusmonitor_foam_schuim https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F015_blusmonitor_foam.png?raw=true
+blusmonitor_water: &blusmonitor_water https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F015_blusmonitor_water.png?raw=true
+hoofdafsluiter_blussysteem_buisleiding: &hoofdafsluiter_blussysteem_buisleiding https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F-NL-009_hoofdafsluiter_blussysteem_blusleiding.png?raw=true
+hoofdafsluiter_sprinkler: &hoofdafsluiter_sprinkler https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F-NL-009_hoofdafsluiter_blussysteem_sprinkler.png?raw=true
+blussysteem_co2_blusgas: &blussysteem_co2_blusgas https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F-NL-038_blussysteem_co2.png?raw=true
+blussysteem_fm200_blusgas: &blussysteem_fm200_blusgas https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F-NL-038_blussysteem_fm200.png?raw=true
+blussysteem_foam_schuim: &blussysteem_foam_schuim https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F-NL-038_blussysteem_foam.png?raw=true
+blussysteem_hifog_hogedrukwatermist: &blussysteem_hifog_hogedrukwatermist https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F-NL-038_blussysteem_hi-fog.png?raw=true
+blussysteem_inert_blusgas: &blussysteem_inert_blusgas https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F-NL-038_blussysteem_inert.png?raw=true
+blussysteem_novec_blusgas: &blussysteem_novec_blusgas https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F-NL-038_blussysteem_novec.png?raw=true
+blussysteem_water: &blussysteem_water https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F-NL-038_blussysteem_water.png?raw=true
+
+generator: &generator https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Generator%20en%20Bluspomp/F-NL-026_generator.png?raw=true
+brandbluspomp: &brandbluspomp https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Generator%20en%20Bluspomp/F-NL-027_brandbluspomp.png?raw=true
+
+opstelplaats_eerste_blusvoertuig: &opstelplaats_eerste_blusvoertuig https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Opstelplaatsen/F-NL-013_opstelplaats_eerste_blusvoertuig.png?raw=true
+opstelplaats_overige_blusvoertuigen: &opstelplaats_overige_blusvoertuigen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Opstelplaatsen/F-NL-014_opstelplaats_overige_blusvoertuigen.png?raw=true
+opstelplaats_redvoertuig: &opstelplaats_redvoertuig https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Opstelplaatsen/F-NL-015_opstelplaats_redvoertuig.png?raw=true
+uitgangsstelling_ugs: &uitgangsstelling_ugs https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Opstelplaatsen/SRGO_B02_UGS.png?raw=true
+
+noodschakelaar_centrale_verwarming_cv: &noodschakelaar_centrale_verwarming_cv https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Schakelaars%20en%20Afsluiters/F-NL-016_noodschakelaar_cv.png?raw=true
+noodschakelaar_luchtbehandeling_lb: &noodschakelaar_luchtbehandeling_lb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Schakelaars%20en%20Afsluiters/F-NL-016_noodschakelaar_luchtbehandeling.png?raw=true
+noodschakelaar_neon_ne: &noodschakelaar_neon_ne https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Schakelaars%20en%20Afsluiters/F-NL-016_noodschakelaar_neon.png?raw=true
+noodschakelaar_rookwarmte_afvoer_rwa: &noodschakelaar_rookwarmte_afvoer_rwa https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Schakelaars%20en%20Afsluiters/F-NL-016_noodschakelaar_rwa.png?raw=true
+noodschakelaar_elektriciteit: &noodschakelaar_elektriciteit https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Schakelaars%20en%20Afsluiters/F-NL-017_hoofdschakelaar_elektriciteit.png?raw=true
+hoofdafsluiter_water: &hoofdafsluiter_water https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Schakelaars%20en%20Afsluiters/F-NL-018_hoofdafsluiter_water.png?raw=true
+hoofdafsluiter_gas: &hoofdafsluiter_gas https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Schakelaars%20en%20Afsluiters/F-NL-019_hoofdafsluiter_gas.png?raw=true
+rook_en_warmteafvoer_rwa: &rook_en_warmteafvoer_rwa https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Schakelaars%20en%20Afsluiters/F-NL-023_rookwarmteafvoer_rwa.png?raw=true
+
+ontplofbare_stoffen_en_voorwerpen: &ontplofbare_stoffen_en_voorwerpen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Gevaarlijkestoffen/W002_explosieve_stoffen.png?raw=true
+gassen: &gassen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Gevaarlijkestoffen/W029_houder_onder_druk.png?raw=true
+brandbare_stoffen: &brandbare_stoffen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Gevaarlijkestoffen/W021%20Brandgevaarlijk.png?raw=true
+oxiderende_stoffen_organische_peroxiden: &oxiderende_stoffen_organische_peroxiden https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Gevaarlijkestoffen/W028_oxiderende_stoffen.png?raw=true
+giftige_stoffen: &giftige_stoffen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Gevaarlijkestoffen/W016_giftige_stoffen.png?raw=true
+infectueuze_stoffen: &infectueuze_stoffen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Gevaarlijkestoffen/W009_biologische_agentia_infectueus.png?raw=true
+radioactieve_stoffen: &radioactieve_stoffen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Gevaarlijkestoffen/W003_radioactief_materiaal.png?raw=true
+bijtende_stoffen: &bijtende_stoffen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Gevaarlijkestoffen/W023%20Bijtende%20stoffen.png?raw=true
+nfpa_gevarendiamant: &nfpa_gevarendiamant https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Gevaarlijkestoffen/W-NL-003_NFPA-gevarendiamant.png?raw=true
+langetermijngezondheidsschade: &langetermijngezondheidsschade https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Gevaarlijkestoffen/W-NL-005_langetermijngezondheidsschade.png?raw=true
+schadelijk_voor_het_milieu: &schadelijk_voor_het_milieu https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Gevaarlijkestoffen/W-NL-006_schadelijk_voor_het_milieu.png?raw=true
+
+eerste_hulp: &eerste_hulp https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E003_eerste_hulp.png?raw=true
+noodtelefoon: &noodtelefoon https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E004_noodtelefoon.png?raw=true
+vluchtrichting_nooduitgang: &vluchtrichting_nooduitgang https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E005_richtingspijl_recht.png?raw=true
+verzamelplaats: &verzamelplaats https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E007_verzamelplaats.png?raw=true
+verzamelplaats_1: &verzamelplaats_1 https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E007_verzamelplaats_nr1.png?raw=true
+verzamelplaats_2: &verzamelplaats_2 https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E007_verzamelplaats_nr2.png?raw=true
+verzamelplaats_3: &verzamelplaats_3 https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E007_verzamelplaats_nr3.png?raw=true
+verzamelplaats_4: &verzamelplaats_4 https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E007_verzamelplaats_nr4.png?raw=true
+verzamelplaats_5: &verzamelplaats_5 https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E007_verzamelplaats_nr5.png?raw=true
+dokter_arts: &dokter_arts https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E009_dokter-arts.png?raw=true
+aed: &aed https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E010_aed.png?raw=true
+oogdouche: &oogdouche https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E011_oogdouche.png?raw=true
+nooddouche: &nooddouche https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E012_nooddouche.png?raw=true
+brancard: &brancard https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E013_brancard.png?raw=true
+raam_met_vluchtladder: &raam_met_vluchtladder https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E016_raam_met_vluchtladder.png?raw=true
+vluchtraam: &vluchtraam https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E017_vluchtraam.png?raw=true
+noodstop: &noodstop https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E020_noodstop.png?raw=true
+vluchtmasker: &vluchtmasker https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E029_vluchtmasker.png?raw=true
+vluchtladder: &vluchtladder https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E059_vluchtladder.png?raw=true
+evacuatiestoel: &evacuatiestoel https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E060_evacuatiestoel.png?raw=true
+bhv_middelen: &bhv_middelen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E-NL-001_bhv_middelen.png?raw=true
+deurontgrendeling: &deurontgrendeling https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E-NL-003_deurontgrendeling.png?raw=true
+antidote_tegengif: &antidote_tegengif https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E-NL-009_antidote_tegengif.png?raw=true
+vlucht_trappenhuis_richting_omhoog: &vlucht_trappenhuis_richting_omhoog https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E-NL-010%20Vlucht-Trap(penhuis)%20Richting%20omhoog.png?raw=true
+vlucht_trappenhuis_richting_omlaag_en_omhoog: &vlucht_trappenhuis_richting_omlaag_en_omhoog https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E-NL-011%20Vlucht-Trap(penhuis)%20Richting%20omlaag%20omhoog.png?raw=true
+vlucht_trappenhuis_richting_omlaag: &vlucht_trappenhuis_richting_omlaag https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/E-NL-012%20Vlucht-Trap(penhuis)%20Richting%20omlaag.png?raw=true
+
+paarden: &paarden https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Redding/Redding%20dier/R-NL-007_paarden.png?raw=true
+hoefdieren_groot: &hoefdieren_groot https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Redding/Redding%20dier/R-NL-008_hoefdieren_groot.png?raw=true
+hoefdieren_klein: &hoefdieren_klein https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Redding/Redding%20dier/R-NL-009_hoefdieren_klein.png?raw=true
+varkens: &varkens https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Redding/Redding%20dier/R-NL-010_varkens.png?raw=true
+pluimvee: &pluimvee https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Redding/Redding%20dier/R-NL-011_pluimvee.png?raw=true
+
+slaapplaatsen: &slaapplaatsen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Redding/Redding%20mens/R-NL-001_slaapplaatsen.png?raw=true
+bedlegerige: &bedlegerige https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Redding/Redding%20mens/R-NL-002_bedlegerige.png?raw=true
+kinderen_0_4_jaar: &kinderen_0_4_jaar https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Redding/Redding%20mens/R-NL-003_kinderen_0-4_jaar.png?raw=true
+kinderen_5_12_jaar: &kinderen_5_12_jaar https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Redding/Redding%20mens/R-NL-004_kinderen_5-12_jaar.png?raw=true
+valide_personen: &valide_personen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Redding/Redding%20mens/R-NL-005_valide_personen.png?raw=true
+mindervalide_personen: &mindervalide_personen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Redding/Redding%20mens/R-NL-006_mindervalide_personen.png?raw=true
+
+algemeen_gevaar: &algemeen_gevaar https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W001_Algemeen%20gevaar.png?raw=true
+niet_ioniserende_straling: &niet_ioniserende_straling https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W005_Niet-ioniserende%20straling.png?raw=true
+magnetisch_veld: &magnetisch_veld https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W006_Magnetisch%20veld.png?raw=true
+vallen_door_hoogte_verschil: &vallen_door_hoogte_verschil https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W008_hoogteverschil.png?raw=true
+lage_temperatuur_of_bevriezing: &lage_temperatuur_of_bevriezing https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W010_Lage%20temperatuur.png?raw=true
+glad_oppervlak: &glad_oppervlak https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W011_Glad%20oppervlak.png?raw=true
+elektrische_spanning: &elektrische_spanning https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W012_Elektrische%20spanning.png?raw=true
+hondenbewaking: &hondenbewaking https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W013_Honden%20bewaking.png?raw=true
+hangende_lasten: &hangende_lasten https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W015_Hangende%20lasten.png?raw=true
+heet_oppervlak: &heet_oppervlak https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W017_Heet%20oppervlak.png?raw=true
+accus_en_klein_chemisch_materiaal: &accus_en_klein_chemisch_materiaal https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W026_Accu%E2%80%99s%20en%20klein%20chemisch%20materiaal.png?raw=true
+afstand_bestuurde_machines: &afstand_bestuurde_machines https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W037_Op%20afstand%20bestuurde%20machines.png?raw=true
+explosieve_atmosfeer: &explosieve_atmosfeer https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W-NL-001_Explosieve%20atmosfeer.png?raw=true
+helling: &helling https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/_Helling.png?raw=true
+exotische_dieren: &exotische_dieren https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W-NL-007_Exotische%20dieren.png?raw=true
+lithium_ion_batterijen: &lithium_ion_batterijen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W-NL-008_li-ion_batterijen.png?raw=true
+niet_Lithium_houdende_batterijen: &niet_Lithium_houdende_batterijen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W-NL-008_non-li_niet_lithium_houdende_batterijen.png?raw=true
+
+feature-styles:
+  - rules:
+      - name: bovengrondse_brandkraan
+        filter: ${omschrijving = 'bovengrondse brandkraan'}
+        title: bovengrondse brandkraan
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *bovengrondse_brandkraan
+                    format: image/png
+      - name: ondergrondse_brandkraan
+        filter: ${omschrijving = 'ondergrondse brandkraan'}
+        title: ondergrondse brandkraan
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *ondergrondse_brandkraan
+                    format: image/png
+      - name: omloopafsluiter
+        filter: ${omschrijving = 'omloopafsluiter'}
+        title: omloopafsluiter
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *omloopafsluiter
+                    format: image/png
+      - name: geboorde_put
+        filter: ${omschrijving = 'geboorde put'}
+        title: geboorde put
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *geboorde_put
+                    format: image/png
+      - name: ondergrondse_brandkraan_hogere_druk
+        filter: ${omschrijving = 'ondergrondse brandkraan hogere druk'}
+        title: ondergrondse brandkraan hogere druk
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *ondergrondse_brandkraan_hogere_druk
+                    format: image/png
+      - name: bovengrondse_brandkraan_hogere_druk
+        filter: ${omschrijving = 'bovengrondse brandkraan hogere druk'}
+        title: bovengrondse brandkraan hogere druk
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *bovengrondse_brandkraan_hogere_druk
+                    format: image/png
+      - name: water_reduceer_drukbegrenzer
+        filter: ${omschrijving = 'water reduceer drukbegrenzer'}
+        title: water reduceer drukbegrenzer
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *water_reduceer_drukbegrenzer
+                    format: image/png
+      - name: open_water_niet_bereikbaar
+        filter: ${omschrijving = 'open water niet bereikbaar'}
+        title: open water niet bereikbaar
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *open_water_niet_bereikbaar
+                    format: image/png
+      - name: open_water_bereikbaar
+        filter: ${omschrijving = 'open water bereikbaar'}
+        title: open water bereikbaar
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *open_water_bereikbaar
+                    format: image/png
+      - name: bluswaterriool
+        filter: ${omschrijving = 'bluswaterriool'}
+        title: bluswaterriool
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *bluswaterriool
+                    format: image/png
+      - name: brandweeringang
+        filter: ${omschrijving = 'brandweeringang'}
+        title: Brandweeringang
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *brandweeringang
+                    format: image/png
+      - name: neveningang
+        filter: ${omschrijving = 'neveningang'}
+        title: Neveningang
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *neveningang
+                    format: image/png
+      - name: sleutelkluis
+        filter: ${omschrijving = 'sleutelbuis-kluis'}
+        title: Sleutelkluis
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *sleutelkluis
+                    format: image/png
+      - name: brandweerlift
+        filter: ${omschrijving = 'brandweerlift'}
+        title: Brandweerlift
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *brandweerlift
+                    format: image/png
+      - name: lift
+        filter: ${omschrijving = 'lift'}
+        title: Lift
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *lift
+                    format: image/png
+      - name: schacht
+        filter: ${omschrijving = 'schacht'}
+        title: Schacht
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *schacht
+                    format: image/png
+      - name: windvaan
+        filter: ${omschrijving = 'windvaan'}
+        title: Windvaan
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *windvaan
+                    format: image/png
+      - name: slagboom
+        filter: ${omschrijving = 'slagboom'}
+        title: Slagboom
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *slagboom
+                    format: image/png
+      - name: afsluitpaal_of_poller
+        filter: ${omschrijving = 'afsluitpaal of poller'}
+        title: Afsluitpaal of poller
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *afsluitpaal_of_poller
+                    format: image/png
+      - name: trap_richting_omhoog
+        filter: ${omschrijving = 'trap(penhuis) richting omhoog'}
+        title: Trap richting omhoog
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *trap_richting_omhoog
+                    format: image/png
+      - name: trap_richting_omlaag_en_omhoog
+        filter: ${omschrijving = 'trap(penhuis) richting omlaag en omhoog'}
+        title: Trap richting omlaag en omhoog
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *trap_richting_omlaag_en_omhoog
+                    format: image/png
+      - name: trap_richting_omlaag
+        filter: ${omschrijving = 'trap(penhuis) richting omlaag'}
+        title: Trap richting omlaag
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *trap_richting_omlaag
+                    format: image/png
+      - name: calamiteitendoorsteek
+        filter: ${omschrijving = 'calamiteitendoorsteek (CADO)'}
+        title: Calamiteitendoorsteek
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *calamiteitendoorsteek
+                    format: image/png
+      - name: indicator_flitslicht
+        filter: ${omschrijving = 'indicator_flitslicht'}
+        title: indicator_flitslicht
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *indicator_flitslicht
+                    format: image/png
+      - name: handbrandmelder
+        filter: ${omschrijving = 'Handbrandmelder'}
+        title: Handbrandmelder
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *handbrandmelder
+                    format: image/png
+      - name: noodtelefoon
+        filter: ${omschrijving = 'Noodtelefoon'}
+        title: Noodtelefoon
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *noodtelefoon
+                    format: image/png
+      - name: brandmeldinstallatie_bmc
+        filter: ${omschrijving = 'Brandmeldinstallatie BMC'}
+        title: Brandmeldinstallatie BMC
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *brandmeldinstallatie_bmc
+                    format: image/png
+      - name: brandmeldpaneel_bmp
+        filter: ${omschrijving = 'Brandmeldpaneel BMP'}
+        title: Brandmeldpaneel BMP
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *brandmeldpaneel_bmp
+                    format: image/png
+      - name: sprinklermeldcentrale_smc
+        filter: ${omschrijving = 'Sprinklermeldcentrale SMC'}
+        title: Sprinklermeldcentrale SMC
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *sprinklermeldcentrale_smc
+                    format: image/png
+      - name: nevenpaneel_np
+        filter: ${omschrijving = 'Nevenpaneel NP'}
+        title: Nevenpaneel PN
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *nevenpaneel_np
+                    format: image/png
+      - name: blusleiding_bl
+        filter: ${omschrijving = 'blusleiding (BL)'}
+        title: Blusleiding (BL) 
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *blusleiding_bl
+                    format: image/png
+      - name: droge_blusleiding_dbl
+        filter: ${omschrijving = 'droge blusleiding (DBL)'}
+        title: Droge blusleiding (DBL)
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *droge_blusleiding_dbl
+                    format: image/png
+      - name: blusleiding_premix_foam_schuim
+        filter: ${omschrijving = 'blusleiding premix-foam (schuim)'}
+        title: Blusleiding premix-foam (schuim)
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *blusleiding_premix_foam_schuim
+                    format: image/png
+      - name: blusleiding_puur_foam_schuim
+        filter: ${omschrijving = 'blusleiding puur-foam (schuim)'}
+        title: Blusleiding puur-foam (schuim)
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *blusleiding_puur_foam_schuim
+                    format: image/png
+      - name: blusleiding_foam_schuim
+        filter: ${omschrijving = 'blusleiding foam (schuim)'}
+        title: Blusleiding foam (schuim)
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *blusleiding_foam_schuim
+                    format: image/png
+      - name: blusleiding_sprinklervoeding
+        filter: ${omschrijving = 'blusleiding sprinklervoeding'}
+        title: Blusleiding sprinklervoeding
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *blusleiding_sprinklervoeding
+                    format: image/png
+      - name: kade_aansluiting_blusboot_voedingspunt
+        filter: ${omschrijving = 'kade aansluiting blusboot (voedingspunt)'}
+        title: Kade aansluiting blusboot (voedingspunt)
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *kade_aansluiting_blusboot_voedingspunt
+                    format: image/png
+      - name: brandladder
+        filter: ${omschrijving = 'brandladder'}
+        title: brandladder
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *brandladder
+                    format: image/png
+      - name: brandbestrijdingsmateriaal
+        filter: ${omschrijving = 'brandbestrijdingsmateriaal'}
+        title: brandbestrijdingsmateriaal
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *brandbestrijdingsmateriaal
+                    format: image/png
+      - name: blusdeken
+        filter: ${omschrijving = 'blusdeken'}
+        title: blusdeken
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *blusdeken
+                    format: image/png
+      - name: opbergplaats_brandslangen_met_losse_straalpijpen
+        filter: ${omschrijving = 'opbergplaats brandslangen met losse straalpijpen'}
+        title: opbergplaats brandslangen met losse straalpijpen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *opbergplaats_brandslangen_met_losse_straalpijpen
+                    format: image/png
+      - name: handbrandblusmiddel
+        filter: ${omschrijving = 'handbrandblusmiddel'}
+        title: handbrandblusmiddel
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *handbrandblusmiddel
+                    format: image/png
+      - name: brandslanghaspel
+        filter: ${omschrijving = 'brandslanghaspel'}
+        title: brandslanghaspel
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *brandslanghaspel
+                    format: image/png
+      - name: hoge_druk_brandslanghaspel
+        filter: ${omschrijving = 'hoge druk brandslanghaspel'}
+        title: hoge druk brandslanghaspel
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *hoge_druk_brandslanghaspel
+                    format: image/png
+      - name: vaste_brandblusbatterij
+        filter: ${omschrijving = 'vaste brandblusbatterij'}
+        title: vaste brandblusbatterij
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *vaste_brandblusbatterij
+                    format: image/png
+      - name: verrijdbare_brandblusser
+        filter: ${omschrijving = 'verrijdbare brandblusser'}
+        title: verrijdbare brandblusser
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *verrijdbare_brandblusser
+                    format: image/png
+      - name: activering_blussysteem
+        filter: ${omschrijving = 'activering blussysteem'}
+        title: activering blussysteem
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *activering_blussysteem
+                    format: image/png
+      - name: blusmonitor
+        filter: ${omschrijving = 'blusmonitor'}
+        title: blusmonitor
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *blusmonitor
+                    format: image/png
+      - name: blusmonitor_foam_schuim
+        filter: ${omschrijving = 'blusmonitor foam (schuim)'}
+        title: blusmonitor foam (schuim)
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *blusmonitor_foam_schuim
+                    format: image/png
+      - name: blusmonitor_water
+        filter: ${omschrijving = 'blusmonitor water'}
+        title: blusmonitor water
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *blusmonitor_water
+                    format: image/png
+      - name: hoofdafsluiter_blussysteem_buisleiding
+        filter: ${omschrijving = 'hoofdafsluiter blussysteem / buisleiding'}
+        title: hoofdafsluiter blussysteem / buisleiding
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *hoofdafsluiter_blussysteem_buisleiding
+                    format: image/png
+      - name: hoofdafsluiter_sprinkler
+        filter: ${omschrijving = 'hoofdafsluiter sprinkler'}
+        title: hoofdafsluiter sprinkler
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *hoofdafsluiter_sprinkler
+                    format: image/png
+      - name: blussysteem_co2_blusgas
+        filter: ${omschrijving = 'blussysteem CO2 (blusgas)'}
+        title: blussysteem CO2 (blusgas)
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *blussysteem_co2_blusgas
+                    format: image/png
+      - name: blussysteem_fm200_blusgas
+        filter: ${omschrijving = 'blussysteem FM200 (blusgas)'}
+        title: blussysteem FM200 (blusgas)
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *blussysteem_fm200_blusgas
+                    format: image/png
+      - name: blussysteem_foam_schuim
+        filter: ${omschrijving = 'blussysteem foam (schuim)'}
+        title: blussysteem foam (schuim)
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *blussysteem_foam_schuim
+                    format: image/png
+      - name: blussysteem_hifog_hogedrukwatermist
+        filter: ${omschrijving = 'blussysteem Hi-Fog (hogedrukwatermist)'}
+        title: blussysteem Hi-Fog (hogedrukwatermist)
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *blussysteem_hifog_hogedrukwatermist
+                    format: image/png
+      - name: blussysteem_inert_blusgas
+        filter: ${omschrijving = 'blussysteem inert (blusgas)'}
+        title: blussysteem inert (blusgas)
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *blussysteem_inert_blusgas
+                    format: image/png
+      - name: blussysteem_novec_blusgas
+        filter: ${omschrijving = 'blussysteem NOVEC (blusgas)'}
+        title: blussysteem NOVEC (blusgas)
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *blussysteem_novec_blusgas
+                    format: image/png
+      - name: blussysteem_water
+        filter: ${omschrijving = 'blussysteem water'}
+        title: blussysteem water
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *blussysteem_water
+                    format: image/png
+      - name: generator
+        filter: ${omschrijving = 'generator'}
+        title: generator
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *generator
+                    format: image/png
+      - name: brandbluspomp
+        filter: ${omschrijving = 'brandbluspomp'}
+        title: brandbluspomp
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *brandbluspomp
+                    format: image/png
+      - name: opstelplaats_eerste_blusvoertuig
+        filter: ${omschrijving = 'opstelplaats eerste blusvoertuig'}
+        title: opstelplaats eerste blusvoertuig
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *opstelplaats_eerste_blusvoertuig
+                    format: image/png
+      - name: opstelplaats_overige_blusvoertuigen
+        filter: ${omschrijving = 'opstelplaats overige blusvoertuigen'}
+        title: opstelplaats overige blusvoertuigen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *opstelplaats_overige_blusvoertuigen
+                    format: image/png
+      - name: opstelplaats_redvoertuig
+        filter: ${omschrijving = 'opstelplaats redvoertuig'}
+        title: opstelplaats redvoertuig
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *opstelplaats_redvoertuig
+                    format: image/png
+      - name: uitgangsstelling_ugs
+        filter: ${omschrijving = 'uitgangsstelling (UGS)'}
+        title: uitgangsstelling (UGS)
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *uitgangsstelling_ugs
+                    format: image/png
+      - name: noodschakelaar_centrale_verwarming_cv
+        filter: ${omschrijving = 'noodschakelaar centrale verwarming (CV)'}
+        title: noodschakelaar centrale verwarming (CV)
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *noodschakelaar_centrale_verwarming_cv
+                    format: image/png
+      - name: noodschakelaar_luchtbehandeling_lb
+        filter: ${omschrijving = 'noodschakelaar luchtbehandeling (LB)'}
+        title: noodschakelaar luchtbehandeling (LB)
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *noodschakelaar_luchtbehandeling_lb
+                    format: image/png
+      - name: noodschakelaar_neon_ne
+        filter: ${omschrijving = 'noodschakelaar neon (Ne)'}
+        title: noodschakelaar neon (Ne)
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *noodschakelaar_neon_ne
+                    format: image/png
+      - name: noodschakelaar_rookwarmte_afvoer_rwa
+        filter: ${omschrijving = 'noodschakelaar rookwarmte afvoer (RWA)'}
+        title: noodschakelaar rookwarmte afvoer (RWA)
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *noodschakelaar_rookwarmte_afvoer_rwa
+                    format: image/png
+      - name: noodschakelaar_elektriciteit
+        filter: ${omschrijving = 'noodschakelaar elektriciteit'}
+        title: noodschakelaar elektriciteit
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *noodschakelaar_elektriciteit
+                    format: image/png
+      - name: hoofdafsluiter_water
+        filter: ${omschrijving = 'hoofdafsluiter water'}
+        title: hoofdafsluiter water
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *hoofdafsluiter_water
+                    format: image/png
+      - name: hoofdafsluiter_gas
+        filter: ${omschrijving = 'hoofdafsluiter gas'}
+        title: hoofdafsluiter gas
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *hoofdafsluiter_gas
+                    format: image/png
+      - name: rook_en_warmteafvoer_rwa
+        filter: ${omschrijving = 'rook-en warmteafvoer (RWA)'}
+        title: rook-en warmteafvoer (RWA)
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *rook_en_warmteafvoer_rwa
+                    format: image/png
+      - name: ontplofbare_stoffen_en_voorwerpen
+        filter: ${omschrijving = 'ontplofbare stoffen en voorwerpen'}
+        title: ontplofbare stoffen en voorwerpen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *ontplofbare_stoffen_en_voorwerpen
+                    format: image/png
+      - name: gassen
+        filter: ${omschrijving = 'gassen'}
+        title: gassen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *gassen
+                    format: image/png
+      - name: brandbare_stoffen
+        filter: ${omschrijving = 'brandbare stoffen'}
+        title: brandbare stoffen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *brandbare_stoffen
+                    format: image/png
+      - name: oxiderende_stoffen_organische_peroxiden
+        filter: ${omschrijving = 'oxiderende stoffen / organische peroxiden'}
+        title: oxiderende stoffen / organische peroxiden
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *oxiderende_stoffen_organische_peroxiden
+                    format: image/png
+      - name: giftige_stoffen
+        filter: ${omschrijving = 'giftige stoffen'}
+        title: giftige stoffen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *giftige_stoffen
+                    format: image/png
+      - name: infectueuze_stoffen
+        filter: ${omschrijving = 'infectueuze stoffen'}
+        title: infectueuze stoffen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *infectueuze_stoffen
+                    format: image/png
+      - name: radioactieve stoffen
+        filter: ${omschrijving = 'radioactieve stoffen'}
+        title: radioactieve stoffen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *radioactieve_stoffen
+                    format: image/png
+      - name: bijtende_stoffen
+        filter: ${omschrijving = 'bijtende stoffen'}
+        title: bijtende stoffen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *bijtende_stoffen
+                    format: image/png
+      - name: nfpa_gevarendiamant
+        filter: ${omschrijving = 'NFPA gevarendiamant'}
+        title: NFPA gevarendiamant
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *nfpa_gevarendiamant
+                    format: image/png
+      - name: langetermijngezondheidsschade
+        filter: ${omschrijving = 'langetermijngezondheidsschade'}
+        title: langetermijngezondheidsschade
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *langetermijngezondheidsschade
+                    format: image/png
+      - name: schadelijk_voor_het_milieu
+        filter: ${omschrijving = 'schadelijk voor het milieu'}
+        title: schadelijk voor het milieu
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *schadelijk_voor_het_milieu
+                    format: image/png
+      - name: eerste_hulp
+        filter: ${omschrijving = 'eerste hulp'}
+        title: eerste hulp
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *eerste_hulp
+                    format: image/png
+      - name: noodtelefoon
+        filter: ${omschrijving = 'noodtelefoon'}
+        title: noodtelefoon
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *noodtelefoon
+                    format: image/png
+      - name: vluchtrichting_nooduitgang
+        filter: ${omschrijving = 'vluchtrichting / nooduitgang'}
+        title: vluchtrichting / nooduitgang
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *vluchtrichting_nooduitgang
+                    format: image/png
+      - name: verzamelplaats
+        filter: ${omschrijving = 'verzamelplaats'}
+        title: verzamelplaats
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *verzamelplaats
+                    format: image/png
+      - name: verzamelplaats_1
+        filter: ${omschrijving = 'verzamelplaats 1'}
+        title: verzamelplaats 1
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *verzamelplaats_1
+                    format: image/png
+      - name: verzamelplaats_2
+        filter: ${omschrijving = 'verzamelplaats 2'}
+        title: verzamelplaats 2
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *verzamelplaats_2
+                    format: image/png
+      - name: verzamelplaats_3
+        filter: ${omschrijving = 'verzamelplaats 3'}
+        title: verzamelplaats 3
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *verzamelplaats_3
+                    format: image/png
+      - name: verzamelplaats_4
+        filter: ${omschrijving = 'verzamelplaats 4'}
+        title: verzamelplaats 4
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *verzamelplaats_4
+                    format: image/png
+      - name: verzamelplaats_5
+        filter: ${omschrijving = 'verzamelplaats 5'}
+        title: verzamelplaats 5
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *verzamelplaats_5
+                    format: image/png
+      - name: dokter_arts
+        filter: ${omschrijving = 'dokter-arts'}
+        title: dokter-arts
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *dokter_arts
+                    format: image/png
+      - name: aed
+        filter: ${omschrijving = 'AED'}
+        title: AED
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *aed
+                    format: image/png
+      - name: oogdouche
+        filter: ${omschrijving = 'oogdouche'}
+        title: oogdouche
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *oogdouche
+                    format: image/png
+      - name: nooddouche
+        filter: ${omschrijving = 'nooddouche'}
+        title: nooddouche
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *nooddouche
+                    format: image/png
+      - name: brancard
+        filter: ${omschrijving = 'brancard'}
+        title: brancard
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *brancard
+                    format: image/png
+      - name: raam_met_vluchtladder
+        filter: ${omschrijving = 'raam met vluchtladder'}
+        title: raam met vluchtladder
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *raam_met_vluchtladder
+                    format: image/png
+      - name: vluchtraam
+        filter: ${omschrijving = 'vluchtraam'}
+        title: vluchtraam
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *vluchtraam
+                    format: image/png
+      - name: noodstop
+        filter: ${omschrijving = 'noodstop'}
+        title: noodstop
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *noodstop
+                    format: image/png
+      - name: vluchtmasker
+        filter: ${omschrijving = 'vluchtmasker'}
+        title: vluchtmasker
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *vluchtmasker
+                    format: image/png
+      - name: vluchtladder
+        filter: ${omschrijving = 'vluchtladder'}
+        title: vluchtladder
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *vluchtladder
+                    format: image/png
+      - name: evacuatiestoel
+        filter: ${omschrijving = 'evacuatiestoel'}
+        title: evacuatiestoel
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *evacuatiestoel
+                    format: image/png
+      - name: bhv_middelen
+        filter: ${omschrijving = 'BHV middelen'}
+        title: BHV middelen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *bhv_middelen
+                    format: image/png
+      - name: deurontgrendeling
+        filter: ${omschrijving = 'deurontgrendeling'}
+        title: deurontgrendeling
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *deurontgrendeling
+                    format: image/png
+      - name: antidote_tegengif
+        filter: ${omschrijving = 'antidote-tegengif'}
+        title: antidote-tegengif
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *antidote_tegengif
+                    format: image/png
+      - name: vlucht_trappenhuis_richting_omhoog
+        filter: ${omschrijving = 'vlucht-trap(penhuis) richting omhoog'}
+        title: vlucht-trap(penhuis) richting omhoog
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *vlucht_trappenhuis_richting_omhoog
+                    format: image/png
+      - name: vlucht_trappenhuis_richting_omlaag_en_omhoog
+        filter: ${omschrijving = 'vlucht-trap(penhuis) richting omlaag en omhoog'}
+        title: vlucht-trap(penhuis) richting omlaag en omhoog
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *vlucht_trappenhuis_richting_omlaag_en_omhoog
+                    format: image/png
+      - name: vlucht_trappenhuis_richting_omlaag
+        filter: ${omschrijving = 'vlucht-trap(penhuis) richting omlaag'}
+        title: vlucht-trap(penhuis) richting omlaag
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *vlucht_trappenhuis_richting_omlaag
+                    format: image/png
+      - name: paarden
+        filter: ${omschrijving = 'paarden'}
+        title: paarden
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *paarden
+                    format: image/png
+      - name: hoefdieren_groot
+        filter: ${omschrijving = 'hoefdieren groot'}
+        title: hoefdieren groot
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *hoefdieren_groot
+                    format: image/png
+      - name: hoefdieren_klein
+        filter: ${omschrijving = 'hoefdieren klein'}
+        title: hoefdieren klein
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *hoefdieren_klein
+                    format: image/png
+      - name: varkens
+        filter: ${omschrijving = 'varkens'}
+        title: varkens
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *varkens
+                    format: image/png
+      - name: pluimvee
+        filter: ${omschrijving = 'pluimvee'}
+        title: pluimvee
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *pluimvee
+                    format: image/png
+      - name: slaapplaatsen
+        filter: ${omschrijving = 'slaapplaatsen'}
+        title: slaapplaatsen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *slaapplaatsen
+                    format: image/png
+      - name: bedlegerige
+        filter: ${omschrijving = 'bedlegerige'}
+        title: bedlegerige
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *bedlegerige
+                    format: image/png
+      - name: kinderen_0_4_jaar
+        filter: ${omschrijving = 'kinderen 0-4 jaar'}
+        title: kinderen 0-4 jaar
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *kinderen_0_4_jaar
+                    format: image/png
+      - name: kinderen_5_12_jaar
+        filter: ${omschrijving = 'kinderen 5-12 jaar'}
+        title: kinderen 5-12 jaar
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *kinderen_5_12_jaar
+                    format: image/png
+      - name: valide_personen
+        filter: ${omschrijving = 'valide personen'}
+        title: valide personen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *valide_personen
+                    format: image/png
+      - name: mindervalide_personen
+        filter: ${omschrijving = 'mindervalide personen'}
+        title: mindervalide personen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *mindervalide_personen
+                    format: image/png
+      - name: algemeen_gevaar
+        filter: ${omschrijving = 'algemeen gevaar'}
+        title: algemeen gevaar
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *algemeen_gevaar
+                    format: image/png
+      - name: niet_ioniserende_straling
+        filter: ${omschrijving = 'niet-ioniserende straling'}
+        title: niet-ioniserende straling
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *niet_ioniserende_straling
+                    format: image/png
+      - name: magnetisch_veld
+        filter: ${omschrijving = 'magnetisch veld'}
+        title: magnetisch veld
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *magnetisch_veld
+                    format: image/png
+      - name: vallen_door_hoogte_verschil
+        filter: ${omschrijving = 'vallen door hoogte verschil'}
+        title: vallen door hoogte verschil
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *vallen_door_hoogte_verschil
+                    format: image/png
+      - name: lage_temperatuur_of_bevriezing
+        filter: ${omschrijving = 'lage temperatuur of bevriezing'}
+        title: lage temperatuur of bevriezing
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *lage_temperatuur_of_bevriezing
+                    format: image/png
+      - name: glad_oppervlak
+        filter: ${omschrijving = 'glad oppervlak'}
+        title: glad oppervlak
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *glad_oppervlak
+                    format: image/png
+      - name: elektrische_spanning
+        filter: ${omschrijving = 'elektrische spanning'}
+        title: elektrische spanning
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *elektrische_spanning
+                    format: image/png
+      - name: hondenbewaking
+        filter: ${omschrijving = 'hondenbewaking'}
+        title: hondenbewaking
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *hondenbewaking
+                    format: image/png
+      - name: hangende_lasten
+        filter: ${omschrijving = 'hangende lasten'}
+        title: hangende lasten
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *hangende_lasten
+                    format: image/png
+      - name: heet_oppervlak
+        filter: ${omschrijving = 'heet oppervlak'}
+        title: heet oppervlak
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *heet_oppervlak
+                    format: image/png
+      - name: accus_en_klein_chemisch_materiaal
+        filter: ${omschrijving = 'accu’s en klein chemisch materiaal'}
+        title: accu’s en klein chemisch materiaal
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *accus_en_klein_chemisch_materiaal
+                    format: image/png
+      - name: afstand_bestuurde_machines
+        filter: ${omschrijving = 'afstand bestuurde machines'}
+        title: afstand bestuurde machines
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *afstand_bestuurde_machines
+                    format: image/png
+      - name: explosieve_atmosfeer
+        filter: ${omschrijving = 'explosieve atmosfeer'}
+        title: explosieve atmosfeer
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *explosieve_atmosfeer
+                    format: image/png
+      - name: helling
+        filter: ${omschrijving = 'helling'}
+        title: helling
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *helling
+                    format: image/png
+      - name: exotische_dieren
+        filter: ${omschrijving = 'exotische dieren'}
+        title: exotische dieren
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *exotische_dieren
+                    format: image/png
+      - name: lithium_ion_batterijen
+        filter: ${omschrijving = 'lithium-ion batterijen'}
+        title: lithium-ion batterijen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *lithium_ion_batterijen
+                    format: image/png
+      - name: niet_Lithium_houdende_batterijen
+        filter: ${omschrijving = 'niet Lithium houdende batterijen'}
+        title: niet Lithium houdende batterijen
+        scale: [min, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 400
+              rotation: 0
+              symbols:
+                - external:
+                    url: *niet_Lithium_houdende_batterijen
+                    format: image/png
