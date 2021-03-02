@@ -197,3 +197,57 @@ feature-styles:
                 - external:
                     url: *indicator_flitslicht
                     format: image/png
+      - name: brandweeringang_spoor_west
+        filter: ${omschrijving = 'brandweeringang_spoor_west'}
+        title: brandweeringang_spoor_west
+        scale: [min, 5000]
+        symbolizers:
+          - text:
+              uom: metre
+              fill-color: '#ff0000'
+              label: |
+                     B|W
+                     _${opmerking}_
+              placement: point
+              anchor: [0.5, 0.5]
+              font-family: SansSerif
+              font-size: 2.4
+              font-weight: bold
+              x-graphic-resize: stretch
+              x-graphic-margin: 0.8
+              x-underlineText: true
+              graphic:
+               symbols:
+                - mark:
+                    uom: metre
+                    shape: square
+                    stroke-color: '#ff0000'
+                    stroke-width: .4
+                    fill-color: '#ffffff'
+      - name: brandweeringang_spoor_oost
+        filter: ${omschrijving = 'brandweeringang_spoor_oost'}
+        title: brandweeringang_spoor_oost
+        scale: [min, 5000]
+        symbolizers:
+          - text:
+              uom: metre
+              fill-color: '#ff0000'
+              label: |
+                     B|O
+                     _${opmerking}_
+              placement: point
+              anchor: [0.5, 0.5]
+              font-family: SansSerif
+              font-size: 2.4
+              font-weight: bold
+              x-graphic-resize: stretch
+              x-graphic-margin: 0.8
+              x-underlineText: true
+              graphic:
+               symbols:
+                - mark:
+                    uom: metre
+                    shape: square
+                    stroke-color: '#ff0000'
+                    stroke-width: .4
+                    fill-color: '#ffffff'
