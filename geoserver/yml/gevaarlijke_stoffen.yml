@@ -155,10 +155,10 @@ feature-styles:
                 - external:
                     url: *schadelijk_voor_het_milieu
                     format: image/png
-      - name: gevi_bord
+      - name: gevi_bord_tekst
         filter: ${omschrijving = 'GEVI bord'}
-        title: GEVI bord
-        scale: [min, 5000]
+        title: GEVI bord tekst
+        scale: [min, 10000]
         symbolizers:
             - text:
                uom: metre
@@ -166,19 +166,13 @@ feature-styles:
                       ${gevi_code}
                       ${vn_un_nummer}
                fill-color: '#000000'
+               fill-opacity: 1
+               rotation: ${symboolrotatie}
                font-family: SansSerif
                font-size: 1.6
                font-style: normal
-               font-weight: bold
+               font-weight: normal
                anchor: [0.5,0.5]
-               displacement: [0,0]
+               displacement: [0,-0.3]
                x-graphic-resize: stretch
                x-graphic-margin: 0.4
-               graphic:
-                 symbols:
-                 - mark:
-                     uom: metre
-                     shape: square
-                     stroke-color: '#000000'
-                     stroke-width: .2
-                     fill-color: '#fe9a00'
