@@ -169,10 +169,11 @@ feature-styles:
                fill-opacity: 1
                rotation: ${symboolrotatie}
                font-family: SansSerif
-               font-size: 1.6
+               font-size: 1.1
                font-style: normal
-               font-weight: normal
+               font-weight: bold
                anchor: [0.5,0.5]
                displacement: [0,-0.3]
                x-graphic-resize: stretch
                x-graphic-margin: 0.4
+               x-partials: true

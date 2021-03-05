@@ -21,16 +21,16 @@
           <se:PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <se:Graphic>
               <se:Mark>
-                <se:WellKnownName>square</se:WellKnownName>
+                <se:WellKnownName>rectangle</se:WellKnownName>
                 <se:Fill>
                   <se:SvgParameter name="fill">#fe9a00</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
                   <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.10000000000000001</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.16</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>4</se:Size>
+              <se:Size>3.2</se:Size>
               <se:Rotation>
                 <ogc:PropertyName>symboolrotatie</ogc:PropertyName>
               </se:Rotation>
@@ -41,16 +41,19 @@
               <se:Mark>
                 <se:WellKnownName>line</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#fe9a00</se:SvgParameter>
+                  <se:SvgParameter name="fill">#000000</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
-                  <se:SvgParameter name="stroke">#fe9a00</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.10000000000000001</se:SvgParameter>
+                  <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">0.16</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>4</se:Size>
+              <se:Size>3.2</se:Size>
               <se:Rotation>
-                <ogc:PropertyName>symboolrotatie</ogc:PropertyName>
+                <ogc:Add>
+                  <ogc:PropertyName>symboolrotatie</ogc:PropertyName>
+                  <ogc:Literal>90</ogc:Literal>
+              </ogc:Add>
               </se:Rotation>
             </se:Graphic>
           </se:PointSymbolizer>
