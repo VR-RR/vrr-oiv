@@ -10,7 +10,7 @@ feature-styles:
       - name: handbrandmelder
         filter: ${omschrijving = 'Handbrandmelder'}
         title: Handbrandmelder
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
@@ -24,7 +24,7 @@ feature-styles:
       - name: noodtelefoon
         filter: ${omschrijving = 'Noodtelefoon'}
         title: Noodtelefoon
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
@@ -38,11 +38,11 @@ feature-styles:
       - name: brandmeldinstallatie_bmc
         filter: ${omschrijving = 'Brandmeldinstallatie BMC'}
         title: Brandmeldinstallatie BMC
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/1.5} # Deze wordt door 1.5 gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -52,11 +52,11 @@ feature-styles:
       - name: brandmeldpaneel_bmp
         filter: ${omschrijving = 'Brandmeldpaneel BMP'}
         title: Brandmeldpaneel BMP
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/1.5} # Deze wordt door 1.5 gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -66,11 +66,11 @@ feature-styles:
       - name: sprinklermeldcentrale_smc
         filter: ${omschrijving = 'Sprinklermeldcentrale SMC'}
         title: Sprinklermeldcentrale SMC
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/1.5} # Deze wordt door 1.5 gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -80,11 +80,11 @@ feature-styles:
       - name: nevenpaneel_np
         filter: ${omschrijving = 'Nevenpaneel NP'}
         title: Nevenpaneel PN
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/1.5} # Deze wordt door 1.5 gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:

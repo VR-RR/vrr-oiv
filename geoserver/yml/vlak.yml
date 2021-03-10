@@ -1,42 +1,42 @@
 feature-styles:
   - rules:
       - filter: ${omschrijving = 'zwart'}
-        scale: [min, 5000]
+        scale: [min, 3000]
         symbolizers:
           - polygon:
               fill-color: "#000000"
       - filter: ${omschrijving = 'wit'}
-        scale: [min, 5000]
+        scale: [min, 3000]
         symbolizers:
           - polygon:
               fill-color: "#ffffff"
       - filter: ${omschrijving = 'oranje'}
-        scale: [min, 5000]
+        scale: [min, 3000]
         symbolizers:
           - polygon:
               fill-color: "#de5307"
       - filter: ${omschrijving = 'lichtblauw'}
-        scale: [min, 5000]
+        scale: [min, 3000]
         symbolizers:
           - polygon:
               fill-color: "#9cc0f9"
       - filter: ${omschrijving = 'lichtrood'}
-        scale: [min, 5000]
+        scale: [min, 3000]
         symbolizers:
           - polygon:
               fill-color: "#d8a0a6"
       - filter: ${omschrijving = 'lichtgroen'}
-        scale: [min, 5000]
+        scale: [min, 3000]
         symbolizers:
           - polygon:
               fill-color: "#b9ceac"
       - filter: ${omschrijving = 'grijs'}
-        scale: [min, 5000]
+        scale: [min, 3000]
         symbolizers:
           - polygon:
               fill-color: "#a1a0a0"
       - filter: ${omschrijving = 'oranje-gearceerd'}
-        scale: [min, 5000]
+        scale: [min, 3000]
         symbolizers:
           - polygon:
               fill-color: "#de5307"

@@ -1,0 +1,138 @@
+feature-styles:
+  - rules:
+      - name: wit
+        title: Wit
+        filter: ${omschrijving = 'wit'}
+        scale: [min, 5000]
+        symbolizers:
+          - text:
+              uom: metre
+              label: ${label}
+              font-family: SansSerif
+              font-size: ${symboolgrootte}
+              font-style: normal
+              font-weight: bold
+              placement: point
+              anchor: [0.5, 0.5]
+              displacement: [0.0, 0.0]
+              fill-color: '#2a2d2f'
+              x-graphic-resize: stretch
+              x-graphic-margin: .4
+              x-conflictResolution: false
+              x-goodnesOfFit: 0
+              x-maxDisplacement: 0
+              x-partials: true
+              rotation: ${symboolrotatie}
+              priority: 100
+              halo:
+                radius: .4
+                fill-color: '#ffffff'
+                fill-opacity: 0.75
+      - name: transparant
+        title: Transparant
+        filter: ${omschrijving = 'transparant'}
+        scale: [min, 5000]
+        symbolizers:
+          - text:
+              uom: metre
+              label: ${label}
+              font-family: SansSerif
+              font-size: ${symboolgrootte}
+              font-style: normal
+              font-weight: bold
+              placement: point
+              anchor: [0.5, 0.5]
+              displacement: [0.0, 0.0]
+              fill-color: '#2a2d2f'
+              x-graphic-resize: stretch
+              x-graphic-margin: .4
+              x-conflictResolution: false
+              x-goodnesOfFit: 0
+              x-maxDisplacement: 0
+              x-partials: true
+              rotation: ${symboolrotatie}
+              priority: 100
+      - name: geel
+        title: Geel
+        filter: ${omschrijving = 'geel'}
+        scale: [min, 5000]
+        symbolizers:
+          - text:
+              uom: metre
+              label: ${label}
+              font-family: SansSerif
+              font-size: ${symboolgrootte}
+              font-style: normal
+              font-weight: bold
+              placement: point
+              anchor: [0.5, 0.5]
+              displacement: [0.0, 0.0]
+              fill-color: '#2a2d2f'
+              x-graphic-resize: stretch
+              x-graphic-margin: .4
+              x-conflictResolution: false
+              x-goodnesOfFit: 0
+              x-maxDisplacement: 0
+              x-partials: true
+              rotation: ${symboolrotatie}
+              priority: 100
+              halo:
+                radius: .4
+                fill-color: '#fad201'
+                fill-opacity: 0.75
+      - name: blauw
+        title: Blauw
+        filter: ${omschrijving = 'blauw'}
+        scale: [min, 5000]
+        symbolizers:
+          - text:
+              uom: metre
+              label: ${label}
+              font-family: SansSerif
+              font-size: ${symboolgrootte}
+              font-style: normal
+              font-weight: bold
+              placement: point
+              anchor: [0.5, 0.5]
+              displacement: [0.0, 0.0]
+              fill-color: '#f7faf5'
+              x-graphic-resize: stretch
+              x-graphic-margin: .4
+              x-conflictResolution: false
+              x-goodnesOfFit: 0
+              x-maxDisplacement: 0
+              x-partials: true
+              rotation: ${symboolrotatie}
+              priority: 100
+              halo:
+                radius: .4
+                fill-color: '#003e91'
+                fill-opacity: 0.75
+      - name: rood
+        title: Rood
+        filter: ${omschrijving = 'rood'}
+        scale: [min, 5000]
+        symbolizers:
+          - text:
+              uom: metre
+              label: ${label}
+              font-family: SansSerif
+              font-size: ${symboolgrootte}
+              font-style: normal
+              font-weight: bold
+              placement: point
+              anchor: [0.5, 0.5]
+              displacement: [0.0, 0.0]
+              fill-color: '#f7faf5'
+              x-graphic-resize: stretch
+              x-graphic-margin: .4
+              x-conflictResolution: false
+              x-goodnesOfFit: 0
+              x-maxDisplacement: 0
+              x-partials: true
+              rotation: ${symboolrotatie}
+              priority: 100
+              halo:
+                radius: .4
+                fill-color: '#cc0605'
+                fill-opacity: 0.75

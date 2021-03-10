@@ -15,11 +15,11 @@ feature-styles:
       - name: ontplofbare_stoffen_en_voorwerpen
         filter: ${omschrijving = 'ontplofbare stoffen en voorwerpen'}
         title: ontplofbare stoffen en voorwerpen
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/1.5} # Deze wordt door 1.5 gedeeld aangezien het symbool dat online staat te groot wordt getoond. Dit geld voor alle symbolen in deze kaartlaag, behalve de gevarendiamant en GEVI bordjes.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -28,11 +28,11 @@ feature-styles:
       - name: gassen
         filter: ${omschrijving = 'gassen'}
         title: gassen
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/1.5}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -41,11 +41,11 @@ feature-styles:
       - name: brandbare_stoffen
         filter: ${omschrijving = 'brandbare stoffen'}
         title: brandbare stoffen
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/1.5}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -54,11 +54,11 @@ feature-styles:
       - name: oxiderende_stoffen_organische_peroxiden
         filter: ${omschrijving = 'oxiderende stoffen / organische peroxiden'}
         title: oxiderende stoffen / organische peroxiden
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/1.5}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -67,11 +67,11 @@ feature-styles:
       - name: giftige_stoffen
         filter: ${omschrijving = 'giftige stoffen'}
         title: giftige stoffen
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/1.5}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -80,11 +80,11 @@ feature-styles:
       - name: infectueuze_stoffen
         filter: ${omschrijving = 'infectueuze stoffen'}
         title: infectueuze stoffen
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/1.5}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -93,11 +93,11 @@ feature-styles:
       - name: radioactieve stoffen
         filter: ${omschrijving = 'radioactieve stoffen'}
         title: radioactieve stoffen
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/1.5}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -106,11 +106,11 @@ feature-styles:
       - name: bijtende_stoffen
         filter: ${omschrijving = 'bijtende stoffen'}
         title: bijtende stoffen
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/1.5}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -119,7 +119,7 @@ feature-styles:
       - name: nfpa_gevarendiamant
         filter: ${omschrijving = 'NFPA gevarendiamant'}
         title: NFPA gevarendiamant
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
@@ -132,11 +132,11 @@ feature-styles:
       - name: langetermijngezondheidsschade
         filter: ${omschrijving = 'langetermijngezondheidsschade'}
         title: langetermijngezondheidsschade
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/1.5}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -145,11 +145,11 @@ feature-styles:
       - name: schadelijk_voor_het_milieu
         filter: ${omschrijving = 'schadelijk voor het milieu'}
         title: schadelijk voor het milieu
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/1.5}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -158,7 +158,7 @@ feature-styles:
       - name: gevi_bord_tekst
         filter: ${omschrijving = 'GEVI bord'}
         title: GEVI bord tekst
-        scale: [min, 10000]
+        scale: [min, 2000]
         symbolizers:
             - text:
                uom: metre

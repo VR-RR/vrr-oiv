@@ -6,13 +6,13 @@ uitgangsstelling_ugs: &uitgangsstelling_ugs https://github.com/VR-RR/vrr-oiv/blo
 feature-styles:
   - rules:
       - name: opstelplaats_eerste_blusvoertuig
-        filter: ${omschrijving = 'opstelplaats eerste blusvoertuig'}
+        filter: ${omschrijving = 'opstelplaats eerste blusvoertuig'} 
         title: opstelplaats eerste blusvoertuig
-        scale: [min, 5000]
+        scale: [min, 4000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/2} # Deze wordt door 2 gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -21,11 +21,11 @@ feature-styles:
       - name: opstelplaats_overige_blusvoertuigen
         filter: ${omschrijving = 'opstelplaats overige blusvoertuigen'}
         title: opstelplaats overige blusvoertuigen
-        scale: [min, 5000]
+        scale: [min, 4000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/2} # Deze wordt door 2 gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -34,11 +34,11 @@ feature-styles:
       - name: opstelplaats_redvoertuig
         filter: ${omschrijving = 'opstelplaats redvoertuig'}
         title: opstelplaats redvoertuig
-        scale: [min, 5000]
+        scale: [min, 4000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/2} # Deze wordt door 2 gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -47,7 +47,7 @@ feature-styles:
       - name: uitgangsstelling_ugs
         filter: ${omschrijving = 'uitgangsstelling (UGS)'}
         title: uitgangsstelling (UGS)
-        scale: [min, 5000]
+        scale: [min, 4000]
         symbolizers:
           - point:
               uom: metre
