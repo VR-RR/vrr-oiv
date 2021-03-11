@@ -20,7 +20,6 @@ feature-styles:
                 - external:
                     url: *handbrandmelder
                     format: image/png
-  - rules:
       - name: noodtelefoon
         filter: ${omschrijving = 'Noodtelefoon'}
         title: Noodtelefoon
@@ -34,7 +33,6 @@ feature-styles:
                 - external:
                     url: *noodtelefoon
                     format: image/png
-  - rules:
       - name: brandmeldinstallatie_bmc
         filter: ${omschrijving = 'Brandmeldinstallatie BMC'}
         title: Brandmeldinstallatie BMC
@@ -42,13 +40,12 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte/1.5} # Deze wordt door 1.5 gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              size: ${symboolgrootte/3} # Deze wordt door 3 gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
                     url: *brandmeldinstallatie_bmc
                     format: image/png
-  - rules:
       - name: brandmeldpaneel_bmp
         filter: ${omschrijving = 'Brandmeldpaneel BMP'}
         title: Brandmeldpaneel BMP
@@ -56,13 +53,12 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte/1.5} # Deze wordt door 1.5 gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              size: ${symboolgrootte/3} # Deze wordt door 3 gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
                     url: *brandmeldpaneel_bmp
                     format: image/png
-  - rules:
       - name: sprinklermeldcentrale_smc
         filter: ${omschrijving = 'Sprinklermeldcentrale SMC'}
         title: Sprinklermeldcentrale SMC
@@ -76,7 +72,6 @@ feature-styles:
                 - external:
                     url: *sprinklermeldcentrale_smc
                     format: image/png
-  - rules:
       - name: nevenpaneel_np
         filter: ${omschrijving = 'Nevenpaneel NP'}
         title: Nevenpaneel PN
@@ -84,7 +79,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte/1.5} # Deze wordt door 1.5 gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              size: ${symboolgrootte/2} # Deze wordt door 2 gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
