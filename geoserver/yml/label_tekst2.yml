@@ -27,7 +27,7 @@ feature-styles:
               halo:
                 radius: .4
                 fill-color: '#ffffff'
-                fill-opacity: 0.75
+                fill-opacity: 0.750
       - name: transparant
         title: Transparant
         filter: ${omschrijving = 'transparant'}
