@@ -1929,7 +1929,7 @@ feature-styles:
           - point:
               uom: pixel
               size: 400
-              rotation: 0
+              rotation: 0.0
               symbols:
                 - external:
                     url: *lithium_ion_batterijen
