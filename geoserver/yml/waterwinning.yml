@@ -24,6 +24,19 @@ feature-styles:
                 - external:
                     url: *bovengrondse_brandkraan
                     format: image/png
+          - text:
+              font-size: 1.2
+              font-family: SansSerif
+              font-weight: bold
+              fill-color: '#000000'
+              uom: metre
+              label: ${diameter_leiding}
+              placement: point
+              anchor: [0.5,0.5]
+              displacement: [0,-2.8]
+              halo:
+                fill-color: '#ffffff'
+                radius: 0.2
       - name: ondergrondse_brandkraan
         filter: ${omschrijving = 'ondergrondse brandkraan'}
         title: ondergrondse brandkraan
@@ -37,6 +50,19 @@ feature-styles:
                 - external:
                     url: *ondergrondse_brandkraan
                     format: image/png
+          - text:
+              font-size: 1.2
+              font-family: SansSerif
+              font-weight: bold
+              fill-color: '#000000'
+              uom: metre
+              label: ${diameter_leiding}
+              placement: point
+              anchor: [0.5,0.5]
+              displacement: [0,-2.8]
+              halo:
+                fill-color: '#ffffff'
+                radius: 0.2
       - name: omloopafsluiter
         filter: ${omschrijving = 'omloopafsluiter'}
         title: omloopafsluiter

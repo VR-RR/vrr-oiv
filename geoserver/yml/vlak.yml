@@ -30,6 +30,16 @@ feature-styles:
         symbolizers:
           - polygon:
               fill-color: "#b9ceac"
+      - filter: ${omschrijving = 'geel'}
+        scale: [min, 3000]
+        symbolizers:
+          - polygon:
+              fill-color: "#fffb01"    
+      - filter: ${omschrijving = 'lichtgrijs'}
+        scale: [min, 3000]
+        symbolizers:
+          - polygon:
+              fill-color: "#d5d4d4"
       - filter: ${omschrijving = 'grijs'}
         scale: [min, 3000]
         symbolizers:

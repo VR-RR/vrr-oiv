@@ -1,0 +1,42 @@
+title: 'muren wbdbo'
+feature-styles:
+- name: 30minWBDBO
+  rules:
+  - filter: ${omschrijving = '30 min WBDBO'}
+    scale: [min, 3000]
+    symbolizers:
+    - line:
+        uom: metre
+        stroke-color: '#f30004'
+        stroke-width: '0.30'
+        stroke-dasharray: '.3 .6'   
+- name: 60minWBDBO
+  rules:
+  - filter: ${omschrijving = '60 min WBDBO'}
+    scale: [min, 3000]
+    symbolizers:
+    - line:
+        uom: metre
+        stroke-color: '#03d100'
+        stroke-width: '0.30'
+        stroke-dasharray: '.3 .6'
+- name: 120minWBDBO
+  rules:
+  - filter: ${omschrijving = '120 min WBDBO'}
+    scale: [min, 3000]
+    symbolizers:
+    - line:
+        uom: metre
+        stroke-color: '#d10205'
+        stroke-width: '0.30'
+        stroke-dasharray: '1 .6'
+- name: rookwerende_scheiding
+  rules:
+  - filter: ${omschrijving = 'rookwerende scheiding'}
+    scale: [min, 3000]
+    symbolizers:
+    - line:
+        uom: metre
+        stroke-color: '#005de9'
+        stroke-width: '0.30'
+        stroke-dasharray: '.3 .6'

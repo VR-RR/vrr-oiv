@@ -8,7 +8,7 @@ feature-styles:
               uom: metre
               label: ${huisnummer}${huisletter}${toevoeging}
               font-family: SansSerif
-              font-size: 1
+              font-size: 1.4
               font-style: normal
               font-weight: normal
               placement: point
@@ -18,4 +18,4 @@ feature-styles:
               x-maxDisplacement: 0
               x-partials: true
               rotation: 0
-              priority: 100
+              priority: 0

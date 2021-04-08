@@ -1,79 +1,38 @@
+title: 'muren'
 feature-styles:
-  - rules:
-      - filter: ${omschrijving = 'muuromtrek'}
-        name: muuromtrek
-        title: Muuromtrek
-        scale: [min, 3000]
-        symbolizers:
-          - line:
-              uom: metre
-              stroke-color: '#000000'
-              stroke-width: '0.03'
-      - filter: ${omschrijving = '10 cm'}
-        name: 10 cm
-        title: 10 cm muur
-        scale: [min, 3000]
-        symbolizers:
-          - line:
-              uom: metre
-              stroke-color: '#000000'
-              stroke-width: '0.10'
-      - filter: ${omschrijving = '20 cm'}
-        name: 20 cm
-        title: 20 cm
-        scale: [min, 3000]
-        symbolizers:
-          - line:
-              uom: metre
-              stroke-color: '#000000'
-              stroke-width: '0.2'
-      - filter: ${omschrijving = '30 cm'}
-        name: 30 cm
-        title: 30 cm muur
-        scale: [min, 3000]
-        symbolizers:
-          - line:
-              uom: metre
-              stroke-color: '#000000'
-              stroke-width: '0.30'
-      - filter: ${omschrijving = '30 min WBDBO'}
-        name: 30 min WBDBO
-        title: 30 min WBDBO
-        scale: [min, 3000]
-        symbolizers:
-          - line:
-              uom: metre
-              stroke-color: '#f30004'
-              stroke-width: '0.30'
-              stroke-dasharray: '.3 .6'
-      - filter: ${omschrijving = '60 min WBDBO'}
-        name: 60 min WBDBO
-        title: 60 min WBDBO
-        scale: [min, 3000]
-        symbolizers:
-          - line:
-              uom: metre
-              stroke-color: '#03d100'
-              stroke-width: '0.30'
-              stroke-dasharray: '.3 .6'
-      - filter: ${omschrijving = '120 min WBDBO'}
-        name: 120 min WBDBO
-        title: 120 min WBDBO
-        scale: [min, 3000]
-        symbolizers:
-          - line:
-              uom: metre
-              stroke-color: '#d10205'
-              stroke-width: '0.30'
-              stroke-dasharray: '.8 .6'
-      - filter: ${omschrijving = 'rookwerende scheiding'}
-        name: rookwerende scheiding
-        title: rookwerende scheiding
-        scale: [min, 3000]
-        symbolizers:
-          - line:
-              uom: metre
-              stroke-color: '#005de9'
-              stroke-width: '0.30'
-              stroke-dasharray: '.3 .6'
-
+- name: muuromtrek
+  rules:
+  - filter: ${omschrijving = 'muuromtrek'}
+    scale: [min, 3000]
+    symbolizers:
+    - line:
+        uom: metre
+        stroke-color: '#000000'
+        stroke-width: '0.03'
+- name: 10cm
+  rules:
+  - filter: ${omschrijving = '10 cm'}
+    scale: [min, 3000]
+    symbolizers:
+    - line:
+        uom: metre
+        stroke-color: '#000000'
+        stroke-width: '0.10'
+- name: 20cm
+  rules:
+  - filter: ${omschrijving = '20 cm'}
+    scale: [min, 3000]
+    symbolizers:
+    - line:
+        uom: metre
+        stroke-color: '#000000'
+        stroke-width: '0.20'
+- name: 30cm
+  rules:
+  - filter: ${omschrijving = '30  cm'}
+    scale: [min, 3000]
+    symbolizers:
+    - line:
+        uom: metre
+        stroke-color: '#000000'
+        stroke-width: '0.30'

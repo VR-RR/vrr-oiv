@@ -52,7 +52,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -91,7 +91,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte/1.5}
+              size: ${symboolgrootte}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -117,7 +117,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -130,7 +130,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -143,7 +143,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -156,7 +156,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -169,7 +169,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -182,7 +182,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -195,7 +195,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -208,7 +208,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -221,7 +221,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -234,7 +234,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -247,7 +247,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
