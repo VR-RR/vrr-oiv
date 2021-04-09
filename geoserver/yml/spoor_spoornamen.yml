@@ -13,7 +13,7 @@ feature-styles:
                 uom: metre
                 stroke-color: '#6e6e6e'
                 stroke-width: 1.435
-      - filter: ${naam_objec <> 'Onbenoemd'}
+      - filter: ${naam_objec <> 'Onbenoemd' AND naam_objec <> 'Onbekend'}
         name: spoor_spoornamen_niet_onbenoemd
         title: Spoornamen en spoorverloop
         scale: [min, 2000]
@@ -23,10 +23,10 @@ feature-styles:
                label: ${naam_objec}
                fill-color: '#000000'
                font-family: SansSerif
-               font-size: 2.4
+               font-size: 2
                placement: line
                x-graphic-resize: stretch
-               x-graphic-margin: .3
+               x-graphic-margin: .2
                graphic:
                  symbols:
                  - mark:
@@ -35,3 +35,4 @@ feature-styles:
                      stroke-color: '#ffffbe'
                      stroke-width: 1
                      fill-color: '#ffffbe'
+               x-repeat: 75

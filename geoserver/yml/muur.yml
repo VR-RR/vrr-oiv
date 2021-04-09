@@ -29,7 +29,7 @@ feature-styles:
         stroke-width: '0.20'
 - name: 30cm
   rules:
-  - filter: ${omschrijving = '30  cm'}
+  - filter: ${omschrijving = '30 cm'}
     scale: [min, 3000]
     symbolizers:
     - line:

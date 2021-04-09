@@ -1,0 +1,9 @@
+feature-styles:
+  - rules:
+      - name: spoor_spanningsvrije_zone
+        title: Spanningsvrije zone spoor
+        scale: [min, 30000]
+        symbolizers:
+            - polygon:
+                stroke-color: '#ffff73'
+                fill-color: '#ffff73'

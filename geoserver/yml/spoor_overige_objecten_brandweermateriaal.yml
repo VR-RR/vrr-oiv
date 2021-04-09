@@ -1,0 +1,14 @@
+feature-styles:
+  - rules:
+      - name: spoor_brandweermateriaal
+        title: Spoor brandweermateriaal
+        scale: [min, 30000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/spoor_overige_objecten_brandweermateriaal.png?raw=true
+                    format: image/png

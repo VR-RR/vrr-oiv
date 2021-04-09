@@ -1,0 +1,41 @@
+feature-styles:
+  - rules:
+      - name: metro_brandweervoorziening_telefoon
+        title: Telefoon verkeersleider
+        filter: ${omschrijving = 'Telefoon communicatie telefoon verkeersleider'}
+        scale: [min, 30000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/metro_brandweervoorziening_telefoon.png?raw=true
+                    format: image/png
+      - name: metro_brandweervoorziening_startschakelaar_brandpomp
+        title: Startschakelaar brandpomp
+        filter: ${omschrijving = 'Startschakelaar brandpomp'}
+        scale: [min, 30000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/metro_brandweervoorziening_startschakelaar_brandpomp.png?raw=true
+                    format: image/png
+      - name: metro_brandweervoorziening_kortsluitpoot
+        title: Kortsluitpoot
+        filter: ${omschrijving = 'Kortsluitpoot tbv aarding derde rail'}
+        scale: [min, 30000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Noodvoorzieningen/metro_brandweervoorziening_kortsluitpoot.png?raw=true
+                    format: image/png
