@@ -57,3 +57,17 @@ feature-styles:
                     shape: shape://times
                     stroke-color: '#de5307'
                     stroke-width: 1
+      - filter: ${omschrijving = 'tijdelijke opslag gevaarlijke stoffen'}
+        scale: [min, 3000]
+        symbolizers:
+          - polygon:
+              fill-color: "#de5307"
+              fill-graphic:
+                size: 8
+                rotation: 45
+                symbols:
+                - mark:
+                    shape: shape://vertline
+                    stroke-color: '#de5307'
+                    stroke-width: 2
+                    stroke-opacity: .5
