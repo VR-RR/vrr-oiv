@@ -155,25 +155,52 @@ feature-styles:
                 - external:
                     url: *schadelijk_voor_het_milieu
                     format: image/png
-      - name: gevi_bord_tekst
+      - name: gevi_bord
         filter: ${omschrijving = 'GEVI bord'}
-        title: GEVI bord tekst
+        title: GEVI bord
         scale: [min, 2000]
         symbolizers:
-            - text:
-               uom: metre
-               label: |
-                      ${gevi_code}
-                      ${vn_un_nummer}
-               fill-color: '#000000'
-               fill-opacity: 1
-               rotation: ${symboolrotatie}
-               font-family: SansSerif
-               font-size: 1.1
-               font-style: normal
-               font-weight: bold
-               anchor: [0.5,0.5]
-               displacement: [0,-0.3]
-               x-graphic-resize: stretch
-               x-graphic-margin: 0.4
-               x-partials: true
+          - point:
+              uom: metre
+              size: 3.2
+              rotation: 0
+              symbols:
+                - mark:
+                    shape: square
+                    fill-color: '#fe9a00'
+                    stroke-color: '#232323'
+                    stroke-width: 0.16
+          - point:
+              uom: metre
+              size: 3.2
+              rotation: 90
+              symbols:
+                - mark:
+                    shape: line
+                    fill-color: '#fe9a00'
+                    stroke-color: '#232323'
+                    stroke-width: 0.12
+          - text:
+              uom: metre
+              label: ${gevi_code}
+              fill-color: '#000000'
+              fill-opacity: 1
+              rotation: 0
+              font-family: DejaVu Sans Condensed
+              font-size: 1.16
+              font-style: normal
+              font-weight: bold
+              anchor: [0.5,0.5]
+              displacement: [0,0.52]
+          - text:
+              uom: metre
+              label: ${vn_un_nummer}
+              fill-color: '#000000'
+              fill-opacity: 1
+              rotation: 0
+              font-family: DejaVu Sans Condensed
+              font-size: 1.16
+              font-style: normal
+              font-weight: bold
+              anchor: [0.5,0.5]
+              displacement: [0,-1.04]
