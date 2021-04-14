@@ -11,7 +11,7 @@ feature-styles:
       - name: blusleiding_bl
         filter: ${omschrijving = 'blusleiding (BL)'}
         title: Blusleiding (BL) 
-        scale: [min, 4000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
@@ -24,7 +24,7 @@ feature-styles:
       - name: droge_blusleiding_dbl
         filter: ${omschrijving = 'droge blusleiding (DBL)'}
         title: Droge blusleiding (DBL)
-        scale: [min, 4000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
@@ -37,7 +37,7 @@ feature-styles:
       - name: blusleiding_premix_foam_schuim
         filter: ${omschrijving = 'blusleiding premix-foam (schuim)'}
         title: Blusleiding premix-foam (schuim)
-        scale: [min, 4000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
@@ -50,7 +50,7 @@ feature-styles:
       - name: blusleiding_puur_foam_schuim
         filter: ${omschrijving = 'blusleiding puur-foam (schuim)'}
         title: Blusleiding puur-foam (schuim)
-        scale: [min, 4000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
@@ -63,7 +63,7 @@ feature-styles:
       - name: blusleiding_foam_schuim
         filter: ${omschrijving = 'blusleiding foam (schuim)'}
         title: Blusleiding foam (schuim)
-        scale: [min, 4000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
@@ -76,7 +76,7 @@ feature-styles:
       - name: blusleiding_sprinklervoeding
         filter: ${omschrijving = 'blusleiding sprinklervoeding'}
         title: Blusleiding sprinklervoeding
-        scale: [min, 4000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
@@ -89,7 +89,7 @@ feature-styles:
       - name: kade_aansluiting_blusboot_voedingspunt
         filter: ${omschrijving = 'kade aansluiting blusboot (voedingspunt)'}
         title: Kade aansluiting blusboot (voedingspunt)
-        scale: [min, 4000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre

@@ -3,7 +3,7 @@ feature-styles:
 - name: 30minWBDBO
   rules:
   - filter: ${omschrijving = '30 min WBDBO'}
-    scale: [min, 3000]
+    scale: [min, 2000]
     symbolizers:
     - line:
         uom: metre
@@ -13,7 +13,7 @@ feature-styles:
 - name: 60minWBDBO
   rules:
   - filter: ${omschrijving = '60 min WBDBO'}
-    scale: [min, 3000]
+    scale: [min, 2000]
     symbolizers:
     - line:
         uom: metre
@@ -23,7 +23,7 @@ feature-styles:
 - name: 120minWBDBO
   rules:
   - filter: ${omschrijving = '120 min WBDBO'}
-    scale: [min, 3000]
+    scale: [min, 2000]
     symbolizers:
     - line:
         uom: metre
@@ -33,7 +33,7 @@ feature-styles:
 - name: rookwerende_scheiding
   rules:
   - filter: ${omschrijving = 'rookwerende scheiding'}
-    scale: [min, 3000]
+    scale: [min, 2000]
     symbolizers:
     - line:
         uom: metre

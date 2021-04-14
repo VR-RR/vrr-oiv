@@ -3,7 +3,7 @@ feature-styles:
 - name: muuromtrek
   rules:
   - filter: ${omschrijving = 'muuromtrek'}
-    scale: [min, 3000]
+    scale: [min, 2000]
     symbolizers:
     - line:
         uom: metre
@@ -12,7 +12,7 @@ feature-styles:
 - name: 10cm
   rules:
   - filter: ${omschrijving = '10 cm'}
-    scale: [min, 3000]
+    scale: [min, 2000]
     symbolizers:
     - line:
         uom: metre
@@ -21,7 +21,7 @@ feature-styles:
 - name: 20cm
   rules:
   - filter: ${omschrijving = '20 cm'}
-    scale: [min, 3000]
+    scale: [min, 2000]
     symbolizers:
     - line:
         uom: metre
@@ -30,7 +30,7 @@ feature-styles:
 - name: 30cm
   rules:
   - filter: ${omschrijving = '30 cm'}
-    scale: [min, 3000]
+    scale: [min, 2000]
     symbolizers:
     - line:
         uom: metre

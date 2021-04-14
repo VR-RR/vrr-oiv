@@ -14,7 +14,7 @@ feature-styles:
       - name: bovengrondse_brandkraan
         filter: ${omschrijving = 'bovengrondse brandkraan'}
         title: bovengrondse brandkraan
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
@@ -25,14 +25,14 @@ feature-styles:
                     url: *bovengrondse_brandkraan
                     format: image/png
           - text:
-              font-size: 1.2
+              font-size: 1.8
               font-family: SansSerif
               font-weight: bold
               fill-color: '#000000'
               uom: metre
               label: ${diameter_leiding}
               placement: point
-              anchor: [0.5,0.5]
+              anchor: [0.5,0.85]
               displacement: [0,-2.8]
               halo:
                 fill-color: '#ffffff'
@@ -40,7 +40,7 @@ feature-styles:
       - name: ondergrondse_brandkraan
         filter: ${omschrijving = 'ondergrondse brandkraan'}
         title: ondergrondse brandkraan
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
@@ -51,14 +51,14 @@ feature-styles:
                     url: *ondergrondse_brandkraan
                     format: image/png
           - text:
-              font-size: 1.2
+              font-size: 1.8
               font-family: SansSerif
               font-weight: bold
               fill-color: '#000000'
               uom: metre
               label: ${diameter_leiding}
               placement: point
-              anchor: [0.5,0.5]
+              anchor: [0.5,0.85]
               displacement: [0,-2.8]
               halo:
                 fill-color: '#ffffff'
@@ -66,7 +66,7 @@ feature-styles:
       - name: omloopafsluiter
         filter: ${omschrijving = 'omloopafsluiter'}
         title: omloopafsluiter
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
@@ -79,7 +79,7 @@ feature-styles:
       - name: geboorde_put
         filter: ${omschrijving = 'geboorde put'}
         title: geboorde put
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
@@ -92,7 +92,7 @@ feature-styles:
       - name: ondergrondse_brandkraan_hogere_druk
         filter: ${omschrijving = 'ondergrondse brandkraan hogere druk'}
         title: ondergrondse brandkraan hogere druk
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
@@ -105,7 +105,7 @@ feature-styles:
       - name: bovengrondse_brandkraan_hogere_druk
         filter: ${omschrijving = 'bovengrondse brandkraan hogere druk'}
         title: bovengrondse brandkraan hogere druk
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
@@ -118,7 +118,7 @@ feature-styles:
       - name: water_reduceer_drukbegrenzer
         filter: ${omschrijving = 'water reduceer drukbegrenzer'}
         title: water reduceer drukbegrenzer
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
@@ -131,7 +131,7 @@ feature-styles:
       - name: open_water_niet_bereikbaar
         filter: ${omschrijving = 'open water niet bereikbaar'}
         title: open water niet bereikbaar
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
@@ -144,7 +144,7 @@ feature-styles:
       - name: open_water_bereikbaar
         filter: ${omschrijving = 'open water bereikbaar'}
         title: open water bereikbaar
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
@@ -157,7 +157,7 @@ feature-styles:
       - name: bluswaterriool
         filter: ${omschrijving = 'bluswaterriool'}
         title: bluswaterriool
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre

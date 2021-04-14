@@ -3,7 +3,7 @@ feature-styles:
       - filter: ${ligging = 'ondergronds' OR ligging = 'Ondergronds'}
         name: brandkraan
         title: Ondergrondse brandkraan        
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               size: 4
@@ -14,14 +14,14 @@ feature-styles:
                   url: https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-004_ondergrondse_brandkraan.png?raw=true
                   format: image/png
           - text:
-              font-size: 1.2
+              font-size: 1.8
               font-family: SansSerif
               font-weight: bold
               fill-color: '#000000'
               uom: metre
               label: ${diameter}
               placement: point
-              anchor: [0.5,0.5]
+              anchor: [0.5,0.85]
               displacement: [0,-2.8]
               halo:
                 fill-color: '#ffffff'
@@ -29,7 +29,7 @@ feature-styles:
       - filter: ${ligging = 'bovengronds' OR ligging = 'Bovengronds'}
         name: brandkraan
         title: Bovengrondse brandkraan        
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               size: 4
@@ -40,14 +40,14 @@ feature-styles:
                   url: https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-002_bovengrondse_brandkraan.png?raw=true
                   format: image/png
           - text:
-              font-size: 1.2
+              font-size: 1.8
               font-family: SansSerif
               font-weight: bold
               fill-color: '#000000'
               uom: metre
               label: ${diameter}
               placement: point
-              anchor: [0.5,0.5]
+              anchor: [0.5,0.85]
               displacement: [0,-2.8]
               halo:
                 fill-color: '#ffffff'

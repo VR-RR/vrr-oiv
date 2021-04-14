@@ -3,7 +3,7 @@ feature-styles:
       - filter: ${omschrijving = 'zwart'}
         name: zwart
         title: Zwart
-        scale: [min, 3000]
+        scale: [min, 2000]
         symbolizers:
           - line:
               uom: metre
@@ -12,7 +12,7 @@ feature-styles:
       - filter: ${omschrijving = 'aanpijling'}
         name: aanpijling
         title: Aanpijling
-        scale: [min, 3000]
+        scale: [min, 2000]
         symbolizers:
           - line:
               uom: metre
@@ -22,7 +22,7 @@ feature-styles:
       - filter: ${omschrijving = 'zwart-stippel'}
         name: zwart-stippel
         title: Zwart-stippel
-        scale: [min, 3000]
+        scale: [min, 2000]
         symbolizers:
           - line:
               uom: metre
@@ -32,7 +32,7 @@ feature-styles:
       - filter: ${omschrijving = 'hekwerk'}
         name: hekwerk
         title: Hekwerk
-        scale: [min, 3000]
+        scale: [min, 2000]
         symbolizers:
           - line:
               uom: metre
@@ -42,7 +42,7 @@ feature-styles:
       - filter: ${omschrijving = 'ingang hekwerk'}
         name: ingang hekwerk
         title: Ingang hekwerk
-        scale: [min, 3000]
+        scale: [min, 2000]
         symbolizers:
           - line:
               uom: metre
