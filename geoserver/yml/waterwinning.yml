@@ -14,7 +14,7 @@ feature-styles:
       - name: bovengrondse_brandkraan
         filter: ${omschrijving = 'bovengrondse brandkraan'}
         title: bovengrondse brandkraan
-        scale: [min, 2000]
+        scale: [min, 500]
         symbolizers:
           - point:
               uom: metre
@@ -37,10 +37,37 @@ feature-styles:
               halo:
                 fill-color: '#ffffff'
                 radius: 0.2
+      - name: bovengrondse_brandkraan
+        filter: ${omschrijving = 'bovengrondse brandkraan'}
+        title: bovengrondse brandkraan
+        scale: [500, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 26
+              anchor: [0.5,0.5]
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *bovengrondse_brandkraan
+                    format: image/png
+          - text:
+              font-size: 12 
+              font-family: SansSerif
+              font-weight: bold
+              fill-color: '#000000'
+              uom: pixel
+              label: ${diameter_leiding}
+              placement: point
+              anchor: [0.5,0.5]
+              displacement: [0,-22]
+              halo:
+                fill-color: '#ffffff'
+                radius: 1.4
       - name: ondergrondse_brandkraan
         filter: ${omschrijving = 'ondergrondse brandkraan'}
         title: ondergrondse brandkraan
-        scale: [min, 2000]
+        scale: [min, 500]
         symbolizers:
           - point:
               uom: metre
@@ -63,10 +90,36 @@ feature-styles:
               halo:
                 fill-color: '#ffffff'
                 radius: 0.2
+      - name: ondergrondse_brandkraan
+        filter: ${omschrijving = 'ondergrondse brandkraan'}
+        title: ondergrondse brandkraan
+        scale: [500, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 26
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *ondergrondse_brandkraan
+                    format: image/png
+          - text:
+              font-size: 12
+              font-family: SansSerif
+              font-weight: bold
+              fill-color: '#000000'
+              uom: pixel
+              label: ${diameter_leiding}
+              placement: point
+              anchor: [0.5,0.5]
+              displacement: [0,-22]
+              halo:
+                fill-color: '#ffffff'
+                radius: 1.4
       - name: omloopafsluiter
         filter: ${omschrijving = 'omloopafsluiter'}
         title: omloopafsluiter
-        scale: [min, 2000]
+        scale: [min, 500]
         symbolizers:
           - point:
               uom: metre
@@ -76,10 +129,23 @@ feature-styles:
                 - external:
                     url: *omloopafsluiter
                     format: image/png
+      - name: omloopafsluiter
+        filter: ${omschrijving = 'omloopafsluiter'}
+        title: omloopafsluiter
+        scale: [500, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 26
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *omloopafsluiter
+                    format: image/png
       - name: geboorde_put
         filter: ${omschrijving = 'geboorde put'}
         title: geboorde put
-        scale: [min, 2000]
+        scale: [min, 500]
         symbolizers:
           - point:
               uom: metre
@@ -89,10 +155,23 @@ feature-styles:
                 - external:
                     url: *geboorde_put
                     format: image/png
+      - name: geboorde_put
+        filter: ${omschrijving = 'geboorde put'}
+        title: geboorde put
+        scale: [500, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 26
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *geboorde_put
+                    format: image/png
       - name: ondergrondse_brandkraan_hogere_druk
         filter: ${omschrijving = 'ondergrondse brandkraan hogere druk'}
         title: ondergrondse brandkraan hogere druk
-        scale: [min, 2000]
+        scale: [min, 500]
         symbolizers:
           - point:
               uom: metre
@@ -102,10 +181,23 @@ feature-styles:
                 - external:
                     url: *ondergrondse_brandkraan_hogere_druk
                     format: image/png
+      - name: ondergrondse_brandkraan_hogere_druk
+        filter: ${omschrijving = 'ondergrondse brandkraan hogere druk'}
+        title: ondergrondse brandkraan hogere druk
+        scale: [500, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 26
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *ondergrondse_brandkraan_hogere_druk
+                    format: image/png
       - name: bovengrondse_brandkraan_hogere_druk
         filter: ${omschrijving = 'bovengrondse brandkraan hogere druk'}
         title: bovengrondse brandkraan hogere druk
-        scale: [min, 2000]
+        scale: [min, 500]
         symbolizers:
           - point:
               uom: metre
@@ -115,10 +207,23 @@ feature-styles:
                 - external:
                     url: *bovengrondse_brandkraan_hogere_druk
                     format: image/png
+      - name: bovengrondse_brandkraan_hogere_druk
+        filter: ${omschrijving = 'bovengrondse brandkraan hogere druk'}
+        title: bovengrondse brandkraan hogere druk
+        scale: [500, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 26
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *bovengrondse_brandkraan_hogere_druk
+                    format: image/png
       - name: water_reduceer_drukbegrenzer
         filter: ${omschrijving = 'water reduceer drukbegrenzer'}
         title: water reduceer drukbegrenzer
-        scale: [min, 2000]
+        scale: [min, 500]
         symbolizers:
           - point:
               uom: metre
@@ -128,10 +233,23 @@ feature-styles:
                 - external:
                     url: *water_reduceer_drukbegrenzer
                     format: image/png
+      - name: water_reduceer_drukbegrenzer
+        filter: ${omschrijving = 'water reduceer drukbegrenzer'}
+        title: water reduceer drukbegrenzer
+        scale: [500, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 26
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *water_reduceer_drukbegrenzer
+                    format: image/png
       - name: open_water_niet_bereikbaar
         filter: ${omschrijving = 'open water niet bereikbaar'}
         title: open water niet bereikbaar
-        scale: [min, 2000]
+        scale: [min, 500]
         symbolizers:
           - point:
               uom: metre
@@ -141,10 +259,23 @@ feature-styles:
                 - external:
                     url: *open_water_niet_bereikbaar
                     format: image/png
+      - name: open_water_niet_bereikbaar
+        filter: ${omschrijving = 'open water niet bereikbaar'}
+        title: open water niet bereikbaar
+        scale: [500, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 26
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *open_water_niet_bereikbaar
+                    format: image/png
       - name: open_water_bereikbaar
         filter: ${omschrijving = 'open water bereikbaar'}
         title: open water bereikbaar
-        scale: [min, 2000]
+        scale: [min, 500]
         symbolizers:
           - point:
               uom: metre
@@ -154,14 +285,40 @@ feature-styles:
                 - external:
                     url: *open_water_bereikbaar
                     format: image/png
+      - name: open_water_bereikbaar
+        filter: ${omschrijving = 'open water bereikbaar'}
+        title: open water bereikbaar
+        scale: [500, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 26
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *open_water_bereikbaar
+                    format: image/png
       - name: bluswaterriool
         filter: ${omschrijving = 'bluswaterriool'}
         title: bluswaterriool
-        scale: [min, 2000]
+        scale: [min, 500]
         symbolizers:
           - point:
               uom: metre
               size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *bluswaterriool
+                    format: image/png
+      - name: bluswaterriool
+        filter: ${omschrijving = 'bluswaterriool'}
+        title: bluswaterriool
+        scale: [500, 5000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 26
               rotation: ${symboolrotatie}
               symbols:
                 - external:
