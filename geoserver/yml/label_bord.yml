@@ -16,7 +16,7 @@ feature-styles:
                   uom: metre
                   shape: square
                   stroke-color: '#000000'
-                  stroke-width: .01
+                  stroke-width: .03
                   fill-color: '#f7fbf5'
                   fill-opacity: 0.75
               rotation: ${symboolrotatie}
@@ -33,7 +33,7 @@ feature-styles:
             x-partials: true
             x-charSpacing: -1
             anchor: [0.5,0.5]
-            priority: 100
+            displacement: [0.0,0.0]
   - rules:
       - name: blauw
         title: Blauw
@@ -51,7 +51,7 @@ feature-styles:
                   uom: metre
                   shape: square
                   stroke-color: '#000000'
-                  stroke-width: .01
+                  stroke-width: .03
                   fill-color: '#003e91'
                   fill-opacity: 0.75
               rotation: ${symboolrotatie}
@@ -86,7 +86,7 @@ feature-styles:
                   uom: metre
                   shape: square
                   stroke-color: '#000000'
-                  stroke-width: .01
+                  stroke-width: .03
                   fill-color: '#cc0605'
                   fill-opacity: 0.75
               rotation: ${symboolrotatie}
@@ -121,7 +121,7 @@ feature-styles:
                   uom: metre
                   shape: square
                   stroke-color: '#000000'
-                  stroke-width: .01
+                  stroke-width: .03
                   fill-color: '#fad201'
                   fill-opacity: 0.75
               rotation: ${symboolrotatie}

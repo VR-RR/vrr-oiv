@@ -14,7 +14,7 @@ feature-styles:
               font-weight: normal
               placement: point
               anchor: [0.5, 0.5]
-              displacement: [0.0, -0.3]
+              displacement: [0.0, -0.5]
               fill-color: '#2a2d2f'
               x-graphic-resize: stretch
               x-graphic-margin: .4
@@ -25,8 +25,8 @@ feature-styles:
               rotation: ${symboolrotatie}
               priority: 100
               halo:
-                radius: .4
-                fill-color: '#ffffff'
+                radius: 0
+                fill-color: '#f7fbf5'
                 fill-opacity: 1
       - name: transparant
         title: Transparant
@@ -42,7 +42,7 @@ feature-styles:
               font-weight: normal
               placement: point
               anchor: [0.5, 0.5]
-              displacement: [0.0, -0.3]
+              displacement: [0.0, -0.5]
               fill-color: '#2a2d2f'
               x-graphic-resize: stretch
               x-graphic-margin: .4
@@ -66,7 +66,7 @@ feature-styles:
               font-weight: normal
               placement: point
               anchor: [0.5, 0.5]
-              displacement: [0.0, -0.3]
+              displacement: [0.0, -0.5]
               fill-color: '#2a2d2f'
               x-graphic-resize: stretch
               x-graphic-margin: .4
@@ -77,7 +77,7 @@ feature-styles:
               rotation: ${symboolrotatie}
               priority: 100
               halo:
-                radius: .4
+                radius: 0
                 fill-color: '#fad201'
                 fill-opacity: 1
       - name: blauw
@@ -94,7 +94,7 @@ feature-styles:
               font-weight: normal
               placement: point
               anchor: [0.5, 0.5]
-              displacement: [0.0, -0.3]
+              displacement: [0.0, -0.5]
               fill-color: '#f7faf5'
               x-graphic-resize: stretch
               x-graphic-margin: .4
@@ -105,7 +105,7 @@ feature-styles:
               rotation: ${symboolrotatie}
               priority: 100
               halo:
-                radius: .4
+                radius: 0
                 fill-color: '#003e91'
                 fill-opacity: 1
       - name: rood
@@ -122,7 +122,7 @@ feature-styles:
               font-weight: normal
               placement: point
               anchor: [0.5, 0.5]
-              displacement: [0.0, -0.3]
+              displacement: [0.0, -0.5]
               fill-color: '#f7faf5'
               x-graphic-resize: stretch
               x-graphic-margin: .4
@@ -133,6 +133,6 @@ feature-styles:
               rotation: ${symboolrotatie}
               priority: 100
               halo:
-                radius: .4
+                radius: 0
                 fill-color: '#cc0605'
                 fill-opacity: 1

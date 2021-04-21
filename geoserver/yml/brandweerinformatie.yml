@@ -1,0 +1,29 @@
+brandweerinformatie_rood: &brandweerinformatie_rood https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Algemeen/BRW_INFO.png?raw=true
+objectinformatie_blauw: &objectinformatie_blauw https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Algemeen/BRW_DBK.png?raw=true
+
+feature-styles:
+  - rules:
+      - name: Brandweerinformatie
+        filter: ${omschrijving = 'brandweerinformatie'}
+        title: Brandweerinformatie
+        scale: [2000, 200000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: ${symboolgrootte}
+              symbols:
+                - external:
+                    url: *brandweerinformatie_rood
+                    format: image/png
+      - name: Objectinformatie
+        filter: ${omschrijving = 'objectinformatie'} 
+        title: Objectinformatie
+        scale: [2000, 200000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: ${symboolgrootte}
+              symbols:
+                - external:
+                    url: *objectinformatie_blauw
+                    format: image/png
