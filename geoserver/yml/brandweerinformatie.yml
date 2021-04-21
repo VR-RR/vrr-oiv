@@ -6,7 +6,7 @@ feature-styles:
       - name: Brandweerinformatie
         filter: ${omschrijving = 'brandweerinformatie'}
         title: Brandweerinformatie
-        scale: [2000, 200000]
+        scale: [0, 3000]
         symbolizers:
           - point:
               uom: pixel

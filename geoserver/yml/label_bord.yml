@@ -9,16 +9,47 @@ feature-styles:
             fill-color: '#2a2d2f'
             fill-opacity: 0.0
             x-graphic-resize: stretch
-            x-graphic-margin: .4
+            x-graphic-margin: 1.1
             graphic:
               symbols:
               - mark:
                   uom: metre
                   shape: square
                   stroke-color: '#000000'
-                  stroke-width: .03
+                  stroke-width: ${symboolgrootte/20}
+                  stroke-linejoin: bevel
+                  stroke-linecap: round
                   fill-color: '#f7fbf5'
-                  fill-opacity: 0.75
+                  fill-opacity: 1
+              rotation: ${symboolrotatie}
+            label: ${label}
+            uom: metre
+            font-family: SansSerif
+            font-size: ${symboolgrootte}
+            font-style: normal
+            font-weight: bold
+            placement: point
+            x-conflictResolution: false
+            x-goodnesOfFit: 0
+            x-maxDisplacement: 0
+            x-partials: true
+            x-charSpacing: -1
+            anchor: [0.5,0.5]
+            displacement: [0.0,0.0]
+        - text:
+            fill-color: '#2a2d2f'
+            fill-opacity: 0.0
+            x-graphic-resize: stretch
+            x-graphic-margin: 1.1
+            graphic:
+              symbols:
+              - mark:
+                  uom: metre
+                  shape: square
+                  stroke-color: '#f7fbf5'
+                  stroke-width: ${symboolgrootte/6}
+                  fill-color: '#000000'
+                  fill-opacity: 1
               rotation: ${symboolrotatie}
             label: ${label}
             uom: metre
@@ -44,16 +75,18 @@ feature-styles:
             fill-color: '#f7faf5'
             fill-opacity: 0.0
             x-graphic-resize: stretch
-            x-graphic-margin: .4
+            x-graphic-margin: 1.1
             graphic:
               symbols:
               - mark:
                   uom: metre
                   shape: square
-                  stroke-color: '#000000'
-                  stroke-width: .03
+                  stroke-color: '#ffffff'
+                  stroke-width: ${symboolgrootte/20}
+                  stroke-linejoin: bevel
+                  stroke-linecap: round
                   fill-color: '#003e91'
-                  fill-opacity: 0.75
+                  fill-opacity: 1
               rotation: ${symboolrotatie}
             label: ${label}
             uom: metre
@@ -68,7 +101,36 @@ feature-styles:
             x-partials: true
             x-charSpacing: -1
             anchor: [0.5,0.5]
-            priority: 100
+            displacement: [0.0,0.0]
+        - text:
+            fill-color: '#f7faf5'
+            fill-opacity: 0.0
+            x-graphic-resize: stretch
+            x-graphic-margin: 1.1
+            graphic:
+              symbols:
+              - mark:
+                  uom: metre
+                  shape: square
+                  stroke-color: '#003e91'
+                  stroke-width: ${symboolgrootte/6}
+                  fill-color: '#ffffff'
+                  fill-opacity: 1
+              rotation: ${symboolrotatie}
+            label: ${label}
+            uom: metre
+            font-family: SansSerif
+            font-size: ${symboolgrootte}
+            font-style: normal
+            font-weight: bold
+            placement: point
+            x-conflictResolution: false
+            x-goodnesOfFit: 0
+            x-maxDisplacement: 0
+            x-partials: true
+            x-charSpacing: -1
+            anchor: [0.5,0.5]
+            displacement: [0.0,0.0]
   - rules:
       - name: rood
         title: Rood
@@ -79,16 +141,18 @@ feature-styles:
             fill-color: '#f7faf5'
             fill-opacity: 0.0
             x-graphic-resize: stretch
-            x-graphic-margin: .4
+            x-graphic-margin: 1.1
             graphic:
               symbols:
               - mark:
                   uom: metre
                   shape: square
-                  stroke-color: '#000000'
-                  stroke-width: .03
+                  stroke-color: '#ffffff'
+                  stroke-width: ${symboolgrootte/20}
+                  stroke-linejoin: bevel
+                  stroke-linecap: round
                   fill-color: '#cc0605'
-                  fill-opacity: 0.75
+                  fill-opacity: 1
               rotation: ${symboolrotatie}
             label: ${label}
             uom: metre
@@ -103,7 +167,34 @@ feature-styles:
             x-partials: true
             x-charSpacing: -1
             anchor: [0.5,0.5]
-            priority: 100
+        - text:
+            fill-color: '#f7faf5'
+            fill-opacity: 0.0
+            x-graphic-resize: stretch
+            x-graphic-margin: 1.1
+            graphic:
+              symbols:
+              - mark:
+                  uom: metre
+                  shape: square
+                  stroke-color: '#cc0605'
+                  stroke-width: ${symboolgrootte/6}
+                  fill-color: '#ffffff'
+                  fill-opacity: 1
+              rotation: ${symboolrotatie}
+            label: ${label}
+            uom: metre
+            font-family: SansSerif
+            font-size: ${symboolgrootte}
+            font-style: normal
+            font-weight: bold
+            placement: point
+            x-conflictResolution: false
+            x-goodnesOfFit: 0
+            x-maxDisplacement: 0
+            x-partials: true
+            x-charSpacing: -1
+            anchor: [0.5,0.5]
   - rules:
       - name: geel
         title: Geel
@@ -121,9 +212,11 @@ feature-styles:
                   uom: metre
                   shape: square
                   stroke-color: '#000000'
-                  stroke-width: .03
+                  stroke-width: ${symboolgrootte/20}
+                  stroke-linejoin: bevel
+                  stroke-linecap: round
                   fill-color: '#fad201'
-                  fill-opacity: 0.75
+                  fill-opacity: 1
               rotation: ${symboolrotatie}
             label: ${label}
             uom: metre
@@ -138,4 +231,31 @@ feature-styles:
             x-partials: true
             x-charSpacing: -1
             anchor: [0.5,0.5]
-            priority: 100
+        - text:
+            fill-color: '#f7faf5'
+            fill-opacity: 0.0
+            x-graphic-resize: stretch
+            x-graphic-margin: 1.1
+            graphic:
+              symbols:
+              - mark:
+                  uom: metre
+                  shape: square
+                  stroke-color: '#fad201'
+                  stroke-width: ${symboolgrootte/6}
+                  fill-color: '#000000'
+                  fill-opacity: 1
+              rotation: ${symboolrotatie}
+            label: ${label}
+            uom: metre
+            font-family: SansSerif
+            font-size: ${symboolgrootte}
+            font-style: normal
+            font-weight: bold
+            placement: point
+            x-conflictResolution: false
+            x-goodnesOfFit: 0
+            x-maxDisplacement: 0
+            x-partials: true
+            x-charSpacing: -1
+            anchor: [0.5,0.5]
