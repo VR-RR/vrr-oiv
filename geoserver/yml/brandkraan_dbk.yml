@@ -29,7 +29,7 @@ feature-styles:
       - filter: ${ligging = 'ondergronds' OR ligging = 'Ondergronds'}
         name: brandkraan
         title: Ondergrondse brandkraan        
-        scale: [500, 5000]
+        scale: [500, 2000]
         symbolizers:
           - point:
               size: 26
@@ -81,7 +81,7 @@ feature-styles:
       - filter: ${ligging = 'bovengronds' OR ligging = 'Bovengronds'}
         name: brandkraan
         title: Bovengrondse brandkraan        
-        scale: [500, 5000]
+        scale: [500, 2000]
         symbolizers:
           - point:
               size: 26
