@@ -40,7 +40,7 @@ feature-styles:
       - name: bovengrondse_brandkraan
         filter: ${omschrijving = 'bovengrondse brandkraan'}
         title: bovengrondse brandkraan
-        scale: [500, 5000]
+        scale: [500, 2000]
         symbolizers:
           - point:
               uom: pixel
@@ -93,7 +93,7 @@ feature-styles:
       - name: ondergrondse_brandkraan
         filter: ${omschrijving = 'ondergrondse brandkraan'}
         title: ondergrondse brandkraan
-        scale: [500, 5000]
+        scale: [500, 2000]
         symbolizers:
           - point:
               uom: pixel
@@ -132,7 +132,7 @@ feature-styles:
       - name: omloopafsluiter
         filter: ${omschrijving = 'omloopafsluiter'}
         title: omloopafsluiter
-        scale: [500, 5000]
+        scale: [500, 2000]
         symbolizers:
           - point:
               uom: pixel
@@ -158,7 +158,7 @@ feature-styles:
       - name: geboorde_put
         filter: ${omschrijving = 'geboorde put'}
         title: geboorde put
-        scale: [500, 5000]
+        scale: [500, 2000]
         symbolizers:
           - point:
               uom: pixel
@@ -184,7 +184,7 @@ feature-styles:
       - name: ondergrondse_brandkraan_hogere_druk
         filter: ${omschrijving = 'ondergrondse brandkraan hogere druk'}
         title: ondergrondse brandkraan hogere druk
-        scale: [500, 5000]
+        scale: [500, 2000]
         symbolizers:
           - point:
               uom: pixel
@@ -210,7 +210,7 @@ feature-styles:
       - name: bovengrondse_brandkraan_hogere_druk
         filter: ${omschrijving = 'bovengrondse brandkraan hogere druk'}
         title: bovengrondse brandkraan hogere druk
-        scale: [500, 5000]
+        scale: [500, 2000]
         symbolizers:
           - point:
               uom: pixel
@@ -236,7 +236,7 @@ feature-styles:
       - name: water_reduceer_drukbegrenzer
         filter: ${omschrijving = 'water reduceer drukbegrenzer'}
         title: water reduceer drukbegrenzer
-        scale: [500, 5000]
+        scale: [500, 2000]
         symbolizers:
           - point:
               uom: pixel
@@ -262,7 +262,7 @@ feature-styles:
       - name: open_water_niet_bereikbaar
         filter: ${omschrijving = 'open water niet bereikbaar'}
         title: open water niet bereikbaar
-        scale: [500, 5000]
+        scale: [500, 2000]
         symbolizers:
           - point:
               uom: pixel
@@ -288,7 +288,7 @@ feature-styles:
       - name: open_water_bereikbaar
         filter: ${omschrijving = 'open water bereikbaar'}
         title: open water bereikbaar
-        scale: [500, 5000]
+        scale: [500, 2000]
         symbolizers:
           - point:
               uom: pixel
@@ -314,7 +314,7 @@ feature-styles:
       - name: bluswaterriool
         filter: ${omschrijving = 'bluswaterriool'}
         title: bluswaterriool
-        scale: [500, 5000]
+        scale: [500, 2000]
         symbolizers:
           - point:
               uom: pixel
