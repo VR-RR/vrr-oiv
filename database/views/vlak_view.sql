@@ -1,4 +1,4 @@
-create view vlak_view as
+create view bereikbaarheidskaart.vlak_view as
 select
 	lay.*
 from

@@ -1,4 +1,4 @@
-create view muur_view as
+create view bereikbaarheidskaart.muur_view as
 select
 	lay.*
 from

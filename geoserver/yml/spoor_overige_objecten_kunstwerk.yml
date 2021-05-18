@@ -3,7 +3,7 @@ feature-styles:
       - filter: ${objectnaam = 'kunstwerk'}
         name: spoor_overige_objecten_kunstwerk
         title: Kunstwerk spoor
-        scale: [min, 30000]
+        scale: [min, 10000]
         symbolizers:
             - polygon:
                 stroke-color: '#6e6e6e'

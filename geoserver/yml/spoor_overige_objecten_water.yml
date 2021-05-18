@@ -3,7 +3,7 @@ feature-styles:
       - filter: ${objectnaam = 'water'}
         name: spoor_overige_objecten_water
         title: Water nabij spoor
-        scale: [min, 30000]
+        scale: [min, 10000]
         symbolizers:
             - polygon:
                 stroke-color: '#bee8ff'

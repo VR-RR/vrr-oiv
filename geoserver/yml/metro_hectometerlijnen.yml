@@ -2,7 +2,7 @@ feature-styles:
   - rules:
       - name: metro_hectometerlijnen
         title: Metro hectometerlijnen
-        scale: [min, 30000]
+        scale: [min, 10000]
         symbolizers:
             - line:
                 uom: metre

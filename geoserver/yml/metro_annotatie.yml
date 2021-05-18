@@ -3,7 +3,7 @@ feature-styles:
       - filter: ${omschrijving = 'text_hectometer'}
         name: metro_annotatie_text_hectometer
         title: Metro annotatie text hectometer
-        scale: [min, 30000]
+        scale: [min, 10000]
         symbolizers:
             - text:
                 uom: metre
@@ -23,7 +23,7 @@ feature-styles:
       - filter: ${omschrijving = 'text'}
         name: metro_annotatie_text
         title: Metro annotatie text
-        scale: [min, 30000]
+        scale: [min, 10000]
         symbolizers:
             - text:
                 uom: metre
@@ -43,7 +43,7 @@ feature-styles:
       - filter: ${omschrijving = 'text'}
         name: metro_annotatie_constructie
         title: Metro annotatie constructie
-        scale: [min, 30000]
+        scale: [min, 10000]
         symbolizers:
             - text:
                 uom: metre

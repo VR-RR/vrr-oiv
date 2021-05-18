@@ -2,6 +2,7 @@ title: spoor_hectometerpunt
 symbolizers:
 - text:
     uom: metre
+    scale: [min, 10000]
     label: ${km_geocode}
     fill-color: 'black'
     placement: point

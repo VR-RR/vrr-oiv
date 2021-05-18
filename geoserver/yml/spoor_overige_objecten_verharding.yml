@@ -3,7 +3,7 @@ feature-styles:
       - filter: ${objectnaam = 'verharding'}
         name: spoor_overige_objecten_verharding
         title: Verharding nabij spoor
-        scale: [min, 30000]
+        scale: [min, 10000]
         symbolizers:
             - polygon:
                 stroke-color: '#9c9c9c'

@@ -2,7 +2,7 @@ feature-styles:
   - rules:
       - name: metro_perron
         title: Metro perron
-        scale: [min, 30000]
+        scale: [min, 10000]
         symbolizers:
             - polygon:
                 uom: metre

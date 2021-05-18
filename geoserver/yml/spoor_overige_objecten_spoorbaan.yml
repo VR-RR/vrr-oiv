@@ -3,7 +3,7 @@ feature-styles:
       - filter: ${objecttype = 'transport centroïde'}
         name: spoor_overige_objecten_spoorbaan
         title: Spoorbaan
-        scale: [min, 30000]
+        scale: [min, 10000]
         symbolizers:
             - polygon:
                 stroke-color: '#6e6e6e'

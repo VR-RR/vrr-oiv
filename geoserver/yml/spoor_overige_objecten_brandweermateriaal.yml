@@ -2,7 +2,7 @@ feature-styles:
   - rules:
       - name: spoor_brandweermateriaal
         title: Spoor brandweermateriaal
-        scale: [min, 30000]
+        scale: [min, 10000]
         symbolizers:
           - point:
               uom: metre

@@ -2,6 +2,7 @@ title: spoor_nummer_perrons
 symbolizers:
 - text:
     uom: metre
+    scale: [min, 10000]
     label: ${nummer}
     fill-color: '#0070ff'
     placement: point

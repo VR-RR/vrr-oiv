@@ -3,7 +3,7 @@ feature-styles:
       - filter: ${omschrijvi = 'Ondergronds'}
         name: metro_ondergronds
         title: Metro ondergronds
-        scale: [min, 30000]
+        scale: [min, 10000]
         symbolizers:
             - polygon:
                 uom: metre
@@ -12,7 +12,7 @@ feature-styles:
       - filter: ${omschrijvi = 'bovengronds'}
         name: metro_bovengronds
         title: Metro bovengronds
-        scale: [min, 30000]
+        scale: [min, 10000]
         symbolizers:
             - polygon:
                 uom: metre

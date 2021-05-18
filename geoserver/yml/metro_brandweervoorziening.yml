@@ -3,7 +3,7 @@ feature-styles:
       - name: metro_brandweervoorziening_telefoon
         title: Telefoon verkeersleider
         filter: ${omschrijving = 'Telefoon communicatie telefoon verkeersleider'}
-        scale: [min, 30000]
+        scale: [min, 10000]
         symbolizers:
           - point:
               uom: metre
@@ -16,7 +16,7 @@ feature-styles:
       - name: metro_brandweervoorziening_startschakelaar_brandpomp
         title: Startschakelaar brandpomp
         filter: ${omschrijving = 'Startschakelaar brandpomp'}
-        scale: [min, 30000]
+        scale: [min, 10000]
         symbolizers:
           - point:
               uom: metre
@@ -29,7 +29,7 @@ feature-styles:
       - name: metro_brandweervoorziening_kortsluitpoot
         title: Kortsluitpoot
         filter: ${omschrijving = 'Kortsluitpoot tbv aarding derde rail'}
-        scale: [min, 30000]
+        scale: [min, 10000]
         symbolizers:
           - point:
               uom: metre

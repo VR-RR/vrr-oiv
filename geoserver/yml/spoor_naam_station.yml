@@ -2,6 +2,7 @@ title: spoor_naam_station
 symbolizers:
 - text:
     uom: metre
+    scale: [min, 10000]
     label: ${naam}
     fill-color: '#ffffff'
     placement: point

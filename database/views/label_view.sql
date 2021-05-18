@@ -1,4 +1,4 @@
-create view label_view as
+create view bereikbaarheidskaart.label_view as
 select
 	lay.*
 from
