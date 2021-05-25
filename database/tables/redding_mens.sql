@@ -14,7 +14,7 @@ CREATE TABLE bereikbaarheidskaart.redding_mens (
     opmerking varchar(255) NULL,
     -- metadata velden
     bouwlaag int4 NULL DEFAULT 1,
-    symboolgrootte int4 NOT NULL DEFAULT 7,
+    symboolgrootte float8 NOT NULL DEFAULT 7,
     symboolrotatie int4 NULL DEFAULT 0,
     naam_aanmaker varchar(255) NULL,
     naam_bewerker varchar(255) NULL,

@@ -10,7 +10,7 @@ CREATE TABLE bereikbaarheidskaart.gevaarlijke_stof (
     cas_nummer varchar(255) NULL,
     etiket varchar(255) NULL,
     eric_kaart varchar(255) NULL,
-    hoeveelheid_kg_l decimal NULL,
+    hoeveelheid_kg_l float8 NULL,
     locatie varchar(255) NULL,
     ruimtenummer varchar(255) NULL,
     opmerking_stof varchar(255) NULL,
@@ -29,7 +29,7 @@ CREATE TABLE bereikbaarheidskaart.gevaarlijke_stof (
     opmerking varchar(255) NULL,
     -- metadata velden
     bouwlaag int4 NULL DEFAULT 1,
-    symboolgrootte int4 NOT NULL DEFAULT 7,
+    symboolgrootte float8 NOT NULL DEFAULT 7,
     symboolrotatie int4 NULL DEFAULT 0,
     naam_aanmaker varchar(255) NULL,
     naam_bewerker varchar(255) NULL,
