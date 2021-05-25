@@ -1,4 +1,4 @@
-create view bereikbaarheidskaart.redding_mens_view as
+create or replace view bereikbaarheidskaart.redding_mens_view as
 select
 	lay.*
 from

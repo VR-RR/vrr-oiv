@@ -1,4 +1,4 @@
-create view bereikbaarheidskaart.opstelplaats_view as
+create or replace view bereikbaarheidskaart.opstelplaats_view as
 select
 	lay.*
 from

@@ -1,4 +1,4 @@
-create view bereikbaarheidskaart.gevaarlijke_stoffen_view as
+create or replace view bereikbaarheidskaart.gevaarlijke_stoffen_view as
 select
 	lay.*
 from

@@ -1,4 +1,4 @@
-create view bereikbaarheidskaart.generator_bluspomp_view as
+create or replace view bereikbaarheidskaart.generator_bluspomp_view as
 select
 	lay.*
 from

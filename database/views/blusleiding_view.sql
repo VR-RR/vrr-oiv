@@ -1,4 +1,4 @@
-create view bereikbaarheidskaart.blusleiding_view as
+create or replace view bereikbaarheidskaart.blusleiding_view as
 select
 	lay.*
 from

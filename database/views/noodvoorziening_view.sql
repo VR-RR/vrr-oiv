@@ -1,4 +1,4 @@
-create view bereikbaarheidskaart.noodvoorziening_view as
+create or replace view bereikbaarheidskaart.noodvoorziening_view as
 select
 	lay.*
 from

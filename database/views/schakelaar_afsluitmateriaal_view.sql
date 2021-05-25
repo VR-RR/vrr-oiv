@@ -1,4 +1,4 @@
-create view bereikbaarheidskaart.schakelaar_afsluitmateriaal_view as
+create or replace view bereikbaarheidskaart.schakelaar_afsluitmateriaal_view as
 select
 	lay.*
 from
