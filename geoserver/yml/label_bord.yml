@@ -3,7 +3,7 @@ feature-styles:
       - name: wit
         title: Wit
         filter: ${omschrijving = 'wit'}
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
         - text:
             fill-color: '#2a2d2f'
@@ -71,7 +71,7 @@ feature-styles:
       - name: blauw
         title: Blauw
         filter: ${omschrijving = 'blauw'}
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
         - text:
             fill-color: '#f7faf5'
@@ -135,7 +135,7 @@ feature-styles:
       - name: rood
         title: Rood
         filter: ${omschrijving = 'rood'}
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
         - text:
             fill-color: '#f7faf5'
@@ -197,7 +197,7 @@ feature-styles:
       - name: geel
         title: Geel
         filter: ${omschrijving = 'geel'}
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
         - text:
             fill-color: '#f7faf5'

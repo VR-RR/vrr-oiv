@@ -3,7 +3,7 @@ feature-styles:
       - name: wit
         title: Wit
         filter: ${omschrijving = 'wit'}
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - text:
               uom: metre
@@ -14,7 +14,7 @@ feature-styles:
               font-weight: normal
               placement: point
               anchor: [0.5, 0.5]
-              displacement: [0.0, -0.5]
+              displacement: [0.0, -0.2]
               fill-color: '#2a2d2f'
               x-graphic-resize: stretch
               x-graphic-margin: .4
@@ -31,7 +31,7 @@ feature-styles:
       - name: transparant
         title: Transparant
         filter: ${omschrijving = 'transparant'}
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - text:
               uom: metre
@@ -42,7 +42,7 @@ feature-styles:
               font-weight: normal
               placement: point
               anchor: [0.5, 0.5]
-              displacement: [0.0, -0.5]
+              displacement: [0.0, -0.2]
               fill-color: '#2a2d2f'
               x-graphic-resize: stretch
               x-graphic-margin: .4
@@ -52,10 +52,14 @@ feature-styles:
               x-partials: true
               rotation: ${symboolrotatie}
               priority: 100
+              halo:
+                radius: 0.2
+                fill-color: '#ffffff'
+                fill-opacity: .8
       - name: geel
         title: Geel
         filter: ${omschrijving = 'geel'}
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - text:
               uom: metre
@@ -66,7 +70,7 @@ feature-styles:
               font-weight: normal
               placement: point
               anchor: [0.5, 0.5]
-              displacement: [0.0, -0.5]
+              displacement: [0.0, -0.2]
               fill-color: '#2a2d2f'
               x-graphic-resize: stretch
               x-graphic-margin: .4
@@ -83,7 +87,7 @@ feature-styles:
       - name: blauw
         title: Blauw
         filter: ${omschrijving = 'blauw'}
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - text:
               uom: metre
@@ -94,7 +98,7 @@ feature-styles:
               font-weight: normal
               placement: point
               anchor: [0.5, 0.5]
-              displacement: [0.0, -0.5]
+              displacement: [0.0, -0.2]
               fill-color: '#f7faf5'
               x-graphic-resize: stretch
               x-graphic-margin: .4
@@ -111,7 +115,7 @@ feature-styles:
       - name: rood
         title: Rood
         filter: ${omschrijving = 'rood'}
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - text:
               uom: metre
@@ -122,8 +126,8 @@ feature-styles:
               font-weight: normal
               placement: point
               anchor: [0.5, 0.5]
-              displacement: [0.0, -0.5]
-              fill-color: '#f7faf5'
+              displacement: [0.0, -0.2]
+              fill-color: '#ffffff'
               x-graphic-resize: stretch
               x-graphic-margin: .4
               x-conflictResolution: false
