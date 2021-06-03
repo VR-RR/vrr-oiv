@@ -6,10 +6,10 @@ feature-styles:
       - name: Brandweerinformatie
         filter: ${omschrijving = 'brandweerinformatie'}
         title: Brandweerinformatie
-        scale: [0, 3000]
+        scale: [0, 2000]
         symbolizers:
           - point:
-              uom: pixel
+              uom: metre
               size: ${symboolgrootte}
               symbols:
                 - external:
@@ -18,11 +18,11 @@ feature-styles:
       - name: Objectinformatie
         filter: ${omschrijving = 'objectinformatie'} 
         title: Objectinformatie
-        scale: [2000, 200000]
+        scale: [2000, 25000]
         symbolizers:
           - point:
               uom: pixel
-              size: ${symboolgrootte}
+              size: 26
               symbols:
                 - external:
                     url: *objectinformatie_blauw
