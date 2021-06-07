@@ -3,7 +3,7 @@ feature-styles:
       - filter: ${ligging = 'ondergronds' OR ligging = 'Ondergronds'}
         name: brandkraan
         title: Ondergrondse brandkraan        
-        scale: [min, 500]
+        scale: [min, 1000]
         symbolizers:
           - point:
               size: 4
@@ -29,33 +29,20 @@ feature-styles:
       - filter: ${ligging = 'ondergronds' OR ligging = 'Ondergronds'}
         name: brandkraan
         title: Ondergrondse brandkraan        
-        scale: [500, 2000]
+        scale: [1000, 2000]
         symbolizers:
           - point:
-              size: 26
+              size: 20
               uom: pixel
               anchor: [0.5,0.5]
               symbols:
               - external:
                   url: https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-004_ondergrondse_brandkraan.png?raw=true
                   format: image/png
-          - text:
-              font-size: 12
-              font-family: SansSerif
-              font-weight: bold
-              fill-color: '#000000'
-              uom: pixel
-              label: ${diameter}
-              placement: point
-              anchor: [0.5,0.5]
-              displacement: [0,-22]
-              halo:
-                fill-color: '#ffffff'
-                radius: 1.4
       - filter: ${ligging = 'bovengronds' OR ligging = 'Bovengronds'}
         name: brandkraan
         title: Bovengrondse brandkraan        
-        scale: [min, 500]
+        scale: [min, 1000]
         symbolizers:
           - point:
               size: 4
@@ -81,26 +68,13 @@ feature-styles:
       - filter: ${ligging = 'bovengronds' OR ligging = 'Bovengronds'}
         name: brandkraan
         title: Bovengrondse brandkraan        
-        scale: [500, 2000]
+        scale: [1000, 2000]
         symbolizers:
           - point:
-              size: 26
+              size: 20
               uom: pixel
               anchor: [0.5,0.5]
               symbols:
               - external:
                   url: https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-002_bovengrondse_brandkraan.png?raw=true
                   format: image/png
-          - text:
-              font-size: 12
-              font-family: SansSerif
-              font-weight: bold
-              fill-color: '#000000'
-              uom: pixel
-              label: ${diameter}
-              placement: point
-              anchor: [0.5,0.5]
-              displacement: [0,-22]
-              halo:
-                fill-color: '#ffffff'
-                radius: 1.4

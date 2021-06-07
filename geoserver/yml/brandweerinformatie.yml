@@ -22,7 +22,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: pixel
-              size: 26
+              size: 30
               symbols:
                 - external:
                     url: *objectinformatie_blauw
