@@ -35,7 +35,7 @@ feature-styles:
             x-partials: true
             x-charSpacing: -1
             anchor: [0.5,0.5]
-            displacement: [0.0,0.0]
+            displacement: [0.0, -0.2]
             x-charSpacing: 0
         - text:
             fill-color: '#2a2d2f'
@@ -65,7 +65,7 @@ feature-styles:
             x-partials: true
             x-charSpacing: 0
             anchor: [0.5,0.5]
-            displacement: [0.0,0.0]
+            displacement: [0.0, -0.2]
             x-charSpacing: 0
   - rules:
       - name: blauw
@@ -102,7 +102,7 @@ feature-styles:
             x-maxDisplacement: 0
             x-partials: true
             anchor: [0.5,0.5]
-            displacement: [0.0,0.0]
+            displacement: [0.0, -0.2]
         - text:
             fill-color: '#f7faf5'
             fill-opacity: 0.0
@@ -130,7 +130,7 @@ feature-styles:
             x-maxDisplacement: 0
             x-partials: true
             anchor: [0.5,0.5]
-            displacement: [0.0,0.0]
+            displacement: [0.0, -0.2]
   - rules:
       - name: rood
         title: Rood
@@ -166,6 +166,7 @@ feature-styles:
             x-maxDisplacement: 0
             x-partials: true
             anchor: [0.5,0.5]
+            displacement: [0.0, -0.2]
         - text:
             fill-color: '#f7faf5'
             fill-opacity: 0.0
@@ -193,6 +194,7 @@ feature-styles:
             x-maxDisplacement: 0
             x-partials: true
             anchor: [0.5,0.5]
+            displacement: [0.0, -0.2]
   - rules:
       - name: geel
         title: Geel
@@ -228,6 +230,7 @@ feature-styles:
             x-maxDisplacement: 0
             x-partials: true
             anchor: [0.5,0.5]
+            displacement: [0.0, -0.2]
         - text:
             fill-color: '#f7faf5'
             fill-opacity: 0.0
@@ -255,3 +258,4 @@ feature-styles:
             x-maxDisplacement: 0
             x-partials: true
             anchor: [0.5,0.5]
+            displacement: [0.0, -0.2]
