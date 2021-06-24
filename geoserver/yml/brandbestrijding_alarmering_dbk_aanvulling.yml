@@ -1,0 +1,80 @@
+feature-styles:
+  - rules:
+      - filter: ${omschrijving = 'Handbrandmelder'}
+        name: handbrandmelder
+        title: Handbrandmelder
+        scale: [min, 1000]
+        symbolizers:
+            - point:
+                uom: metre
+                size: ${symboolgrootte}
+                rotation: ${symboolrotatie}
+                symbols:
+                    - external:
+                        url: https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Alarmering/F005_handbrandmelder.png?raw=true
+                        format: image/png
+      - filter: ${omschrijving = 'Noodtelefoon'}
+        name: noodtelefoon
+        title: Noodtelefoon
+        scale: [min, 1000]
+        symbolizers:
+            - point:
+                uom: metre
+                size: ${symboolgrootte}
+                rotation: ${symboolrotatie}
+                symbols:
+                    - external:
+                        url: https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Alarmering/F006_noodtelefoon.png?raw=true
+                        format: image/png
+      - filter: ${omschrijving = 'Brandmeldinstallatie (BMC)'}
+        name: brandmeldinstallatie_bmc
+        title: Brandmeldinstallatie (BMC)
+        scale: [min, 1000]
+        symbolizers:
+            - point:
+                uom: metre
+                size: ${symboolgrootte/3} # Deze wordt door 3 gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+                rotation: ${symboolrotatie}
+                symbols:
+                    - external:
+                        url: https://raw.githubusercontent.com/VR-RR/vrr-oiv/main/qgis/icons/Brandbestrijding/Alarmering/F-NL-008_brandmeldinstallatie_brandmeldcentrale.png
+                        format: image/png
+      - filter: ${omschrijving = 'Brandmeldpaneel BMP'}
+        name: brandmeldpaneel_bmp
+        title: Brandmeldpaneel BMP
+        scale: [min, 1000]
+        symbolizers:
+            - point:
+                uom: metre
+                size: ${symboolgrootte/3} # Deze wordt door 3 gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+                rotation: ${symboolrotatie}
+                symbols:
+                    - external:
+                        url: https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Alarmering/F-NL-008_brandmeldinstallatie_brandmeldpaneel.png?raw=true
+                        format: image/png
+      - filter: ${omschrijving = 'Sprinklermeldcentrale SMC'}
+        name: sprinklermeldcentrale_smc
+        title: Sprinklermeldcentrale SMC
+        scale: [min, 1000]
+        symbolizers:
+            - point:
+                uom: metre
+                size: ${symboolgrootte/1.5} # Deze wordt door 1.5 gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+                rotation: ${symboolrotatie}
+                symbols:
+                    - external:
+                        url: https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Alarmering/F-NL-008_brandmeldinstallatie_sprinklermeldcentrale.png?raw=true
+                        format: image/png
+      - filter: ${omschrijving = 'Nevenpaneel (NP)'}
+        name: nevenpaneel_np
+        title: Nevenpaneel (NP)
+        scale: [min, 1000]
+        symbolizers:
+            - point:
+                uom: metre
+                size: ${symboolgrootte/2} # Deze wordt door 2 gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+                rotation: ${symboolrotatie}
+                symbols:
+                    - external:
+                        url: https://raw.githubusercontent.com/VR-RR/vrr-oiv/main/qgis/icons/Brandbestrijding/Alarmering/F-NL-010_nevenpaneel.png
+                        format: image/png

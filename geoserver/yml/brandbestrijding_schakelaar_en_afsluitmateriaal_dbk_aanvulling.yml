@@ -1,0 +1,115 @@
+noodschakelaar_centrale_verwarming_cv: &noodschakelaar_centrale_verwarming_cv https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Schakelaars%20en%20Afsluiters/F-NL-016_noodschakelaar_cv.png?raw=true
+noodschakelaar_luchtbehandeling_lb: &noodschakelaar_luchtbehandeling_lb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Schakelaars%20en%20Afsluiters/F-NL-016_noodschakelaar_luchtbehandeling.png?raw=true
+noodschakelaar_neon_ne: &noodschakelaar_neon_ne https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Schakelaars%20en%20Afsluiters/F-NL-016_noodschakelaar_neon.png?raw=true
+noodschakelaar_rookwarmte_afvoer_rwa: &noodschakelaar_rookwarmte_afvoer_rwa https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Schakelaars%20en%20Afsluiters/F-NL-016_noodschakelaar_rwa.png?raw=true
+noodschakelaar_elektriciteit: &noodschakelaar_elektriciteit https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Schakelaars%20en%20Afsluiters/F-NL-017_hoofdschakelaar_elektriciteit.png?raw=true
+hoofdafsluiter_water: &hoofdafsluiter_water https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Schakelaars%20en%20Afsluiters/F-NL-018_hoofdafsluiter_water.png?raw=true
+hoofdafsluiter_gas: &hoofdafsluiter_gas https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Schakelaars%20en%20Afsluiters/F-NL-019_hoofdafsluiter_gas.png?raw=true
+rook_en_warmteafvoer_rwa: &rook_en_warmteafvoer_rwa https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Schakelaars%20en%20Afsluiters/F-NL-023_rookwarmteafvoer_rwa.png?raw=true
+
+feature-styles:
+  - rules:
+      - name: noodschakelaar_centrale_verwarming_cv
+        filter: ${omschrijving = 'noodschakelaar centrale verwarming (CV)'}
+        title: noodschakelaar centrale verwarming (CV)
+        scale: [min, 1000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *noodschakelaar_centrale_verwarming_cv
+                    format: image/png
+      - name: noodschakelaar_luchtbehandeling_lb
+        filter: ${omschrijving = 'noodschakelaar luchtbehandeling (LB)'}
+        title: noodschakelaar luchtbehandeling (LB)
+        scale: [min, 1000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *noodschakelaar_luchtbehandeling_lb
+                    format: image/png
+      - name: noodschakelaar_neon_ne
+        filter: ${omschrijving = 'noodschakelaar neon (Ne)'}
+        title: noodschakelaar neon (Ne)
+        scale: [min, 1000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *noodschakelaar_neon_ne
+                    format: image/png
+      - name: noodschakelaar_rookwarmte_afvoer_rwa
+        filter: ${omschrijving = 'noodschakelaar rookwarmte afvoer (RWA)'}
+        title: noodschakelaar rookwarmte afvoer (RWA)
+        scale: [min, 1000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *noodschakelaar_rookwarmte_afvoer_rwa
+                    format: image/png
+      - name: noodschakelaar_elektriciteit
+        filter: ${omschrijving = 'noodschakelaar elektriciteit'}
+        title: noodschakelaar elektriciteit
+        scale: [min, 1000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *noodschakelaar_elektriciteit
+                    format: image/png
+      - name: hoofdafsluiter_water
+        filter: ${omschrijving = 'hoofdafsluiter water'}
+        title: hoofdafsluiter water
+        scale: [min, 1000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/2}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *hoofdafsluiter_water
+                    format: image/png
+      - name: hoofdafsluiter_gas
+        filter: ${omschrijving = 'hoofdafsluiter gas'}
+        title: hoofdafsluiter gas
+        scale: [min, 1000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *hoofdafsluiter_gas
+                    format: image/png
+      - name: rook_en_warmteafvoer_rwa
+        filter: ${omschrijving = 'rook-en warmteafvoer (RWA)'}
+        title: rook-en warmteafvoer (RWA)
+        scale: [min, 1000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *rook_en_warmteafvoer_rwa
+                    format: image/png

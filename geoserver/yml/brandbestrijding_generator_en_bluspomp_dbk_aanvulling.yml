@@ -1,0 +1,31 @@
+generator: &generator https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Generator%20en%20Bluspomp/F-NL-026_generator.png?raw=true
+brandbluspomp: &brandbluspomp https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Generator%20en%20Bluspomp/F-NL-027_brandbluspomp.png?raw=true
+
+feature-styles:
+  - rules:
+      - name: generator
+        filter: ${omschrijving = 'generator'}
+        title: generator
+        scale: [min, 1000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/2}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *generator
+                    format: image/png
+      - name: brandbluspomp
+        filter: ${omschrijving = 'brandbluspomp'}
+        title: brandbluspomp
+        scale: [min, 1000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/2}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *brandbluspomp
+                    format: image/png

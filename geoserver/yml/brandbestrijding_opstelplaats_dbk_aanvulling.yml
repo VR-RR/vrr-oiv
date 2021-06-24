@@ -1,0 +1,59 @@
+opstelplaats_eerste_blusvoertuig: &opstelplaats_eerste_blusvoertuig https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Opstelplaatsen/F-NL-013_opstelplaats_eerste_blusvoertuig.png?raw=true
+opstelplaats_overige_blusvoertuigen: &opstelplaats_overige_blusvoertuigen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Opstelplaatsen/F-NL-014_opstelplaats_overige_blusvoertuigen.png?raw=true
+opstelplaats_redvoertuig: &opstelplaats_redvoertuig https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Opstelplaatsen/F-NL-015_opstelplaats_redvoertuig.png?raw=true
+uitgangsstelling_ugs: &uitgangsstelling_ugs https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Opstelplaatsen/SRGO_B02_UGS.png?raw=true
+
+feature-styles:
+  - rules:
+      - name: opstelplaats_eerste_blusvoertuig
+        filter: ${omschrijving = 'opstelplaats eerste blusvoertuig'}
+        title: opstelplaats eerste blusvoertuig
+        scale: [min, 4000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *opstelplaats_eerste_blusvoertuig
+                    format: image/png
+      - name: opstelplaats_overige_blusvoertuigen
+        filter: ${omschrijving = 'opstelplaats overige blusvoertuigen'}
+        title: opstelplaats overige blusvoertuigen
+        scale: [min, 4000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *opstelplaats_overige_blusvoertuigen
+                    format: image/png
+      - name: opstelplaats_redvoertuig
+        filter: ${omschrijving = 'opstelplaats redvoertuig'}
+        title: opstelplaats redvoertuig
+        scale: [min, 4000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *opstelplaats_redvoertuig
+                    format: image/png
+      - name: uitgangsstelling_ugs
+        filter: ${omschrijving = 'uitgangsstelling (UGS)'}
+        title: uitgangsstelling (UGS)
+        scale: [min, 4000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *uitgangsstelling_ugs
+                    format: image/png

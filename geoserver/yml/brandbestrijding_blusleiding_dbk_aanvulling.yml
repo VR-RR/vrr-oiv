@@ -1,0 +1,101 @@
+blusleiding_bl: &blusleiding_bl https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_bl.png?raw=true
+droge_blusleiding_dbl: &droge_blusleiding_dbl https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_dbl.png?raw=true
+blusleiding_premix_foam_schuim: &blusleiding_premix_foam_schuim https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_foam_premix.png?raw=true
+blusleiding_puur_foam_schuim: &blusleiding_puur_foam_schuim https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_foam_puur.png?raw=true
+blusleiding_foam_schuim: &blusleiding_foam_schuim https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_schuimvoeding.png?raw=true
+blusleiding_sprinklervoeding: &blusleiding_sprinklervoeding https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_sprinklervoeding.png?raw=true
+kade_aansluiting_blusboot_voedingspunt: &kade_aansluiting_blusboot_voedingspunt https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-012_kadeaansluiting.png?raw=true
+
+feature-styles:
+  - rules:
+      - name: blusleiding_bl
+        filter: ${omschrijving = 'blusleiding (BL)'}
+        title: Blusleiding (BL)
+        scale: [min, 1000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blusleiding_bl
+                    format: image/png
+      - name: droge_blusleiding_dbl
+        filter: ${omschrijving = 'droge blusleiding (DBL)'}
+        title: Droge blusleiding (DBL)
+        scale: [min, 1000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/2}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *droge_blusleiding_dbl
+                    format: image/png
+      - name: blusleiding_premix_foam_schuim
+        filter: ${omschrijving = 'blusleiding premix-foam (schuim)'}
+        title: Blusleiding premix-foam (schuim)
+        scale: [min, 1000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blusleiding_premix_foam_schuim
+                    format: image/png
+      - name: blusleiding_puur_foam_schuim
+        filter: ${omschrijving = 'blusleiding puur-foam (schuim)'}
+        title: Blusleiding puur-foam (schuim)
+        scale: [min, 1000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blusleiding_puur_foam_schuim
+                    format: image/png
+      - name: blusleiding_foam_schuim
+        filter: ${omschrijving = 'blusleiding foam (schuim)'}
+        title: Blusleiding foam (schuim)
+        scale: [min, 1000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blusleiding_foam_schuim
+                    format: image/png
+      - name: blusleiding_sprinklervoeding
+        filter: ${omschrijving = 'blusleiding sprinklervoeding'}
+        title: Blusleiding sprinklervoeding
+        scale: [min, 1000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blusleiding_sprinklervoeding
+                    format: image/png
+      - name: kade_aansluiting_blusboot_voedingspunt
+        filter: ${omschrijving = 'kade aansluiting blusboot (voedingspunt)'}
+        title: Kade aansluiting blusboot (voedingspunt)
+        scale: [min, 1000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *kade_aansluiting_blusboot_voedingspunt
+                    format: image/png
