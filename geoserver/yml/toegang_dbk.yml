@@ -18,7 +18,7 @@ feature-styles:
       - name: brandweeringang
         filter: ${omschrijving = 'brandweeringang'}
         title: Brandweeringang
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -31,7 +31,7 @@ feature-styles:
       - name: neveningang
         filter: ${omschrijving = 'neveningang'}
         title: Neveningang
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -44,7 +44,7 @@ feature-styles:
       - name: sleutelkluis
         filter: ${omschrijving = 'sleutelbuis-kluis'}
         title: Sleutelkluis
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -57,7 +57,7 @@ feature-styles:
       - name: brandweerlift
         filter: ${omschrijving = 'brandweerlift'}
         title: Brandweerlift
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -70,7 +70,7 @@ feature-styles:
       - name: lift
         filter: ${omschrijving = 'lift'}
         title: Lift
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -83,7 +83,7 @@ feature-styles:
       - name: schacht
         filter: ${omschrijving = 'schacht'}
         title: Schacht
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -96,7 +96,7 @@ feature-styles:
       - name: windvaan
         filter: ${omschrijving = 'windvaan'}
         title: Windvaan
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -109,7 +109,7 @@ feature-styles:
       - name: slagboom
         filter: ${omschrijving = 'slagboom'}
         title: Slagboom
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -122,7 +122,7 @@ feature-styles:
       - name: afsluitpaal_of_poller
         filter: ${omschrijving = 'afsluitpaal of poller'}
         title: Afsluitpaal of poller
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -135,7 +135,7 @@ feature-styles:
       - name: trap_richting_omhoog
         filter: ${omschrijving = 'trap(penhuis) richting omhoog'}
         title: Trap richting omhoog
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -148,7 +148,7 @@ feature-styles:
       - name: trap_richting_omlaag_en_omhoog
         filter: ${omschrijving = 'trap(penhuis) richting omlaag en omhoog'}
         title: Trap richting omlaag en omhoog
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -161,7 +161,7 @@ feature-styles:
       - name: trap_richting_omlaag
         filter: ${omschrijving = 'trap(penhuis) richting omlaag'}
         title: Trap richting omlaag
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -174,7 +174,7 @@ feature-styles:
       - name: calamiteitendoorsteek
         filter: ${omschrijving = 'calamiteitendoorsteek (CADO)'}
         title: Calamiteitendoorsteek
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -187,7 +187,7 @@ feature-styles:
       - name: indicator_flitslicht
         filter: ${omschrijving = 'indicator_flitslicht'}
         title: indicator_flitslicht
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -200,7 +200,7 @@ feature-styles:
       - name: brandweeringang_spoor_west
         filter: ${omschrijving = 'brandweeringang_spoor_west'}
         title: brandweeringang_spoor_west
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - text:
               uom: metre
@@ -227,7 +227,7 @@ feature-styles:
       - name: brandweeringang_spoor_oost
         filter: ${omschrijving = 'brandweeringang_spoor_oost'}
         title: brandweeringang_spoor_oost
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - text:
               uom: metre

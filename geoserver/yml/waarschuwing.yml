@@ -21,7 +21,7 @@ feature-styles:
       - name: algemeen_gevaar
         filter: ${omschrijving = 'algemeen gevaar'}
         title: algemeen gevaar
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -34,7 +34,7 @@ feature-styles:
       - name: niet_ioniserende_straling
         filter: ${omschrijving = 'niet-ioniserende straling'}
         title: niet-ioniserende straling
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -47,7 +47,7 @@ feature-styles:
       - name: magnetisch_veld
         filter: ${omschrijving = 'magnetisch veld'}
         title: magnetisch veld
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -60,7 +60,7 @@ feature-styles:
       - name: vallen_door_hoogte_verschil
         filter: ${omschrijving = 'vallen door hoogte verschil'}
         title: vallen door hoogte verschil
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -73,7 +73,7 @@ feature-styles:
       - name: lage_temperatuur_of_bevriezing
         filter: ${omschrijving = 'lage temperatuur of bevriezing'}
         title: lage temperatuur of bevriezing
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -86,7 +86,7 @@ feature-styles:
       - name: glad_oppervlak
         filter: ${omschrijving = 'glad oppervlak'}
         title: glad oppervlak
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -99,7 +99,7 @@ feature-styles:
       - name: elektrische_spanning
         filter: ${omschrijving = 'elektrische spanning'}
         title: elektrische spanning
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -112,7 +112,7 @@ feature-styles:
       - name: hondenbewaking
         filter: ${omschrijving = 'hondenbewaking'}
         title: hondenbewaking
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -125,7 +125,7 @@ feature-styles:
       - name: hangende_lasten
         filter: ${omschrijving = 'hangende lasten'}
         title: hangende lasten
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -138,7 +138,7 @@ feature-styles:
       - name: heet_oppervlak
         filter: ${omschrijving = 'heet oppervlak'}
         title: heet oppervlak
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -151,7 +151,7 @@ feature-styles:
       - name: accus_en_klein_chemisch_materiaal
         filter: ${omschrijving = 'accu’s en klein chemisch materiaal'}
         title: accu’s en klein chemisch materiaal
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -164,7 +164,7 @@ feature-styles:
       - name: afstand_bestuurde_machines
         filter: ${omschrijving = 'afstand bestuurde machines'}
         title: afstand bestuurde machines
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -177,7 +177,7 @@ feature-styles:
       - name: explosieve_atmosfeer
         filter: ${omschrijving = 'explosieve atmosfeer'}
         title: explosieve atmosfeer
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -190,7 +190,7 @@ feature-styles:
       - name: helling
         filter: ${omschrijving = 'helling'}
         title: helling
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -203,7 +203,7 @@ feature-styles:
       - name: exotische_dieren
         filter: ${omschrijving = 'exotische dieren'}
         title: exotische dieren
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -216,7 +216,7 @@ feature-styles:
       - name: lithium_ion_batterijen
         filter: ${omschrijving = 'lithium-ion batterijen'}
         title: lithium-ion batterijen
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -229,7 +229,7 @@ feature-styles:
       - name: niet_Lithium_houdende_batterijen
         filter: ${omschrijving = 'niet Lithium houdende batterijen'}
         title: niet Lithium houdende batterijen
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre

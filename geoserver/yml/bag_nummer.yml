@@ -2,20 +2,24 @@ feature-styles:
   - rules:
       - name: bag_nummer
         title: BAG nummer
-        scale: [min, 5000]
+        scale: [750, 2000]
         symbolizers:
           - text:
-              uom: metre
-              label: ${huisnummer}${huisletter}${toevoeging}
-              font-family: SansSerif
-              font-size: 1.4
+              uom: pixel
+              label: ${huisnummers_pand}
+              font-family: DejaVu Sans Condensed
+              font-size: 14
               font-style: normal
               font-weight: normal
+              fill-color: '#444'
+              fill-opacity: .95
               placement: point
-              anchor: [0.5, 0.5]
-              x-conflictResolution: true
-              x-goodnesOfFit: 0
-              x-maxDisplacement: 0
+              anchor: [0.5, 0.75]
               x-partials: true
-              rotation: 0
-              priority: 0
+              x-conflictResolution: true
+              x-graphic-resize: stretch
+              x-graphic-margin: 2
+              halo:
+                radius: 2
+                fill-color: "#ffffff"
+                fill-opacity: 1

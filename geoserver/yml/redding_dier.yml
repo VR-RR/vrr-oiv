@@ -9,7 +9,7 @@ feature-styles:
       - name: paarden
         filter: ${omschrijving = 'paarden'}
         title: paarden
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -22,7 +22,7 @@ feature-styles:
       - name: hoefdieren_groot
         filter: ${omschrijving = 'hoefdieren groot'}
         title: hoefdieren groot
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -35,7 +35,7 @@ feature-styles:
       - name: hoefdieren_klein
         filter: ${omschrijving = 'hoefdieren klein'}
         title: hoefdieren klein
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -48,7 +48,7 @@ feature-styles:
       - name: varkens
         filter: ${omschrijving = 'varkens'}
         title: varkens
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -61,7 +61,7 @@ feature-styles:
       - name: pluimvee
         filter: ${omschrijving = 'pluimvee'}
         title: pluimvee
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre

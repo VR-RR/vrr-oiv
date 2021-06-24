@@ -30,7 +30,7 @@ feature-styles:
       - name: eerste_hulp
         filter: ${omschrijving = 'eerste hulp'}
         title: eerste hulp
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -43,7 +43,7 @@ feature-styles:
       - name: noodtelefoon
         filter: ${omschrijving = 'noodtelefoon'}
         title: noodtelefoon
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -56,7 +56,7 @@ feature-styles:
       - name: vluchtrichting_nooduitgang
         filter: ${omschrijving = 'vluchtrichting / nooduitgang'}
         title: vluchtrichting / nooduitgang
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -69,7 +69,7 @@ feature-styles:
       - name: verzamelplaats
         filter: ${omschrijving = 'verzamelplaats'}
         title: verzamelplaats
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -82,7 +82,7 @@ feature-styles:
       - name: verzamelplaats_1
         filter: ${omschrijving = 'verzamelplaats 1'} 
         title: verzamelplaats 1
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -95,7 +95,7 @@ feature-styles:
       - name: verzamelplaats_2
         filter: ${omschrijving = 'verzamelplaats 2'}
         title: verzamelplaats 2
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -108,7 +108,7 @@ feature-styles:
       - name: verzamelplaats_3
         filter: ${omschrijving = 'verzamelplaats 3'}
         title: verzamelplaats 3
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -121,7 +121,7 @@ feature-styles:
       - name: verzamelplaats_4
         filter: ${omschrijving = 'verzamelplaats 4'}
         title: verzamelplaats 4
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -134,7 +134,7 @@ feature-styles:
       - name: verzamelplaats_5
         filter: ${omschrijving = 'verzamelplaats 5'}
         title: verzamelplaats 5
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -147,7 +147,7 @@ feature-styles:
       - name: dokter_arts
         filter: ${omschrijving = 'dokter-arts'}
         title: dokter-arts
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -160,7 +160,7 @@ feature-styles:
       - name: aed
         filter: ${omschrijving = 'AED'}
         title: AED
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -173,7 +173,7 @@ feature-styles:
       - name: oogdouche
         filter: ${omschrijving = 'oogdouche'}
         title: oogdouche
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -186,7 +186,7 @@ feature-styles:
       - name: nooddouche
         filter: ${omschrijving = 'nooddouche'}
         title: nooddouche
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -199,7 +199,7 @@ feature-styles:
       - name: brancard
         filter: ${omschrijving = 'brancard'}
         title: brancard
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -212,7 +212,7 @@ feature-styles:
       - name: raam_met_vluchtladder
         filter: ${omschrijving = 'raam met vluchtladder'}
         title: raam met vluchtladder
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -225,7 +225,7 @@ feature-styles:
       - name: vluchtraam
         filter: ${omschrijving = 'vluchtraam'}
         title: vluchtraam
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -238,7 +238,7 @@ feature-styles:
       - name: noodstop
         filter: ${omschrijving = 'noodstop'}
         title: noodstop
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -251,7 +251,7 @@ feature-styles:
       - name: vluchtmasker
         filter: ${omschrijving = 'vluchtmasker'}
         title: vluchtmasker
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -264,7 +264,7 @@ feature-styles:
       - name: vluchtladder
         filter: ${omschrijving = 'vluchtladder'}
         title: vluchtladder
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -277,7 +277,7 @@ feature-styles:
       - name: evacuatiestoel
         filter: ${omschrijving = 'evacuatiestoel'}
         title: evacuatiestoel
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -290,7 +290,7 @@ feature-styles:
       - name: bhv_middelen
         filter: ${omschrijving = 'BHV middelen'}
         title: BHV middelen
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -303,7 +303,7 @@ feature-styles:
       - name: deurontgrendeling
         filter: ${omschrijving = 'deurontgrendeling'}
         title: deurontgrendeling
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -316,7 +316,7 @@ feature-styles:
       - name: antidote_tegengif
         filter: ${omschrijving = 'antidote-tegengif'}
         title: antidote-tegengif
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -329,7 +329,7 @@ feature-styles:
       - name: vlucht_trappenhuis_richting_omhoog
         filter: ${omschrijving = 'vlucht-trap(penhuis) richting omhoog'}
         title: vlucht-trap(penhuis) richting omhoog
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -342,7 +342,7 @@ feature-styles:
       - name: vlucht_trappenhuis_richting_omlaag_en_omhoog
         filter: ${omschrijving = 'vlucht-trap(penhuis) richting omlaag en omhoog'}
         title: vlucht-trap(penhuis) richting omlaag en omhoog
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -355,7 +355,7 @@ feature-styles:
       - name: vlucht_trappenhuis_richting_omlaag
         filter: ${omschrijving = 'vlucht-trap(penhuis) richting omlaag'}
         title: vlucht-trap(penhuis) richting omlaag
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre

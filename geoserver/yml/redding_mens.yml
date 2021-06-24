@@ -10,7 +10,7 @@ feature-styles:
       - name: slaapplaatsen
         filter: ${omschrijving = 'slaapplaatsen'}
         title: slaapplaatsen
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -23,7 +23,7 @@ feature-styles:
       - name: bedlegerige
         filter: ${omschrijving = 'bedlegerige'}
         title: bedlegerige
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -36,7 +36,7 @@ feature-styles:
       - name: kinderen_0_4_jaar
         filter: ${omschrijving = 'kinderen 0-4 jaar'}
         title: kinderen 0-4 jaar
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -49,7 +49,7 @@ feature-styles:
       - name: kinderen_5_12_jaar
         filter: ${omschrijving = 'kinderen 5-12 jaar'}
         title: kinderen 5-12 jaar
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -62,7 +62,7 @@ feature-styles:
       - name: valide_personen
         filter: ${omschrijving = 'valide personen'}
         title: valide personen
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -75,7 +75,7 @@ feature-styles:
       - name: mindervalide_personen
         filter: ${omschrijving = 'mindervalide personen'}
         title: mindervalide personen
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre

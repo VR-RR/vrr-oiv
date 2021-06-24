@@ -8,7 +8,7 @@ feature-styles:
       - name: brandladder
         filter: ${omschrijving = 'brandladder'}
         title: brandladder
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -22,7 +22,7 @@ feature-styles:
       - name: brandbestrijdingsmateriaal
         filter: ${omschrijving = 'brandbestrijdingsmateriaal'}
         title: brandbestrijdingsmateriaal
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -36,7 +36,7 @@ feature-styles:
       - name: blusdeken
         filter: ${omschrijving = 'blusdeken'}
         title: blusdeken
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -50,7 +50,7 @@ feature-styles:
       - name: opbergplaats_brandslangen_met_losse_straalpijpen
         filter: ${omschrijving = 'opbergplaats brandslangen met losse straalpijpen'}
         title: opbergplaats brandslangen met losse straalpijpen
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre

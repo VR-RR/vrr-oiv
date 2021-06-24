@@ -6,7 +6,7 @@ feature-styles:
       - name: generator
         filter: ${omschrijving = 'generator'}
         title: generator
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -19,7 +19,7 @@ feature-styles:
       - name: brandbluspomp
         filter: ${omschrijving = 'brandbluspomp'}
         title: brandbluspomp
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre

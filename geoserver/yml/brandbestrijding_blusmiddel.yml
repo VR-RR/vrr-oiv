@@ -22,7 +22,7 @@ feature-styles:
       - name: handbrandblusmiddel
         filter: ${omschrijving = 'handbrandblusmiddel'}
         title: handbrandblusmiddel
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -35,7 +35,7 @@ feature-styles:
       - name: brandslanghaspel
         filter: ${omschrijving = 'brandslanghaspel'}
         title: brandslanghaspel
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -48,7 +48,7 @@ feature-styles:
       - name: hoge_druk_brandslanghaspel
         filter: ${omschrijving = 'hoge druk brandslanghaspel'}
         title: hoge druk brandslanghaspel
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -61,7 +61,7 @@ feature-styles:
       - name: vaste_brandblusbatterij
         filter: ${omschrijving = 'vaste brandblusbatterij'}
         title: vaste brandblusbatterij
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -74,7 +74,7 @@ feature-styles:
       - name: verrijdbare_brandblusser
         filter: ${omschrijving = 'verrijdbare brandblusser'}
         title: verrijdbare brandblusser
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -87,7 +87,7 @@ feature-styles:
       - name: activering_blussysteem
         filter: ${omschrijving = 'activering blussysteem'}
         title: activering blussysteem
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -100,7 +100,7 @@ feature-styles:
       - name: blusmonitor
         filter: ${omschrijving = 'blusmonitor'}
         title: blusmonitor
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -113,7 +113,7 @@ feature-styles:
       - name: blusmonitor_foam_schuim
         filter: ${omschrijving = 'blusmonitor foam (schuim)'}
         title: blusmonitor foam (schuim)
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -126,7 +126,7 @@ feature-styles:
       - name: blusmonitor_water
         filter: ${omschrijving = 'blusmonitor water'}
         title: blusmonitor water
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -139,7 +139,7 @@ feature-styles:
       - name: hoofdafsluiter_blussysteem_buisleiding
         filter: ${omschrijving = 'hoofdafsluiter blussysteem / buisleiding'}
         title: hoofdafsluiter blussysteem / buisleiding
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -152,7 +152,7 @@ feature-styles:
       - name: hoofdafsluiter_sprinkler
         filter: ${omschrijving = 'hoofdafsluiter sprinkler'}
         title: hoofdafsluiter sprinkler
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -165,7 +165,7 @@ feature-styles:
       - name: blussysteem_co2_blusgas
         filter: ${omschrijving = 'blussysteem CO2 (blusgas)'}
         title: blussysteem CO2 (blusgas)
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -178,7 +178,7 @@ feature-styles:
       - name: blussysteem_fm200_blusgas
         filter: ${omschrijving = 'blussysteem FM200 (blusgas)'}
         title: blussysteem FM200 (blusgas)
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -191,7 +191,7 @@ feature-styles:
       - name: blussysteem_foam_schuim
         filter: ${omschrijving = 'blussysteem foam (schuim)'}
         title: blussysteem foam (schuim)
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -204,7 +204,7 @@ feature-styles:
       - name: blussysteem_hifog_hogedrukwatermist
         filter: ${omschrijving = 'blussysteem Hi-Fog (hogedrukwatermist)'}
         title: blussysteem Hi-Fog (hogedrukwatermist)
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -217,7 +217,7 @@ feature-styles:
       - name: blussysteem_inert_blusgas
         filter: ${omschrijving = 'blussysteem inert (blusgas)'}
         title: blussysteem inert (blusgas)
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -230,7 +230,7 @@ feature-styles:
       - name: blussysteem_novec_blusgas
         filter: ${omschrijving = 'blussysteem NOVEC (blusgas)'}
         title: blussysteem NOVEC (blusgas)
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -243,7 +243,7 @@ feature-styles:
       - name: blussysteem_water
         filter: ${omschrijving = 'blussysteem water'}
         title: blussysteem water
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre

@@ -10,7 +10,7 @@ feature-styles:
       - name: handbrandmelder
         filter: ${omschrijving = 'Handbrandmelder'}
         title: Handbrandmelder
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -23,7 +23,7 @@ feature-styles:
       - name: noodtelefoon
         filter: ${omschrijving = 'Noodtelefoon'}
         title: Noodtelefoon
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -36,7 +36,7 @@ feature-styles:
       - name: brandmeldinstallatie_bmc
         filter: ${omschrijving = 'Brandmeldinstallatie BMC'}
         title: Brandmeldinstallatie BMC
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -49,7 +49,7 @@ feature-styles:
       - name: brandmeldpaneel_bmp
         filter: ${omschrijving = 'Brandmeldpaneel BMP'}
         title: Brandmeldpaneel BMP
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -62,7 +62,7 @@ feature-styles:
       - name: sprinklermeldcentrale_smc
         filter: ${omschrijving = 'Sprinklermeldcentrale SMC'}
         title: Sprinklermeldcentrale SMC
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
@@ -75,7 +75,7 @@ feature-styles:
       - name: nevenpaneel_np
         filter: ${omschrijving = 'Nevenpaneel NP'}
         title: Nevenpaneel PN
-        scale: [min, 2000]
+        scale: [min, 1000]
         symbolizers:
           - point:
               uom: metre
