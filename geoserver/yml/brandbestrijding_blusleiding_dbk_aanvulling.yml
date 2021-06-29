@@ -1,5 +1,7 @@
 blusleiding_bl: &blusleiding_bl https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_bl.png?raw=true
+blusleiding_bl_afnamepunt: &blusleiding_bl_afnamepunt https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/VRR-F-NL-043_blusleiding_bl_afnamepunt.png?raw=true
 droge_blusleiding_dbl: &droge_blusleiding_dbl https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_dbl.png?raw=true
+droge_blusleiding_dbl_afnamepunt: &droge_blusleiding_dbl_afnamepunt https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/VRR-F-NL-043_blusleiding_dbl_afnamepunt.png?raw=true
 blusleiding_premix_foam_schuim: &blusleiding_premix_foam_schuim https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_foam_premix.png?raw=true
 blusleiding_puur_foam_schuim: &blusleiding_puur_foam_schuim https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_foam_puur.png?raw=true
 blusleiding_foam_schuim: &blusleiding_foam_schuim https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_schuimvoeding.png?raw=true
@@ -9,7 +11,7 @@ kade_aansluiting_blusboot_voedingspunt: &kade_aansluiting_blusboot_voedingspunt 
 feature-styles:
   - rules:
       - name: blusleiding_bl
-        filter: ${omschrijving = 'blusleiding (BL)'}
+        filter: ${omschrijving = 'blusleiding (BL)' AND type_leiding = 'voedingspunt'}
         title: Blusleiding (BL)
         scale: [min, 1000]
         symbolizers:
@@ -21,8 +23,21 @@ feature-styles:
                 - external:
                     url: *blusleiding_bl
                     format: image/png
+      - name: blusleiding_bl_afnamepunt
+        filter: ${omschrijving = 'blusleiding (BL)' AND type_leiding = 'afnamepunt'}
+        title: Blusleiding (BL) afnamepunt
+        scale: [min, 1000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blusleiding_bl_afnamepunt
+                    format: image/png
       - name: droge_blusleiding_dbl
-        filter: ${omschrijving = 'droge blusleiding (DBL)'}
+        filter: ${omschrijving = 'droge blusleiding (DBL)' AND type_leiding = 'voedingspunt'}
         title: Droge blusleiding (DBL)
         scale: [min, 1000]
         symbolizers:
@@ -33,6 +48,19 @@ feature-styles:
               symbols:
                 - external:
                     url: *droge_blusleiding_dbl
+                    format: image/png
+      - name: droge_blusleiding_dbl_afnamepunt
+        filter: ${omschrijving = 'droge blusleiding (DBL)' AND type_leiding = 'afnamepunt'}
+        title: Droge blusleiding (DBL) afnamepunt
+        scale: [min, 1000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/2}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *droge_blusleiding_dbl_afnamepunt
                     format: image/png
       - name: blusleiding_premix_foam_schuim
         filter: ${omschrijving = 'blusleiding premix-foam (schuim)'}
