@@ -50,24 +50,26 @@ feature-styles:
         symbolizers:
           - polygon:
               fill-color: "#de5307"
+              uom: metre
               fill-graphic:
-                size: 16
+                size: .6
                 symbols:
                 - mark:
                     shape: shape://times
                     stroke-color: '#de5307'
-                    stroke-width: 1
+                    stroke-width: .04
       - filter: ${omschrijving = 'tijdelijke opslag gevaarlijke stoffen'}
         scale: [min, 2000]
         symbolizers:
           - polygon:
               fill-color: "#de5307"
+              uom: metre
               fill-graphic:
-                size: 8
+                size: .6
                 rotation: 45
                 symbols:
                 - mark:
                     shape: shape://vertline
                     stroke-color: '#de5307'
-                    stroke-width: 2
+                    stroke-width: .04
                     stroke-opacity: .5
