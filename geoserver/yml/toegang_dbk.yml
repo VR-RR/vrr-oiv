@@ -134,7 +134,7 @@ feature-styles:
                     format: image/png
       - name: trap_richting_omhoog
         filter: ${omschrijving = 'trap(penhuis) richting omhoog'}
-        title: Trap richting omhoog
+        title: Trap omhoog
         scale: [min, 1000]
         symbolizers:
           - point:
@@ -147,7 +147,7 @@ feature-styles:
                     format: image/png
       - name: trap_richting_omlaag_en_omhoog
         filter: ${omschrijving = 'trap(penhuis) richting omlaag en omhoog'}
-        title: Trap richting omlaag en omhoog
+        title: Trap omlaag en omhoog
         scale: [min, 1000]
         symbolizers:
           - point:
@@ -160,7 +160,7 @@ feature-styles:
                     format: image/png
       - name: trap_richting_omlaag
         filter: ${omschrijving = 'trap(penhuis) richting omlaag'}
-        title: Trap richting omlaag
+        title: Trap omlaag
         scale: [min, 1000]
         symbolizers:
           - point:
