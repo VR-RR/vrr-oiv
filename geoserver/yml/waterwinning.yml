@@ -1,13 +1,13 @@
-bovengrondse_brandkraan: &bovengrondse_brandkraan https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-002_bovengrondse_brandkraan.png?raw=true
-ondergrondse_brandkraan: &ondergrondse_brandkraan https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-004_ondergrondse_brandkraan.png?raw=true
-omloopafsluiter: &omloopafsluiter https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-009_hoofdafsluiter_blussysteem_omloop_ringleiding.png?raw=true
-geboorde_put: &geboorde_put https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-011_geboorde_put.png?raw=true
-ondergrondse_brandkraan_hogere_druk: &ondergrondse_brandkraan_hogere_druk https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-028_ondergrondse_brandkraan_hogere_druk.png?raw=true
-bovengrondse_brandkraan_hogere_druk: &bovengrondse_brandkraan_hogere_druk https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-029_bovengrondse_brandkraan_hogere_druk.png?raw=true
-water_reduceer_drukbegrenzer: &water_reduceer_drukbegrenzer https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-030_water-reduceer_drukbegrenzer.png?raw=true
-open_water_niet_bereikbaar: &open_water_niet_bereikbaar https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-031_open_water_niet_bereikbaar.png?raw=true
-open_water_bereikbaar: &open_water_bereikbaar https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-032_open_water_bereikbaar.png?raw=true
-bluswaterriool: &bluswaterriool https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-033_bluswaterriool.png?raw=true
+bovengrondse_brandkraan: &bovengrondse_brandkraan https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-002_bovengrondse_brandkraan.png?raw=true
+ondergrondse_brandkraan: &ondergrondse_brandkraan https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-004_ondergrondse_brandkraan.png?raw=true
+omloopafsluiter: &omloopafsluiter https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-009_hoofdafsluiter_blussysteem_omloop_ringleiding.png?raw=true
+geboorde_put: &geboorde_put https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-011_geboorde_put.png?raw=true
+ondergrondse_brandkraan_hogere_druk: &ondergrondse_brandkraan_hogere_druk https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-028_ondergrondse_brandkraan_hogere_druk.png?raw=true
+bovengrondse_brandkraan_hogere_druk: &bovengrondse_brandkraan_hogere_druk https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-029_bovengrondse_brandkraan_hogere_druk.png?raw=true
+water_reduceer_drukbegrenzer: &water_reduceer_drukbegrenzer https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-030_water-reduceer_drukbegrenzer.png?raw=true
+open_water_niet_bereikbaar: &open_water_niet_bereikbaar https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-031_open_water_niet_bereikbaar.png?raw=true
+open_water_bereikbaar: &open_water_bereikbaar https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-032_open_water_bereikbaar.png?raw=true
+bluswaterriool: &bluswaterriool https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-033_bluswaterriool.png?raw=true
 
 feature-styles:
   - rules:

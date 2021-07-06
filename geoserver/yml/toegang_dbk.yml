@@ -1,17 +1,17 @@
-brandweeringang:  &brandweeringang https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-005_brandweeringang.png?raw=true
-neveningang: &neveningang https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-006_neveningang_brandweer.png?raw=true
-sleutelkluis: &sleutelkluis https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-007_sleutelkluis.png?raw=true
-brandweerlift: &brandweerlift https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-020%20Brandweerlift.png?raw=true
-lift: &lift https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-021%20Lift.png?raw=true
-schacht: &schacht https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-022_schacht_enof_kanaal.png?raw=true
-windvaan: &windvaan https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-034_windvaan.png?raw=true
-slagboom: &slagboom https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-035_slagboom.png?raw=true
-afsluitpaal_of_poller: &afsluitpaal_of_poller https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-036_afsluitpaal_enof_poller.png?raw=true
-trap_richting_omhoog: &trap_richting_omhoog https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-040_Trap(penhuis)_richting_omhoog.png?raw=true
-trap_richting_omlaag_en_omhoog: &trap_richting_omlaag_en_omhoog https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-041_Trap(penhuis)_richting_omlaag_omhoog.png?raw=true
-trap_richting_omlaag: &trap_richting_omlaag https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/F-NL-042_Trap(penhuis)_richting_omlaag.png?raw=true
-calamiteitendoorsteek: &calamiteitendoorsteek https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/WVW_BB40_CADO.png?raw=true
-indicator_flitslicht: &indicator_flitslicht https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/toegang/indicator_flitslicht.png?raw=true
+brandweeringang:  &brandweeringang https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Toegang/F-NL-005_brandweeringang.png?raw=true
+neveningang: &neveningang https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Toegang/F-NL-006_neveningang_brandweer.png?raw=true
+sleutelkluis: &sleutelkluis https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Toegang/F-NL-007_sleutelkluis.png?raw=true
+brandweerlift: &brandweerlift https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Toegang/F-NL-020%20Brandweerlift.png?raw=true
+lift: &lift https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Toegang/F-NL-021%20Lift.png?raw=true
+schacht: &schacht https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Toegang/F-NL-022_schacht_enof_kanaal.png?raw=true
+windvaan: &windvaan https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Toegang/F-NL-034_windvaan.png?raw=true
+slagboom: &slagboom https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Toegang/F-NL-035_slagboom.png?raw=true
+afsluitpaal_of_poller: &afsluitpaal_of_poller https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Toegang/F-NL-036_afsluitpaal_enof_poller.png?raw=true
+trap_richting_omhoog: &trap_richting_omhoog https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Toegang/F-NL-040_Trap(penhuis)_richting_omhoog.png?raw=true
+trap_richting_omlaag_en_omhoog: &trap_richting_omlaag_en_omhoog https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Toegang/F-NL-041_Trap(penhuis)_richting_omlaag_omhoog.png?raw=true
+trap_richting_omlaag: &trap_richting_omlaag https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Toegang/F-NL-042_Trap(penhuis)_richting_omlaag.png?raw=true
+calamiteitendoorsteek: &calamiteitendoorsteek https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Toegang/WVW_BB40_CADO.png?raw=true
+indicator_flitslicht: &indicator_flitslicht https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Toegang/indicator_flitslicht.png?raw=true
 
 feature-styles:
   - rules:
@@ -134,7 +134,7 @@ feature-styles:
                     format: image/png
       - name: trap_richting_omhoog
         filter: ${omschrijving = 'trap(penhuis) richting omhoog'}
-        title: Trap omhoog
+        title: Trap richting omhoog
         scale: [min, 1000]
         symbolizers:
           - point:
@@ -147,7 +147,7 @@ feature-styles:
                     format: image/png
       - name: trap_richting_omlaag_en_omhoog
         filter: ${omschrijving = 'trap(penhuis) richting omlaag en omhoog'}
-        title: Trap omlaag en omhoog
+        title: Trap richting omlaag en omhoog
         scale: [min, 1000]
         symbolizers:
           - point:
@@ -160,7 +160,7 @@ feature-styles:
                     format: image/png
       - name: trap_richting_omlaag
         filter: ${omschrijving = 'trap(penhuis) richting omlaag'}
-        title: Trap omlaag
+        title: Trap richting omlaag
         scale: [min, 1000]
         symbolizers:
           - point:
@@ -178,7 +178,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte/0.65} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              size: ${symboolgrootte/0.86} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:

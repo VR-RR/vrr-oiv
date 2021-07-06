@@ -1,20 +1,20 @@
-algemeen_gevaar: &algemeen_gevaar https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W001_Algemeen%20gevaar.png?raw=true
-niet_ioniserende_straling: &niet_ioniserende_straling https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W005_Niet-ioniserende%20straling.png?raw=true
-magnetisch_veld: &magnetisch_veld https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W006_Magnetisch%20veld.png?raw=true
-vallen_door_hoogte_verschil: &vallen_door_hoogte_verschil https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W008_hoogteverschil.png?raw=true
-lage_temperatuur_of_bevriezing: &lage_temperatuur_of_bevriezing https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W010_Lage%20temperatuur.png?raw=true
-glad_oppervlak: &glad_oppervlak https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W011_Glad%20oppervlak.png?raw=true
-elektrische_spanning: &elektrische_spanning https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W012_Elektrische%20spanning.png?raw=true
-hondenbewaking: &hondenbewaking https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W013_Honden%20bewaking.png?raw=true
-hangende_lasten: &hangende_lasten https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W015_Hangende%20lasten.png?raw=true
-heet_oppervlak: &heet_oppervlak https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W017_Heet%20oppervlak.png?raw=true
-accus_en_klein_chemisch_materiaal: &accus_en_klein_chemisch_materiaal https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W026_Accu%E2%80%99s%20en%20klein%20chemisch%20materiaal.png?raw=true
-afstand_bestuurde_machines: &afstand_bestuurde_machines https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W037_Op%20afstand%20bestuurde%20machines.png?raw=true
-explosieve_atmosfeer: &explosieve_atmosfeer https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W-NL-001_Explosieve%20atmosfeer.png?raw=true
-helling: &helling https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/_Helling.png?raw=true
-exotische_dieren: &exotische_dieren https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W-NL-007_Exotische%20dieren.png?raw=true
-lithium_ion_batterijen: &lithium_ion_batterijen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W-NL-008_li-ion_batterijen.png?raw=true
-niet_Lithium_houdende_batterijen: &niet_Lithium_houdende_batterijen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waarschuwing/W-NL-008_non-li_niet_lithium_houdende_batterijen.png?raw=true
+algemeen_gevaar: &algemeen_gevaar https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waarschuwing/W001_Algemeen%20gevaar.png?raw=true
+niet_ioniserende_straling: &niet_ioniserende_straling https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waarschuwing/W005_Niet-ioniserende%20straling.png?raw=true
+magnetisch_veld: &magnetisch_veld https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waarschuwing/W006_Magnetisch%20veld.png?raw=true
+vallen_door_hoogte_verschil: &vallen_door_hoogte_verschil https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waarschuwing/W008_hoogteverschil.png?raw=true
+lage_temperatuur_of_bevriezing: &lage_temperatuur_of_bevriezing https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waarschuwing/W010_Lage%20temperatuur.png?raw=true
+glad_oppervlak: &glad_oppervlak https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waarschuwing/W011_Glad%20oppervlak.png?raw=true
+elektrische_spanning: &elektrische_spanning https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waarschuwing/W012_Elektrische%20spanning.png?raw=true
+hondenbewaking: &hondenbewaking https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waarschuwing/W013_Honden%20bewaking.png?raw=true
+hangende_lasten: &hangende_lasten https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waarschuwing/W015_Hangende%20lasten.png?raw=true
+heet_oppervlak: &heet_oppervlak https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waarschuwing/W017_Heet%20oppervlak.png?raw=true
+accus_en_klein_chemisch_materiaal: &accus_en_klein_chemisch_materiaal https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waarschuwing/W026_Accu%E2%80%99s%20en%20klein%20chemisch%20materiaal.png?raw=true
+afstand_bestuurde_machines: &afstand_bestuurde_machines https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waarschuwing/W037_Op%20afstand%20bestuurde%20machines.png?raw=true
+explosieve_atmosfeer: &explosieve_atmosfeer https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waarschuwing/W-NL-001_Explosieve%20atmosfeer.png?raw=true
+helling: &helling https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waarschuwing/_Helling.png?raw=true
+exotische_dieren: &exotische_dieren https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waarschuwing/W-NL-007_Exotische%20dieren.png?raw=true
+lithium_ion_batterijen: &lithium_ion_batterijen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waarschuwing/W-NL-008_li-ion_batterijen.png?raw=true
+niet_Lithium_houdende_batterijen: &niet_Lithium_houdende_batterijen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waarschuwing/W-NL-008_non-li_niet_lithium_houdende_batterijen.png?raw=true
 
 feature-styles:
   - rules:
