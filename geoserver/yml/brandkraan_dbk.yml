@@ -11,7 +11,7 @@ feature-styles:
               anchor: [0.5,0.5]
               symbols:
               - external:
-                  url: https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-004_ondergrondse_brandkraan.png?raw=true
+                  url: https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-004_ondergrondse_brandkraan.png?raw=true
                   format: image/png
           - text:
               font-size: 1.8
@@ -37,7 +37,7 @@ feature-styles:
               anchor: [0.5,0.5]
               symbols:
               - external:
-                  url: https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-004_ondergrondse_brandkraan.png?raw=true
+                  url: https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-004_ondergrondse_brandkraan.png?raw=true
                   format: image/png
       - filter: ${ligging = 'bovengronds' OR ligging = 'Bovengronds'}
         name: brandkraan
@@ -50,7 +50,7 @@ feature-styles:
               anchor: [0.5,0.5]
               symbols:
               - external:
-                  url: https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-002_bovengrondse_brandkraan.png?raw=true
+                  url: https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-002_bovengrondse_brandkraan.png?raw=true
                   format: image/png
           - text:
               font-size: 1.8
@@ -76,5 +76,5 @@ feature-styles:
               anchor: [0.5,0.5]
               symbols:
               - external:
-                  url: https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/waterwinning/F-NL-002_bovengrondse_brandkraan.png?raw=true
+                  url: https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-002_bovengrondse_brandkraan.png?raw=true
                   format: image/png
