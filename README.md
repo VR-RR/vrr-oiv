@@ -7,6 +7,9 @@ Hierin vind je de instructies om het programma te installeren en te gebruiken.
 
 [Documentatie (in ontwikkeling)](https://vr-rr.github.io/vrr-oiv/)
 
+
+![alt text](./geoserver/png/legenda_vrr_oiv.png "Legenda alle symbolen")
+
 ## Over het project
 
 VRR OIV (operationele informatievoorziening) is een onderdeel van het VRR GIS-applicatielandschap. Binnen de geo-informatieketen vormt VRR OIV een bron voor onder andere het KaartViewer geoportaal en de MOI.  
