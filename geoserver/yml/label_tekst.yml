@@ -140,3 +140,31 @@ feature-styles:
                 radius: 0
                 fill-color: '#cc0605'
                 fill-opacity: 1
+      - name: groen
+        title: Groen
+        filter: ${omschrijving = 'groen'}
+        scale: [min, 2000]
+        symbolizers:
+          - text:
+              uom: metre
+              label: ${label}
+              font-family: DejaVu Sans Condensed
+              font-size: ${symboolgrootte/1}
+              font-style: normal
+              font-weight: normal
+              placement: point
+              anchor: [0.5, 0.5]
+              displacement: [0.0, -0.2]
+              fill-color: '#ffffff'
+              x-graphic-resize: stretch
+              x-graphic-margin: .4
+              x-conflictResolution: false
+              x-goodnesOfFit: 0
+              x-maxDisplacement: 0
+              x-partials: true
+              rotation: ${symboolrotatie}
+              priority: 100
+              halo:
+                radius: 0
+                fill-color: '#237f52'
+                fill-opacity: 1

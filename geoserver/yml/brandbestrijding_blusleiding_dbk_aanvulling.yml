@@ -1,7 +1,7 @@
 blusleiding_bl: &blusleiding_bl https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_bl.png?raw=true
-blusleiding_bl_afnamepunt: &blusleiding_bl_afnamepunt https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/VRR-F-NL-039 Blusleiding BL (afnamepunt natte blusleiding)?raw=true
+blusleiding_bl_afnamepunt: &blusleiding_bl_afnamepunt https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/VRR-F-NL-039%20Blusleiding%20BL%20(afnamepunt%20natte%20blusleiding).png?raw=true
 droge_blusleiding_dbl: &droge_blusleiding_dbl https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_dbl.png?raw=true
-droge_blusleiding_dbl_afnamepunt: &droge_blusleiding_dbl_afnamepunt https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/VRR-F-NL-039 Blusleiding DBL (afnamepunt droge blusleiding) ?raw=true
+droge_blusleiding_dbl_afnamepunt: &droge_blusleiding_dbl_afnamepunt https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/VRR-F-NL-039%20Blusleiding%20DBL%20(afnamepunt%20droge%20blusleiding)%20.png?raw=true
 blusleiding_premix_foam_schuim: &blusleiding_premix_foam_schuim https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_foam_premix.png?raw=true
 blusleiding_puur_foam_schuim: &blusleiding_puur_foam_schuim https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_foam_puur.png?raw=true
 blusleiding_foam_schuim: &blusleiding_foam_schuim https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_schuimvoeding.png?raw=true
@@ -30,7 +30,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/2}
               rotation: ${symboolrotatie}
               symbols:
                 - external:

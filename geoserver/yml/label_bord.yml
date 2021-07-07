@@ -259,3 +259,67 @@ feature-styles:
             x-partials: true
             anchor: [0.5,0.5]
             displacement: [0.0, -0.2]
+  - rules:
+      - name: groen
+        title: Groen
+        filter: ${omschrijving = 'groen'}
+        scale: [min, 2000]
+        symbolizers:
+        - text:
+            fill-color: '#f7faf5'
+            fill-opacity: 0.0
+            x-graphic-resize: stretch
+            x-graphic-margin: 0.4
+            graphic:
+              symbols:
+              - mark:
+                  uom: metre
+                  shape: square
+                  stroke-color: '#ffffff'
+                  stroke-width: ${symboolgrootte/20}
+                  stroke-linejoin: bevel
+                  stroke-linecap: round
+                  fill-color: '#237f52'
+                  fill-opacity: 1
+              rotation: ${symboolrotatie}
+            label: ${label}
+            uom: metre
+            font-family: SansSerif
+            font-size: ${symboolgrootte}
+            font-style: normal
+            font-weight: bold
+            placement: point
+            x-conflictResolution: false
+            x-goodnesOfFit: 0
+            x-maxDisplacement: 0
+            x-partials: true
+            anchor: [0.5,0.5]
+            displacement: [0.0, -0.2]
+        - text:
+            fill-color: '#f7faf5'
+            fill-opacity: 0.0
+            x-graphic-resize: stretch
+            x-graphic-margin: 0.4
+            graphic:
+              symbols:
+              - mark:
+                  uom: metre
+                  shape: square
+                  stroke-color: '#237f52'
+                  stroke-width: ${symboolgrootte/6}
+                  fill-color: '#000000'
+                  fill-opacity: 1
+              rotation: ${symboolrotatie}
+            label: ${label}
+            uom: metre
+            font-family: SansSerif
+            font-size: ${symboolgrootte}
+            font-style: normal
+            font-weight: bold
+            placement: point
+            x-conflictResolution: false
+            x-goodnesOfFit: 0
+            x-maxDisplacement: 0
+            x-partials: true
+            anchor: [0.5,0.5]
+            displacement: [0.0, -0.2]
