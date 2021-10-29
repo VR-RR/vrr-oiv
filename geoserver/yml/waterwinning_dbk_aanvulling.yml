@@ -161,7 +161,7 @@ feature-styles:
         symbolizers:
           - point:
               uom: pixel
-              size: 30
+              size: 26
               rotation: ${symboolrotatie}
               symbols:
                 - external:

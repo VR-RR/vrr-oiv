@@ -13,11 +13,11 @@ feature-styles:
       - name: blusleiding_bl
         filter: ${omschrijving = 'blusleiding (BL)' AND type_leiding = 'voedingspunt'}
         title: Blusleiding (BL)
-        scale: [min, 1000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -26,11 +26,11 @@ feature-styles:
       - name: blusleiding_bl_afnamepunt
         filter: ${omschrijving = 'blusleiding (BL)' AND type_leiding = 'afnamepunt'}
         title: Blusleiding (BL) afnamepunt
-        scale: [min, 1000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte/2}
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -39,11 +39,11 @@ feature-styles:
       - name: droge_blusleiding_dbl
         filter: ${omschrijving = 'droge blusleiding (DBL)' AND type_leiding = 'voedingspunt'}
         title: Droge blusleiding (DBL)
-        scale: [min, 1000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte/2}
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -52,11 +52,11 @@ feature-styles:
       - name: droge_blusleiding_dbl_afnamepunt
         filter: ${omschrijving = 'droge blusleiding (DBL)' AND type_leiding = 'afnamepunt'}
         title: Droge blusleiding (DBL) afnamepunt
-        scale: [min, 1000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte/2}
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -65,11 +65,11 @@ feature-styles:
       - name: blusleiding_premix_foam_schuim
         filter: ${omschrijving = 'blusleiding premix-foam (schuim)'}
         title: Blusleiding premix-foam (schuim)
-        scale: [min, 1000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -78,11 +78,11 @@ feature-styles:
       - name: blusleiding_puur_foam_schuim
         filter: ${omschrijving = 'blusleiding puur-foam (schuim)'}
         title: Blusleiding puur-foam (schuim)
-        scale: [min, 1000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -91,11 +91,11 @@ feature-styles:
       - name: blusleiding_foam_schuim
         filter: ${omschrijving = 'blusleiding foam (schuim)'}
         title: Blusleiding foam (schuim)
-        scale: [min, 1000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -104,11 +104,11 @@ feature-styles:
       - name: blusleiding_sprinklervoeding
         filter: ${omschrijving = 'blusleiding sprinklervoeding'}
         title: Blusleiding sprinklervoeding
-        scale: [min, 1000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -117,7 +117,7 @@ feature-styles:
       - name: kade_aansluiting_blusboot_voedingspunt
         filter: ${omschrijving = 'kade aansluiting blusboot (voedingspunt)'}
         title: Kade aansluiting blusboot (voedingspunt)
-        scale: [min, 1000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre

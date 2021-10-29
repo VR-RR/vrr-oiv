@@ -1,0 +1,39 @@
+feature-styles:
+  - rules:
+      - name: bag_nummer
+        title: BAG nummer
+        scale: [750, 2000]
+        symbolizers:
+          - text:
+              uom: pixel
+              label: ${huisnummers_pand}
+              font-family: DejaVu Sans Condensed
+              font-size: 12
+              font-style: normal
+              font-weight: normal
+              fill-color: '#444'
+              fill-opacity: .95
+              placement: point
+              anchor: [0.5, 0.75]
+              x-partials: true
+              x-conflictResolution: true
+              x-graphic-resize: stretch
+              x-graphic-margin: 2
+              halo:
+                radius: 2
+                fill-color: "#ffffff"
+                fill-opacity: 1
+      - name: bag_nummer_dot
+        scale: [750, 2000]
+        symbolizers:
+          - point:
+              symbols:
+              - mark:
+                  shape: circle
+                  fill-color: "#ffffff"
+                  fill-opacity: 0.2
+                  stroke-width: 0.5
+                  stroke-color: "#000000"
+                  stroke-opacity: 1
+              uom: pixel
+              size: 5

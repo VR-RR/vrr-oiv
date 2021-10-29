@@ -6,11 +6,11 @@ feature-styles:
       - name: generator
         filter: ${omschrijving = 'generator'}
         title: generator
-        scale: [min, 1000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte/2}
+              size: ${symboolgrootte}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -19,11 +19,11 @@ feature-styles:
       - name: brandbluspomp
         filter: ${omschrijving = 'brandbluspomp'}
         title: brandbluspomp
-        scale: [min, 1000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte/2}
+              size: ${symboolgrootte}
               rotation: ${symboolrotatie}
               symbols:
                 - external:

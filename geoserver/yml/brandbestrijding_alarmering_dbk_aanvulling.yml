@@ -3,7 +3,7 @@ feature-styles:
       - filter: ${omschrijving = 'Handbrandmelder'}
         name: handbrandmelder
         title: Handbrandmelder
-        scale: [min, 1000]
+        scale: [min, 2000]
         symbolizers:
             - point:
                 uom: metre
@@ -16,7 +16,7 @@ feature-styles:
       - filter: ${omschrijving = 'Noodtelefoon'}
         name: noodtelefoon
         title: Noodtelefoon
-        scale: [min, 1000]
+        scale: [min, 2000]
         symbolizers:
             - point:
                 uom: metre
@@ -29,11 +29,11 @@ feature-styles:
       - filter: ${omschrijving = 'Brandmeldinstallatie (BMC)'}
         name: brandmeldinstallatie_bmc
         title: Brandmeldinstallatie (BMC)
-        scale: [min, 1000]
+        scale: [min, 2000]
         symbolizers:
             - point:
                 uom: metre
-                size: ${symboolgrootte/3} # Deze wordt door 3 gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+                size: ${symboolgrootte/1.37} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
                 rotation: ${symboolrotatie}
                 symbols:
                     - external:
@@ -42,11 +42,11 @@ feature-styles:
       - filter: ${omschrijving = 'Brandmeldpaneel BMP'}
         name: brandmeldpaneel_bmp
         title: Brandmeldpaneel BMP
-        scale: [min, 1000]
+        scale: [min, 2000]
         symbolizers:
             - point:
                 uom: metre
-                size: ${symboolgrootte/3} # Deze wordt door 3 gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+                size: ${symboolgrootte/1.37} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
                 rotation: ${symboolrotatie}
                 symbols:
                     - external:
@@ -55,11 +55,11 @@ feature-styles:
       - filter: ${omschrijving = 'Sprinklermeldcentrale SMC'}
         name: sprinklermeldcentrale_smc
         title: Sprinklermeldcentrale SMC
-        scale: [min, 1000]
+        scale: [min, 2000]
         symbolizers:
             - point:
                 uom: metre
-                size: ${symboolgrootte/1.5} # Deze wordt door 1.5 gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+                size: ${symboolgrootte/1.37} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
                 rotation: ${symboolrotatie}
                 symbols:
                     - external:
@@ -68,7 +68,7 @@ feature-styles:
       - filter: ${omschrijving = 'Nevenpaneel (NP)'}
         name: nevenpaneel_np
         title: Nevenpaneel (NP)
-        scale: [min, 1000]
+        scale: [min, 2000]
         symbolizers:
             - point:
                 uom: metre

@@ -2,7 +2,7 @@ feature-styles:
   - rules:
       - name: bouwlaag
         title: Bouwlaag
-        scale: [min, 5000]
+        scale: [min, 2000]
         symbolizers:
           - polygon:
               fill-color: "#fff5e5"

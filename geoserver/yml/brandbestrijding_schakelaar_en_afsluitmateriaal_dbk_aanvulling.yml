@@ -12,11 +12,11 @@ feature-styles:
       - name: noodschakelaar_centrale_verwarming_cv
         filter: ${omschrijving = 'noodschakelaar centrale verwarming (CV)'}
         title: noodschakelaar centrale verwarming (CV)
-        scale: [min, 1000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -25,11 +25,11 @@ feature-styles:
       - name: noodschakelaar_luchtbehandeling_lb
         filter: ${omschrijving = 'noodschakelaar luchtbehandeling (LB)'}
         title: noodschakelaar luchtbehandeling (LB)
-        scale: [min, 1000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -38,11 +38,11 @@ feature-styles:
       - name: noodschakelaar_neon_ne
         filter: ${omschrijving = 'noodschakelaar neon (Ne)'}
         title: noodschakelaar neon (Ne)
-        scale: [min, 1000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -51,11 +51,11 @@ feature-styles:
       - name: noodschakelaar_rookwarmte_afvoer_rwa
         filter: ${omschrijving = 'noodschakelaar rookwarmte afvoer (RWA)'}
         title: noodschakelaar rookwarmte afvoer (RWA)
-        scale: [min, 1000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -64,7 +64,7 @@ feature-styles:
       - name: noodschakelaar_elektriciteit
         filter: ${omschrijving = 'noodschakelaar elektriciteit'}
         title: noodschakelaar elektriciteit
-        scale: [min, 1000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
@@ -77,11 +77,11 @@ feature-styles:
       - name: hoofdafsluiter_water
         filter: ${omschrijving = 'hoofdafsluiter water'}
         title: hoofdafsluiter water
-        scale: [min, 1000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte/2}
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -90,11 +90,11 @@ feature-styles:
       - name: hoofdafsluiter_gas
         filter: ${omschrijving = 'hoofdafsluiter gas'}
         title: hoofdafsluiter gas
-        scale: [min, 1000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
-              size: ${symboolgrootte}
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
               rotation: ${symboolrotatie}
               symbols:
                 - external:
@@ -103,7 +103,7 @@ feature-styles:
       - name: rook_en_warmteafvoer_rwa
         filter: ${omschrijving = 'rook-en warmteafvoer (RWA)'}
         title: rook-en warmteafvoer (RWA)
-        scale: [min, 1000]
+        scale: [min, 2000]
         symbolizers:
           - point:
               uom: metre
