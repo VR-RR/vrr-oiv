@@ -2,7 +2,7 @@ feature-styles:
   - rules:
       - name: bag_nummer
         title: BAG nummer
-        scale: [750, 2000]
+        scale: [min, 2000]
         symbolizers:
           - text:
               uom: pixel
