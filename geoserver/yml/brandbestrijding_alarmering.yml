@@ -4,6 +4,7 @@ brandmeldinstallatie_bmc: &brandmeldinstallatie_bmc https://github.com/VR-RR/vrr
 brandmeldpaneel_bmp: &brandmeldpaneel_bmp https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Alarmering/F-NL-008_brandmeldinstallatie_brandmeldpaneel.png?raw=true
 sprinklermeldcentrale_smc: &sprinklermeldcentrale_smc https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Alarmering/F-NL-008_brandmeldinstallatie_sprinklermeldcentrale.png?raw=true
 nevenpaneel_np: &nevenpaneel_np https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Alarmering/F-NL-010_nevenpaneel.png?raw=true
+flitslicht: &flitslicht https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Alarmering/ISO7010-F018 Brandalarm flitslicht.png?raw=true
 
 feature-styles:
   - rules:
@@ -84,4 +85,17 @@ feature-styles:
               symbols:
                 - external:
                     url: *nevenpaneel_np
+                    format: image/png
+      - name: flitslicht
+        filter: ${omschrijving = 'Flitslicht'}
+        title: Flitslicht
+        scale: [min, 1000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/2} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *flitslicht
                     format: image/png
