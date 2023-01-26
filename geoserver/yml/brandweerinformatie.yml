@@ -40,3 +40,24 @@ feature-styles:
                 - external:
                     url: *gb_lidbedrijf
                     format: image/png
+          - text:
+              uom: pixel
+              label: ${opmerking}
+              font-family: DejaVu Sans Condensed
+              font-size: 12
+              font-style: normal
+              font-weight: normal
+              fill-color: '#444'
+              fill-opacity: .95
+              placement: point
+              displacement: [0.0, -13.2]
+              anchor: [0.5, 1]
+              x-partials: true
+              x-conflictResolution: true
+              x-graphic-resize: stretch
+              x-graphic-margin: 2
+              x-maxDisplacement: 20
+              halo:
+                radius: 2
+                fill-color: "#ffffff"
+                fill-opacity: 1
