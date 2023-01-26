@@ -1,5 +1,6 @@
 brandweerinformatie_rood: &brandweerinformatie_rood https://raw.githubusercontent.com/VR-RR/vrr-oiv/main/qgis/icons/Algemeen/BRW_INFO.png
 objectinformatie_blauw: &objectinformatie_blauw https://raw.githubusercontent.com/VR-RR/vrr-oiv/main/qgis/icons/Algemeen/BRW_DBK.png
+gb_lidbedrijf: &gb_lidbedrijf https://raw.githubusercontent.com/VR-RR/vrr-oiv/main/qgis/icons/Algemeen/gb_lidbedrijf.png
 
 feature-styles:
   - rules:
@@ -26,4 +27,16 @@ feature-styles:
               symbols:
                 - external:
                     url: *objectinformatie_blauw
+                    format: image/png
+      - name: GB_lidbedrijf
+        filter: ${omschrijving = 'gb_lidbedrijf'} 
+        title: GB lidbedrijf
+        scale: [2000, 10000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 20
+              symbols:
+                - external:
+                    url: *gb_lidbedrijf
                     format: image/png
