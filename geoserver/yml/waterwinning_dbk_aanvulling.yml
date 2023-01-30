@@ -8,6 +8,7 @@ water_reduceer_drukbegrenzer: &water_reduceer_drukbegrenzer https://github.com/V
 open_water_niet_bereikbaar: &open_water_niet_bereikbaar https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-031_open_water_niet_bereikbaar.png?raw=true
 open_water_bereikbaar: &open_water_bereikbaar https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-032_open_water_bereikbaar.png?raw=true
 bluswaterriool: &bluswaterriool https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-033_bluswaterriool.png?raw=true
+bovengrondse_brandkraan_gb: &bovengrondse_brandkraan_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-002_bovengrondse_brandkraan_gb.png?raw=true
 
 feature-styles:
   - rules:
@@ -323,3 +324,55 @@ feature-styles:
                 - external:
                     url: *bluswaterriool
                     format: image/png
+      - name: bovengrondse_brandkraan_gb
+        filter: ${omschrijving = 'bovengrondse brandkraan gb'}
+        title: bovengrondse brandkraan gb
+        scale: [min, 500]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *bovengrondse_brandkraan_gb
+                    format: image/png
+          - text:
+              font-size: 1.8
+              font-family: SansSerif
+              font-weight: bold
+              fill-color: '#000000'
+              uom: metre
+              label: ${diameter_leiding}
+              placement: point
+              anchor: [0.5,0.85]
+              displacement: [0,-2.8]
+              halo:
+                fill-color: '#ffffff'
+                radius: 0.2
+      - name: bovengrondse_brandkraan_gb
+        filter: ${omschrijving = 'bovengrondse brandkraan gb'}
+        title: bovengrondse brandkraan gb
+        scale: [500, 2000]
+        symbolizers:
+          - point:
+              uom: pixel
+              size: 26
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *bovengrondse_brandkraan_gb
+                    format: image/png
+          - text:
+              font-size: 12
+              font-family: SansSerif
+              font-weight: bold
+              fill-color: '#000000'
+              uom: pixel
+              label: ${diameter_leiding}
+              placement: point
+              anchor: [0.5,0.5]
+              displacement: [0,-22]
+              halo:
+                fill-color: '#ffffff'
+                radius: 1.4
