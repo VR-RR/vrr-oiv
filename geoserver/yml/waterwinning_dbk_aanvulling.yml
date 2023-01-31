@@ -330,34 +330,34 @@ feature-styles:
         scale: [min, 500]
         symbolizers:
           - point:
-              uom: metre
-              size: ${symboolgrootte}
+              uom: pixel
+              size: ${symboolgrootte/0.21}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
                     url: *bovengrondse_brandkraan_gb
                     format: image/png
           - text:
-              font-size: 1.8
+              font-size: 12
               font-family: SansSerif
               font-weight: bold
               fill-color: '#000000'
-              uom: metre
+              uom: pixel
               label: ${diameter_leiding}
               placement: point
-              anchor: [0.5,0.85]
-              displacement: [0,-2.8]
+              anchor: [0.5,0.5]
+              displacement: [0,-22]
               halo:
                 fill-color: '#ffffff'
-                radius: 0.2
+                radius: 1.4
       - name: bovengrondse_brandkraan_gb
         filter: ${omschrijving = 'bovengrondse brandkraan gb'}
         title: bovengrondse brandkraan gb
-        scale: [500, 2000]
+        scale: [500, 1000]
         symbolizers:
           - point:
               uom: pixel
-              size: 26
+              size: ${symboolgrootte/0.41}
               rotation: ${symboolrotatie}
               symbols:
                 - external:

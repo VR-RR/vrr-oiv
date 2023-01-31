@@ -31,7 +31,7 @@ feature-styles:
       - name: GB_lidbedrijf
         filter: ${omschrijving = 'gb_lidbedrijf'} 
         title: GB lidbedrijf
-        scale: [2000, 10000]
+        scale: [min, 10000]
         symbolizers:
           - point:
               uom: pixel
@@ -42,22 +42,15 @@ feature-styles:
                     format: image/png
           - text:
               uom: pixel
-              label: ${opmerking}
-              font-family: DejaVu Sans Condensed
-              font-size: 12
-              font-style: normal
-              font-weight: normal
-              fill-color: '#444'
-              fill-opacity: .95
+              label: ${opmerking} 
+              font-family: SansSerif 
+              font-size: 10
+              font-style: normal 
+              fill-color: '#000000'
               placement: point
-              displacement: [0.0, -13.2]
-              anchor: [0.5, 1]
-              x-partials: true
-              x-conflictResolution: true
-              x-graphic-resize: stretch
-              x-graphic-margin: 2
-              x-maxDisplacement: 20
+              displacement: [0.0, -20]
+              anchor: [0.5, 0.5]
               halo:
-                radius: 2
+                radius: 1.5
                 fill-color: "#ffffff"
                 fill-opacity: 1
