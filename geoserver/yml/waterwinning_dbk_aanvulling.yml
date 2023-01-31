@@ -9,7 +9,7 @@ open_water_niet_bereikbaar: &open_water_niet_bereikbaar https://github.com/VR-RR
 open_water_bereikbaar: &open_water_bereikbaar https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-032_open_water_bereikbaar.png?raw=true
 bluswaterriool: &bluswaterriool https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-033_bluswaterriool.png?raw=true
 bovengrondse_brandkraan_gb: &bovengrondse_brandkraan_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-002_bovengrondse_brandkraan_gb.png?raw=true
-bovengrondse_brandkraan_gb_hogere_druk: &bovengrondse_brandkraan_gb_hogere_druk https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-002_bovengrondse_brandkraan_hogere_druk_gb.png?raw=true
+bovengrondse_brandkraan_gb_hogere_druk: &bovengrondse_brandkraan_gb_hogere_druk https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-029_bovengrondse_brandkraan_hogere_druk_gb.png?raw=true
 
 feature-styles:
   - rules:
