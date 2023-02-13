@@ -12,6 +12,7 @@ trap_richting_omlaag_en_omhoog: &trap_richting_omlaag_en_omhoog https://github.c
 trap_richting_omlaag: &trap_richting_omlaag https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Toegang/F-NL-042_Trap(penhuis)_richting_omlaag.png?raw=true
 calamiteitendoorsteek: &calamiteitendoorsteek https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Toegang/WVW_BB40_CADO.png?raw=true
 indicator_flitslicht: &indicator_flitslicht https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Toegang/indicator_flitslicht.png?raw=true
+sleutelkluis_hbr: &sleutelkluis_hbr https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Toegang/F-NL-007_sleutelkluis_hbr.png?raw=true
 
 feature-styles:
   - rules:
@@ -196,4 +197,18 @@ feature-styles:
               symbols:
                 - external:
                     url: *indicator_flitslicht
+                    format: image/png
+#Vanaf hier iconen van de Gezamenlijke Brandweer  
+      - name: sleutelkluis_hbr
+        filter: ${omschrijving = 'sleutelbuis-kluis hbr'}
+        title: Sleutelkluis HBR
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *sleutelkluis_hbr
                     format: image/png

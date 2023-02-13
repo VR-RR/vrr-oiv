@@ -2,6 +2,13 @@ opstelplaats_eerste_blusvoertuig: &opstelplaats_eerste_blusvoertuig https://gith
 opstelplaats_overige_blusvoertuigen: &opstelplaats_overige_blusvoertuigen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Opstelplaatsen/F-NL-014_opstelplaats_overige_blusvoertuigen.png?raw=true
 opstelplaats_redvoertuig: &opstelplaats_redvoertuig https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Opstelplaatsen/F-NL-015_opstelplaats_redvoertuig.png?raw=true
 uitgangsstelling_ugs: &uitgangsstelling_ugs https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Opstelplaatsen/SRGO_B02_UGS.png?raw=true
+uitgangsstelling_copi: &uitgangsstelling_copi https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Opstelplaatsen/VRR_NL_COPI.png?raw=true
+gb_cbp_blusunit: &gb_cbp_blusunit https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Opstelplaatsen/GB_CBP_Blusunit.png?raw=true
+gb_cbp_dompelpompunit: &gb_cbp_dompelpompunit https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Opstelplaatsen/GB_CBP_Dompelpompunit.png?raw=true
+gb_cbp_foam_booster: &gb_cbp_foam_booster https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Opstelplaatsen/GB_CBP_Foam_Booster.png?raw=true
+gb_cbp_svm_trailer: &gb_cbp_svm_trailer https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Opstelplaatsen/GB_CBP_SVM_Trailer.png?raw=true
+gb_oilboom_vaste_locatie: &gb_oilboom_vaste_locatie https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Opstelplaatsen/GB_Oilboom_Vaste_Locatie.png?raw=true
+gb_oilboom_lanceer_locatie: &gb_oilboom_lanceer_locatie https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Opstelplaatsen/GB_Oilboom_Lanceer_Locatie.png?raw=true
 
 feature-styles:
   - rules:
@@ -56,4 +63,96 @@ feature-styles:
               symbols:
                 - external:
                     url: *uitgangsstelling_ugs
+                    format: image/png
+#Vanaf hier iconen van de Gezamenlijke Brandweer
+      - name: uitgangsstelling_copi
+        filter: ${omschrijving = 'uitgangsstelling COPI'}
+        title: uitgangsstelling COPI
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *uitgangsstelling_copi
+                    format: image/png
+      - name: cbp_blusunit
+        filter: ${omschrijving = 'CBP Blus Unit'}
+        title: CBP Blus Unit
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *gb_cbp_blusunit
+                    format: image/png
+      - name: cbp_dpu
+        filter: ${omschrijving = 'CBP DPU'}
+        title: CBP DPU
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *gb_cbp_dompelpompunit
+                    format: image/png
+      - name: cbp_foam_booster
+        filter: ${omschrijving = 'CBP Foam Booster'}
+        title: CBP Foam Booster
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *gb_cbp_foam_booster
+                    format: image/png
+      - name: cbp_svm_trailer
+        filter: ${omschrijving = 'CBP SVM Trailer'}
+        title: CBP SVM Trailer
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *gb_cbp_svm_trailer
+                    format: image/png
+      - name: gb_oilboom_vaste_locatie
+        filter: ${omschrijving = 'oilboom vaste locatie'}
+        title: Oilboom Vaste Locatie
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *gb_oilboom_vaste_locatie
+                    format: image/png
+      - name: gb_oilboom_lanceer_locatie
+        filter: ${omschrijving = 'oilboom lanceer locatie'}
+        title: Oilboom Vaste Locatie
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *gb_oilboom_lanceer_locatie
                     format: image/png

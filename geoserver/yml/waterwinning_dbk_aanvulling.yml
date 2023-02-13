@@ -9,7 +9,12 @@ open_water_niet_bereikbaar: &open_water_niet_bereikbaar https://github.com/VR-RR
 open_water_bereikbaar: &open_water_bereikbaar https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-032_open_water_bereikbaar.png?raw=true
 bluswaterriool: &bluswaterriool https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-033_bluswaterriool.png?raw=true
 bovengrondse_brandkraan_gb: &bovengrondse_brandkraan_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-002_bovengrondse_brandkraan_gb.png?raw=true
-bovengrondse_brandkraan_gb_hogere_druk: &bovengrondse_brandkraan_gb_hogere_druk https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-029_bovengrondse_brandkraan_hogere_druk_gb.png?raw=true
+ondergrondse_brandkraan_gb: &ondergrondse_brandkraan_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-004_ondergrondse_brandkraan_gb.png?raw=true
+geboorde_put_gb: &geboorde_put_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-011_geboorde_put_gb.png?raw=true
+ondergrondse_brandkraan_hogere_druk_gb: &ondergrondse_brandkraan_hogere_druk_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-028_ondergrondse_brandkraan_hogere_druk_gb.png?raw=true
+bovengrondse_brandkraan_hogere_druk_gb: &bovengrondse_brandkraan_hogere_druk_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-029_bovengrondse_brandkraan_hogere_druk_gb.png?raw=true
+water_reduceer_drukbegrenzer_gb: &water_reduceer_drukbegrenzer_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-030_water-reduceer_drukbegrenzer_gb.png?raw=true
+omloopafsluiter_gb: &omloopafsluiter_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waterwinning/F-NL-009_hoofdafsluiter_blussysteem_omloop_ringleiding_gb.png?raw=true
 
 feature-styles:
   - rules:
@@ -325,18 +330,19 @@ feature-styles:
                 - external:
                     url: *bluswaterriool
                     format: image/png
+#Vanaf hier iconen van de Gezamenlijke Brandweer                    
       - name: bovengrondse_brandkraan_gb
         filter: ${omschrijving = 'bovengrondse brandkraan gb'}
         title: bovengrondse brandkraan gb
-        scale: [min, 500]
+        scale: [min, 2000]
         symbolizers:
           - point:
-              uom: pixel
-              size: ${symboolgrootte/0.21}
+              uom: metre
+              size: ${symboolgrootte/0.82}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
-                    url: *bovengrondse_brandkraan_gb_hogere_druk
+                    url: *bovengrondse_brandkraan_gb
                     format: image/png
           - text:
               font-size: 12
@@ -351,29 +357,94 @@ feature-styles:
               halo:
                 fill-color: '#ffffff'
                 radius: 1.4
-      - name: bovengrondse_brandkraan_gb
-        filter: ${omschrijving = 'bovengrondse brandkraan gb'}
-        title: bovengrondse brandkraan gb
-        scale: [500, 1000]
+      - name: ondergrondse_brandkraan_gb
+        filter: ${omschrijving = 'ondergrondse brandkraan gb'}
+        title: ondergrondse brandkraan gb
+        scale: [min, 2000]
         symbolizers:
           - point:
-              uom: pixel
-              size: ${symboolgrootte/0.41}
+              uom: metre
+              size: ${symboolgrootte/0.82}
               rotation: ${symboolrotatie}
               symbols:
                 - external:
-                    url: *bovengrondse_brandkraan_gb_hogere_druk
+                    url: *ondergrondse_brandkraan_gb
                     format: image/png
           - text:
-              font-size: 12
+              font-size: 1.8
               font-family: SansSerif
               font-weight: bold
               fill-color: '#000000'
-              uom: pixel
+              uom: metre
               label: ${diameter_leiding}
               placement: point
-              anchor: [0.5,0.5]
-              displacement: [0,-22]
+              anchor: [0.5,0.85]
+              displacement: [0,-2.8]
               halo:
                 fill-color: '#ffffff'
-                radius: 1.4
+                radius: 0.2
+      - name: geboorde_put_gb
+        filter: ${omschrijving = 'geboorde put gb'}
+        title: geboorde put gb
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *geboorde_put_gb
+                    format: image/png
+      - name: ondergrondse_brandkraan_hogere_druk_gb
+        filter: ${omschrijving = 'ondergrondse brandkraan hogere druk gb'}
+        title: ondergrondse brandkraan hogere druk gb
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *ondergrondse_brandkraan_hogere_druk_gb
+                    format: image/png
+      - name: bovengrondse_brandkraan_hogere_druk_gb
+        filter: ${omschrijving = 'bovengrondse brandkraan hogere druk gb'}
+        title: bovengrondse brandkraan hogere druk gb
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *bovengrondse_brandkraan_hogere_druk_gb
+                    format: image/png
+      - name: water_reduceer_drukbegrenzer_gb
+        filter: ${omschrijving = 'water reduceer drukbegrenzer gb'}
+        title: water reduceer drukbegrenzer gb
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *water_reduceer_drukbegrenzer_gb
+                    format: image/png
+      - name: omloopafsluiter_gb
+        filter: ${omschrijving = 'omloopafsluiter gb'}
+        title: omloopafsluiter gb
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *omloopafsluiter_gb
+                    format: image/png

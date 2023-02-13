@@ -1,93 +1,214 @@
+blusleiding_bl: &blusleiding_bl https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_bl.png?raw=true
+blusleiding_bl_afnamepunt: &blusleiding_bl_afnamepunt https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/VRR-F-NL-039%20Blusleiding%20BL%20(afnamepunt%20natte%20blusleiding).png?raw=true
+droge_blusleiding_dbl: &droge_blusleiding_dbl https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_dbl.png?raw=true
+droge_blusleiding_dbl_afnamepunt: &droge_blusleiding_dbl_afnamepunt https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/VRR-F-NL-039%20Blusleiding%20DBL%20(afnamepunt%20droge%20blusleiding)%20.png?raw=true
+blusleiding_premix_foam_schuim: &blusleiding_premix_foam_schuim https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_foam_premix.png?raw=true
+blusleiding_puur_foam_schuim: &blusleiding_puur_foam_schuim https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_foam_puur.png?raw=true
+blusleiding_foam_schuim: &blusleiding_foam_schuim https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_schuimvoeding.png?raw=true
+blusleiding_sprinklervoeding: &blusleiding_sprinklervoeding https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_sprinklervoeding.png?raw=true
+kade_aansluiting_blusboot_voedingspunt: &kade_aansluiting_blusboot_voedingspunt https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-012_kadeaansluiting.png?raw=true
+blusleiding_premix_foam_schuim_gb: &blusleiding_premix_foam_schuim_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_foam_premix_gb.png?raw=true
+blusleiding_puur_foam_schuim_gb: &blusleiding_puur_foam_schuim_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_foam_puur_gb.png?raw=true
+blusleiding_foam_schuim_gb: &blusleiding_foam_schuim_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_schuimvoeding_gb.png?raw=true
+blusleiding_sprinklervoeding_gb: &blusleiding_sprinklervoeding_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_sprinklervoeding_gb.png?raw=true
+blusleiding_bl_gb: &blusleiding_bl_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_bl_gb.png?raw=true
+droge_blusleiding_dbl_gb: &droge_blusleiding_dbl_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusleidingen/F-NL-003_%20blusleiding_dbl_gb.png?raw=true
+
 feature-styles:
   - rules:
-      - filter: ${omschrijving = 'Handbrandmelder'}
-        name: handbrandmelder
-        title: Handbrandmelder
+      - name: blusleiding_bl
+        filter: ${omschrijving = 'blusleiding (BL)' AND type_leiding = 'voedingspunt'}
+        title: Blusleiding (BL)
         scale: [min, 2000]
         symbolizers:
-            - point:
-                uom: metre
-                size: ${symboolgrootte}
-                rotation: ${symboolrotatie}
-                symbols:
-                    - external:
-                        url: https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Alarmering/F005_handbrandmelder.png?raw=true
-                        format: image/png
-      - filter: ${omschrijving = 'Noodtelefoon'}
-        name: noodtelefoon
-        title: Noodtelefoon
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blusleiding_bl
+                    format: image/png
+      - name: blusleiding_bl_afnamepunt
+        filter: ${omschrijving = 'blusleiding (BL)' AND type_leiding = 'afnamepunt'}
+        title: Blusleiding (BL) afnamepunt
         scale: [min, 2000]
         symbolizers:
-            - point:
-                uom: metre
-                size: ${symboolgrootte}
-                rotation: ${symboolrotatie}
-                symbols:
-                    - external:
-                        url: https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Alarmering/F006_noodtelefoon.png?raw=true
-                        format: image/png
-      - filter: ${omschrijving = 'Brandmeldinstallatie (BMC)'}
-        name: brandmeldinstallatie_bmc
-        title: Brandmeldinstallatie (BMC)
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blusleiding_bl_afnamepunt
+                    format: image/png
+      - name: droge_blusleiding_dbl
+        filter: ${omschrijving = 'droge blusleiding (DBL)' AND type_leiding = 'voedingspunt'}
+        title: Droge blusleiding (DBL)
         scale: [min, 2000]
         symbolizers:
-            - point:
-                uom: metre
-                size: ${symboolgrootte/1.37} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
-                rotation: ${symboolrotatie}
-                symbols:
-                    - external:
-                        url: https://raw.githubusercontent.com/VR-RR/vrr-oiv/main/qgis/icons/Brandbestrijding/Alarmering/F-NL-008_brandmeldinstallatie_brandmeldcentrale.png
-                        format: image/png
-      - filter: ${omschrijving = 'Brandmeldpaneel BMP'}
-        name: brandmeldpaneel_bmp
-        title: Brandmeldpaneel BMP
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *droge_blusleiding_dbl
+                    format: image/png
+      - name: droge_blusleiding_dbl_afnamepunt
+        filter: ${omschrijving = 'droge blusleiding (DBL)' AND type_leiding = 'afnamepunt'}
+        title: Droge blusleiding (DBL) afnamepunt
         scale: [min, 2000]
         symbolizers:
-            - point:
-                uom: metre
-                size: ${symboolgrootte/1.37} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
-                rotation: ${symboolrotatie}
-                symbols:
-                    - external:
-                        url: https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Alarmering/F-NL-008_brandmeldinstallatie_brandmeldpaneel.png?raw=true
-                        format: image/png
-      - filter: ${omschrijving = 'Sprinklermeldcentrale SMC'}
-        name: sprinklermeldcentrale_smc
-        title: Sprinklermeldcentrale SMC
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *droge_blusleiding_dbl_afnamepunt
+                    format: image/png
+      - name: blusleiding_premix_foam_schuim
+        filter: ${omschrijving = 'blusleiding premix-foam (schuim)'}
+        title: Blusleiding premix-foam (schuim)
         scale: [min, 2000]
         symbolizers:
-            - point:
-                uom: metre
-                size: ${symboolgrootte/1.37} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
-                rotation: ${symboolrotatie}
-                symbols:
-                    - external:
-                        url: https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Alarmering/F-NL-008_brandmeldinstallatie_sprinklermeldcentrale.png?raw=true
-                        format: image/png
-      - filter: ${omschrijving = 'Nevenpaneel (NP)'}
-        name: nevenpaneel_np
-        title: Nevenpaneel (NP)
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blusleiding_premix_foam_schuim
+                    format: image/png
+      - name: blusleiding_puur_foam_schuim
+        filter: ${omschrijving = 'blusleiding puur-foam (schuim)'}
+        title: Blusleiding puur-foam (schuim)
         scale: [min, 2000]
         symbolizers:
-            - point:
-                uom: metre
-                size: ${symboolgrootte/2} # Deze wordt door 2 gedeeld aangezien het symbool dat online staat te groot wordt getoond.
-                rotation: ${symboolrotatie}
-                symbols:
-                    - external:
-                        url: https://raw.githubusercontent.com/VR-RR/vrr-oiv/main/qgis/icons/Brandbestrijding/Alarmering/F-NL-010_nevenpaneel.png
-                        format: image/png
-      - filter: ${omschrijving = 'Flitslicht'}
-        name: flitslicht
-        title: Flitslicht
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blusleiding_puur_foam_schuim
+                    format: image/png
+      - name: blusleiding_foam_schuim
+        filter: ${omschrijving = 'blusleiding foam (schuim)'}
+        title: Blusleiding foam (schuim)
         scale: [min, 2000]
         symbolizers:
-            - point:
-                uom: metre
-                size: ${symboolgrootte/2} # Deze wordt door 2 gedeeld aangezien het symbool dat online staat te groot wordt getoond.
-                rotation: ${symboolrotatie}
-                symbols:
-                    - external:
-                        url: https://raw.githubusercontent.com/VR-RR/vrr-oiv/main/qgis/icons/Brandbestrijding/Alarmering/ISO7010-F018 Brandalarm flitslicht.png
-                        format: image/png
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blusleiding_foam_schuim
+                    format: image/png
+      - name: blusleiding_sprinklervoeding
+        filter: ${omschrijving = 'blusleiding sprinklervoeding'}
+        title: Blusleiding sprinklervoeding
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blusleiding_sprinklervoeding
+                    format: image/png
+      - name: kade_aansluiting_blusboot_voedingspunt
+        filter: ${omschrijving = 'kade aansluiting blusboot (voedingspunt)'}
+        title: Kade aansluiting blusboot (voedingspunt)
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *kade_aansluiting_blusboot_voedingspunt
+                    format: image/png
+#Vanaf hier iconen van de Gezamenlijke Brandweer
+      - name: blusleiding_premix_foam_schuim_gb
+        filter: ${omschrijving = 'blusleiding premix-foam (schuim) gb'}
+        title: Blusleiding premix-foam (schuim) gb
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blusleiding_premix_foam_schuim_gb
+                    format: image/png
+      - name: blusleiding_puur_foam_schuim_gb
+        filter: ${omschrijving = 'blusleiding puur-foam (schuim) gb'}
+        title: Blusleiding puur-foam (schuim) gb
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blusleiding_puur_foam_schuim_gb
+                    format: image/png
+      - name: blusleiding_foam_schuim_gb
+        filter: ${omschrijving = 'blusleiding foam (schuim) gb'}
+        title: Blusleiding foam (schuim) gb
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blusleiding_foam_schuim_gb
+                    format: image/png
+      - name: blusleiding_sprinklervoeding_gb
+        filter: ${omschrijving = 'blusleiding sprinklervoeding gb'}
+        title: Blusleiding sprinklervoeding gb
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blusleiding_sprinklervoeding_gb
+                    format: image/png
+      - name: blusleiding_bl_gb
+        filter: ${omschrijving = 'blusleiding (BL)' AND type_leiding = 'voedingspunt gb'}
+        title: Blusleiding (BL) gb
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blusleiding_bl_gb
+                    format: image/png
+      - name: droge_blusleiding_dbl_gb
+        filter: ${omschrijving = 'droge blusleiding (DBL)' AND type_leiding = 'voedingspunt gb'}
+        title: Droge blusleiding (DBL) gb
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *droge_blusleiding_dbl_gb
+                    format: image/png

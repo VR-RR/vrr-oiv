@@ -28,6 +28,7 @@ feature-styles:
                 - external:
                     url: *objectinformatie_blauw
                     format: image/png
+#Vanaf hier iconen van de Gezamenlijke Brandweer
       - name: GB_lidbedrijf
         filter: ${omschrijving = 'gb_lidbedrijf'} 
         title: GB lidbedrijf

@@ -16,6 +16,18 @@ blussysteem_hifog_hogedrukwatermist: &blussysteem_hifog_hogedrukwatermist https:
 blussysteem_inert_blusgas: &blussysteem_inert_blusgas https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F-NL-038_blussysteem_inert.png?raw=true
 blussysteem_novec_blusgas: &blussysteem_novec_blusgas https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F-NL-038_blussysteem_novec.png?raw=true
 blussysteem_water: &blussysteem_water https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F-NL-038_blussysteem_water.png?raw=true
+blusmonitor_gb: &blusmonitor_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F015_blusmonitor_gb.png?raw=true
+blusmonitor_foam_schuim_gb: &blusmonitor_foam_schuim_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F015_blusmonitor_foam_gb.png?raw=true
+blusmonitor_water_gb: &blusmonitor_water_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F015_blusmonitor_water_gb.png?raw=true
+hoofdafsluiter_blussysteem_buisleiding_gb: &hoofdafsluiter_blussysteem_buisleiding_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F-NL-009_hoofdafsluiter_blussysteem_blusleiding_gb.png?raw=true
+hoofdafsluiter_sprinkler_gb: &hoofdafsluiter_sprinkler_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F-NL-009_hoofdafsluiter_blussysteem_sprinkler_gb.png?raw=true
+blussysteem_co2_blusgas_gb: &blussysteem_co2_blusgas_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F-NL-038_blussysteem_co2_gb.png?raw=true
+blussysteem_fm200_blusgas_gb: &blussysteem_fm200_blusgas_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F-NL-038_blussysteem_fm200_gb.png?raw=true
+blussysteem_foam_schuim_gb: &blussysteem_foam_schuim_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F-NL-038_blussysteem_foam_gb.png?raw=true
+blussysteem_hifog_hogedrukwatermist_gb: &blussysteem_hifog_hogedrukwatermist_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F-NL-038_blussysteem_hi-fog_gb.png?raw=true
+blussysteem_inert_blusgas_gb: &blussysteem_inert_blusgas_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F-NL-038_blussysteem_inert_gb.png?raw=true
+blussysteem_novec_blusgas_gb: &blussysteem_novec_blusgas_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F-NL-038_blussysteem_novec_gb.png?raw=true
+blussysteem_water_gb: &blussysteem_water_gb https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Brandbestrijding/Blusmiddelen/F-NL-038_blussysteem_water_gb.png?raw=true
 
 feature-styles:
   - rules:
@@ -252,4 +264,161 @@ feature-styles:
               symbols:
                 - external:
                     url: *blussysteem_water
+                    format: image/png
+#Vanaf hier iconen van de Gezamenlijke Brandweer
+      - name: blusmonitor_gb
+        filter: ${omschrijving = 'blusmonitor gb'}
+        title: blusmonitor gb
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blusmonitor_gb
+                    format: image/png
+      - name: blusmonitor_foam_schuim_gb
+        filter: ${omschrijving = 'blusmonitor foam (schuim) gb'}
+        title: blusmonitor foam (schuim) gb
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blusmonitor_foam_schuim_gb
+                    format: image/png
+      - name: blusmonitor_water_gb
+        filter: ${omschrijving = 'blusmonitor water gb'}
+        title: blusmonitor water gb
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blusmonitor_water_gb
+                    format: image/png
+      - name: hoofdafsluiter_blussysteem_buisleiding_gb
+        filter: ${omschrijving = 'hoofdafsluiter blussysteem / buisleiding gb'}
+        title: hoofdafsluiter blussysteem / buisleiding gb
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *hoofdafsluiter_blussysteem_buisleiding_gb
+                    format: image/png
+      - name: hoofdafsluiter_sprinkler_gb
+        filter: ${omschrijving = 'hoofdafsluiter sprinkler gb'}
+        title: hoofdafsluiter sprinkler gb
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *hoofdafsluiter_sprinkler_gb
+                    format: image/png
+      - name: blussysteem_co2_blusgas_gb
+        filter: ${omschrijving = 'blussysteem CO2 (blusgas) gb'}
+        title: blussysteem CO2 (blusgas) gb
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blussysteem_co2_blusgas_gb
+                    format: image/png
+      - name: blussysteem_fm200_blusgas_gb
+        filter: ${omschrijving = 'blussysteem FM200 (blusgas) gb'}
+        title: blussysteem FM200 (blusgas) gb
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blussysteem_fm200_blusgas_gb
+                    format: image/png
+      - name: blussysteem_foam_schuim_gb
+        filter: ${omschrijving = 'blussysteem foam (schuim) gb'}
+        title: blussysteem foam (schuim) gb
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blussysteem_foam_schuim_gb
+                    format: image/png
+      - name: blussysteem_hifog_hogedrukwatermist_gb
+        filter: ${omschrijving = 'blussysteem Hi-Fog (hogedrukwatermist) gb'}
+        title: blussysteem Hi-Fog (hogedrukwatermist) gb
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blussysteem_hifog_hogedrukwatermist_gb
+                    format: image/png
+      - name: blussysteem_inert_blusgas_gb
+        filter: ${omschrijving = 'blussysteem inert (blusgas) gb'}
+        title: blussysteem inert (blusgas) gb
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blussysteem_inert_blusgas_gb
+                    format: image/png
+      - name: blussysteem_novec_blusgas_gb
+        filter: ${omschrijving = 'blussysteem NOVEC (blusgas) gb'}
+        title: blussysteem NOVEC (blusgas) gb
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blussysteem_novec_blusgas_gb
+                    format: image/png
+      - name: blussysteem_water_gb
+        filter: ${omschrijving = 'blussysteem water gb'}
+        title: blussysteem water gb
+        scale: [min, 2000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/0.82} # Deze wordt door een getal gedeeld aangezien het symbool dat online staat te groot wordt getoond.
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *blussysteem_water_gb
                     format: image/png
