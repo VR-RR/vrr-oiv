@@ -1,10 +1,10 @@
--- bereikbaarheidskaart.generator_bluspomp definition
+-- bereikbaarheidskaart.generator_bluspomp_aanvulling definition
 
 -- Drop table
 
--- DROP TABLE bereikbaarheidskaart.generator_bluspomp;
+-- DROP TABLE bereikbaarheidskaart.generator_bluspomp_aanvulling;
 
-CREATE TABLE bereikbaarheidskaart.generator_bluspomp (
+CREATE TABLE bereikbaarheidskaart.generator_bluspomp_aanvulling (
 	id serial4 NOT NULL,
 	-- invulvelden
 	omschrijving varchar(255) NULL,
@@ -27,7 +27,7 @@ CREATE TABLE bereikbaarheidskaart.generator_bluspomp (
 	datum_gewijzigd timestamp NULL,
 	-- geometrie
 	geom public.geometry(point, 28992) NULL,
-	categorie_dbk varchar(255) NULL DEFAULT 'algemeen'::character varying,
-	CONSTRAINT generator_bluspomp_pkey PRIMARY KEY (id)
+	categorie_dbk varchar(255) NULL,
+	CONSTRAINT generator_bluspomp_aanvulling_pkey PRIMARY KEY (id)
 );
-CREATE INDEX generator_bluspomp_geom_1621252649622 ON bereikbaarheidskaart.generator_bluspomp USING gist (geom);
+CREATE INDEX generator_bluspomp_aanvulling_geom_1621252659480 ON bereikbaarheidskaart.generator_bluspomp_aanvulling USING gist (geom);

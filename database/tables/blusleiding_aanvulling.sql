@@ -1,11 +1,10 @@
--- bereikbaarheidskaart.blusleiding definition
+-- bereikbaarheidskaart.blusleiding_aanvulling definition
 
 -- Drop table
 
--- DROP TABLE bereikbaarheidskaart.blusleiding;
+-- DROP TABLE bereikbaarheidskaart.blusleiding_aanvulling;
 
-CREATE TABLE bereikbaarheidskaart.blusleiding (
-	id serial4 NOT NULL,
+CREATE TABLE bereikbaarheidskaart.blusleiding_aanvulling (
 	-- invulvelden
 	omschrijving varchar(255) NULL,
 	type_leiding varchar(255) NULL,
@@ -19,9 +18,10 @@ CREATE TABLE bereikbaarheidskaart.blusleiding (
 	naam_bewerker varchar(255) NULL,
 	datum_aangemaakt timestamp NULL,
 	datum_gewijzigd timestamp NULL,
+	id serial4 NOT NULL,
 	-- geometrie
 	geom public.geometry(point, 28992) NULL,
-	categorie_dbk varchar(255) NULL DEFAULT 'algemeen'::character varying,
-	CONSTRAINT blusleiding_pkey PRIMARY KEY (id)
+	categorie_dbk varchar(255) NULL,
+	CONSTRAINT blusleiding_aanvulling_pkey PRIMARY KEY (id)
 );
-CREATE INDEX blusleiding_geom_1621252542757 ON bereikbaarheidskaart.blusleiding USING gist (geom);
+CREATE INDEX blusleiding_aanvulling_geom_1621252557429 ON bereikbaarheidskaart.blusleiding_aanvulling USING gist (geom);

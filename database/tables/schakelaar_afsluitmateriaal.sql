@@ -1,20 +1,27 @@
-CREATE TABLE bereikbaarheidskaart.schakelaar_afsluitmateriaal (
-    id SERIAL PRIMARY KEY,
-    -- invulvelden
-    omschrijving varchar(255) NOT NULL,
-    sturing varchar(255) NULL,
-    overige_sturing varchar(255) NULL,
-    opmerking varchar(255) NULL,
-    -- metadata velden
-    bouwlaag int4 NULL DEFAULT 1,
-    symboolgrootte float8 NOT NULL DEFAULT 7,
-    symboolrotatie int4 NULL DEFAULT 0,
-    naam_aanmaker varchar(255) NULL,
-    naam_bewerker varchar(255) NULL,
-    datum_aangemaakt timestamp(0) NOT NULL DEFAULT now(),
-    datum_gewijzigd timestamp(0) NULL,
-    -- geometrie
-    geom geometry(POINT, 28992) NOT NULL
-);
+-- bereikbaarheidskaart.schakelaar_afsluitmateriaal definition
 
-CREATE INDEX sidx_schakelaar_afsluitmateriaal_geom ON bereikbaarheidskaart.schakelaar_afsluitmateriaal USING gist (geom);
+-- Drop table
+
+-- DROP TABLE bereikbaarheidskaart.schakelaar_afsluitmateriaal;
+
+CREATE TABLE bereikbaarheidskaart.schakelaar_afsluitmateriaal (
+	id serial4 NOT NULL,
+	-- invulvelden
+	omschrijving varchar(255) NULL,
+	sturing varchar(255) NULL,
+	overige_sturing varchar(255) NULL,
+	opmerking varchar(255) NULL,
+	-- metadata velden
+	bouwlaag int4 NULL,
+	symboolgrootte float8 NULL,
+	symboolrotatie int4 NULL,
+	naam_aanmaker varchar(255) NULL,
+	naam_bewerker varchar(255) NULL,
+	datum_aangemaakt timestamp NULL,
+	datum_gewijzigd timestamp NULL,
+	-- geometrie
+	geom public.geometry(point, 28992) NULL,
+	categorie_dbk varchar(255) NULL DEFAULT 'algemeen'::character varying,
+	CONSTRAINT schakelaar_afsluitmateriaal_pkey PRIMARY KEY (id)
+);
+CREATE INDEX schakelaar_afsluitmateriaal_geom_162125314885 ON bereikbaarheidskaart.schakelaar_afsluitmateriaal USING gist (geom);

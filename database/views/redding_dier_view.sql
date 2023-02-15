@@ -1,10 +1,24 @@
-create or replace view bereikbaarheidskaart.redding_dier_view as
-select
-	lay.*
-from
-	bereikbaarheidskaart.redding_dier lay
-left join bereikbaarheidskaart.status c on
-	(ST_Within(lay.geom,
-	c.geom)) and status = 'concept'
-where
-	c.id is null
+-- bereikbaarheidskaart.redding_dier_view source
+
+CREATE OR REPLACE VIEW bereikbaarheidskaart.redding_dier_view
+AS SELECT lay.id,
+    lay.omschrijving,
+    lay.aanvulling_omschrijving,
+    lay.aantal,
+    lay.locatie,
+    lay.tijdvak,
+    lay.datum_start,
+    lay.datum_eind,
+    lay.opmerking,
+    lay.bouwlaag,
+    lay.symboolgrootte,
+    lay.symboolrotatie,
+    lay.naam_aanmaker,
+    lay.naam_bewerker,
+    lay.datum_aangemaakt,
+    lay.datum_gewijzigd,
+    lay.geom,
+    lay.categorie_dbk
+   FROM bereikbaarheidskaart.redding_dier lay
+     LEFT JOIN bereikbaarheidskaart.status c ON st_within(lay.geom, c.geom) AND c.status::text = 'concept'::text
+  WHERE c.id IS NULL;

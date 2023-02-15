@@ -1,15 +1,20 @@
+-- bereikbaarheidskaart.bouwlaag definition
+
+-- Drop table
+
+-- DROP TABLE bereikbaarheidskaart.bouwlaag;
+
 CREATE TABLE bereikbaarheidskaart.bouwlaag (
-    id SERIAL PRIMARY KEY,
-    -- invulvelden
-
-    -- metadata velden
-    bouwlaag int4 NULL DEFAULT 1,
-    naam_aanmaker varchar(255) NULL,
-    naam_bewerker varchar(255) NULL,
-    datum_aangemaakt timestamp(0) NOT NULL DEFAULT now(),
-    datum_gewijzigd timestamp(0) NULL,
-    -- geometrie
-    geom geometry(POLYGON, 28992) NOT NULL
+	id serial4 NOT NULL,
+	-- metadata velden
+	bouwlaag int4 NULL,
+	naam_aanmaker varchar(255) NULL,
+	naam_bewerker varchar(255) NULL,
+	datum_aangemaakt timestamp NULL,
+	datum_gewijzigd timestamp NULL,
+	-- geometrie
+	geom public.geometry(polygon, 28992) NULL,
+	categorie_dbk varchar(255) NULL DEFAULT 'algemeen'::character varying,
+	CONSTRAINT bouwlaag_pkey PRIMARY KEY (id)
 );
-
-CREATE INDEX sidx_bouwlaag_geom ON bereikbaarheidskaart.bouwlaag USING gist (geom);
+CREATE INDEX bouwlaag_geom_1621252615639 ON bereikbaarheidskaart.bouwlaag USING gist (geom);

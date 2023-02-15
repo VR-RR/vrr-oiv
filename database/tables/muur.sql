@@ -1,15 +1,22 @@
-CREATE TABLE bereikbaarheidskaart.muur (
-    id SERIAL PRIMARY KEY,
-    -- invulvelden
-    omschrijving varchar(255) NOT NULL,
-    -- metadata velden
-    bouwlaag int4 NULL DEFAULT 1,
-    naam_aanmaker varchar(255) NULL,
-    naam_bewerker varchar(255) NULL,
-    datum_aangemaakt timestamp(0) NOT NULL DEFAULT now(),
-    datum_gewijzigd timestamp(0) NULL,
-    -- geometrie
-    geom geometry(LINESTRING, 28992) NOT NULL
-);
+-- bereikbaarheidskaart.muur definition
 
-CREATE INDEX sidx_muur_geom ON bereikbaarheidskaart.muur USING gist (geom);
+-- Drop table
+
+-- DROP TABLE bereikbaarheidskaart.muur;
+
+CREATE TABLE bereikbaarheidskaart.muur (
+	id serial4 NOT NULL,
+	-- invulvelden
+	omschrijving varchar(255) NULL,
+	-- metadata velden
+	bouwlaag int4 NULL,
+	naam_aanmaker varchar(255) NULL,
+	naam_bewerker varchar(255) NULL,
+	datum_aangemaakt timestamp NULL,
+	datum_gewijzigd timestamp NULL,
+	-- geometrie
+	geom public.geometry(linestring, 28992) NULL,
+	categorie_dbk varchar(255) NULL DEFAULT 'algemeen'::character varying,
+	CONSTRAINT muur_pkey PRIMARY KEY (id)
+);
+CREATE INDEX muur_geom_1621253055594 ON bereikbaarheidskaart.muur USING gist (geom);

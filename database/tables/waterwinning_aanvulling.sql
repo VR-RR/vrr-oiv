@@ -1,10 +1,10 @@
--- bereikbaarheidskaart.waterwinning definition
+-- bereikbaarheidskaart.waterwinning_aanvulling definition
 
 -- Drop table
 
--- DROP TABLE bereikbaarheidskaart.waterwinning;
+-- DROP TABLE bereikbaarheidskaart.waterwinning_aanvulling;
 
-CREATE TABLE bereikbaarheidskaart.waterwinning (
+CREATE TABLE bereikbaarheidskaart.waterwinning_aanvulling (
 	id serial4 NOT NULL,
 	-- invulvelden
 	omschrijving varchar(255) NULL,
@@ -27,7 +27,7 @@ CREATE TABLE bereikbaarheidskaart.waterwinning (
 	datum_gewijzigd timestamp NULL,
 	-- geometrie
 	geom public.geometry(point, 28992) NULL,
-	categorie_dbk varchar(255) NULL DEFAULT 'algemeen'::character varying,
-	CONSTRAINT waterwinning_pkey PRIMARY KEY (id)
+	categorie_dbk varchar(255) NULL,
+	CONSTRAINT waterwinning_aanvulling_pkey PRIMARY KEY (id)
 );
-CREATE INDEX waterwinning_geom_1621253340113 ON bereikbaarheidskaart.waterwinning USING gist (geom);
+CREATE INDEX waterwinning_aanvulling_geom_1621253351447 ON bereikbaarheidskaart.waterwinning_aanvulling USING gist (geom);

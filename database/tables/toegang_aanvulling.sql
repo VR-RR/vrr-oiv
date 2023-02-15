@@ -1,10 +1,10 @@
--- bereikbaarheidskaart.toegang definition
+-- bereikbaarheidskaart.toegang_aanvulling definition
 
 -- Drop table
 
--- DROP TABLE bereikbaarheidskaart.toegang;
+-- DROP TABLE bereikbaarheidskaart.toegang_aanvulling;
 
-CREATE TABLE bereikbaarheidskaart.toegang (
+CREATE TABLE bereikbaarheidskaart.toegang_aanvulling (
 	id serial4 NOT NULL,
 	-- invulvelden
 	omschrijving varchar(255) NULL,
@@ -30,7 +30,7 @@ CREATE TABLE bereikbaarheidskaart.toegang (
 	datum_gewijzigd timestamp NULL,
 	-- geometrie
 	geom public.geometry(point, 28992) NULL,
-	categorie_dbk varchar(255) NULL DEFAULT 'algemeen'::character varying,
-	CONSTRAINT toegang_pkey PRIMARY KEY (id)
+	categorie_dbk varchar(255) NULL,
+	CONSTRAINT toegang_aanvulling_pkey PRIMARY KEY (id)
 );
-CREATE INDEX toegang_geom_1621253193981 ON bereikbaarheidskaart.toegang USING gist (geom);
+CREATE INDEX toegang_aanvulling_geom_1621253208705 ON bereikbaarheidskaart.toegang_aanvulling USING gist (geom);

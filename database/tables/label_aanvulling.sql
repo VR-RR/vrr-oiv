@@ -1,10 +1,10 @@
--- bereikbaarheidskaart."label" definition
+-- bereikbaarheidskaart.label_aanvulling definition
 
 -- Drop table
 
--- DROP TABLE bereikbaarheidskaart."label";
+-- DROP TABLE bereikbaarheidskaart.label_aanvulling;
 
-CREATE TABLE bereikbaarheidskaart."label" (
+CREATE TABLE bereikbaarheidskaart.label_aanvulling (
 	id serial4 NOT NULL,
 	-- invulvelden
 	omschrijving varchar(255) NULL,
@@ -20,7 +20,7 @@ CREATE TABLE bereikbaarheidskaart."label" (
 	datum_gewijzigd timestamp NULL,
 	-- geometrie
 	geom public.geometry(point, 28992) NULL,
-	categorie_dbk varchar(255) NULL DEFAULT 'algemeen'::character varying,
-	CONSTRAINT label_pkey PRIMARY KEY (id)
+	categorie_dbk varchar(255) NULL,
+	CONSTRAINT label_aanvulling_pkey PRIMARY KEY (id)
 );
-CREATE INDEX label_geom_1621252711135 ON bereikbaarheidskaart.label USING gist (geom);
+CREATE INDEX label_aanvulling_geom_1621252721915 ON bereikbaarheidskaart.label_aanvulling USING gist (geom);

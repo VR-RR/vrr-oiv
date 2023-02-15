@@ -1,10 +1,42 @@
-create or replace view bereikbaarheidskaart.gevaarlijke_stoffen_view as
-select
-	lay.*
-from
-	bereikbaarheidskaart.gevaarlijke_stoffen lay
-left join bereikbaarheidskaart.status c on
-	(ST_Within(lay.geom,
-	c.geom)) and status = 'concept'
-where
-	c.id is null
+-- bereikbaarheidskaart.gevaarlijke_stof_view source
+
+CREATE OR REPLACE VIEW bereikbaarheidskaart.gevaarlijke_stof_view
+AS SELECT lay.id,
+    lay.omschrijving,
+    lay.stofnaam,
+    lay.gevarenklasse,
+    lay.subklasse,
+    lay.gevi_code,
+    lay.vn_un_nummer,
+    lay.cas_nummer,
+    lay.etiket,
+    lay.eric_kaart,
+    lay.hoeveelheid_kg_l,
+    lay.locatie,
+    lay.ruimtenummer,
+    lay.opmerking_stof,
+    lay.aggregatie_toestand,
+    lay.opslagvorm,
+    lay.opslagmateriaal,
+    lay.pathogeen,
+    lay.verspreidingsmechanismen,
+    lay.langetermijn_schade_gevaren,
+    lay.milieuschadelijk,
+    lay.nfpa_gevarendiamant_brandgevaar,
+    lay.nfpa_gevarendiamant_reactiviteit,
+    lay.nfpa_gevarendiamant_bijzonder,
+    lay.nfpa_gevarendiamant,
+    lay.nfpa_gevarendiamant_gezondheid,
+    lay.opmerking,
+    lay.bouwlaag,
+    lay.symboolgrootte,
+    lay.symboolrotatie,
+    lay.naam_aanmaker,
+    lay.naam_bewerker,
+    lay.datum_aangemaakt,
+    lay.datum_gewijzigd,
+    lay.geom,
+    lay.categorie_dbk
+   FROM bereikbaarheidskaart.gevaarlijke_stof lay
+     LEFT JOIN bereikbaarheidskaart.status c ON st_within(lay.geom, c.geom) AND c.status::text = 'concept'::text
+  WHERE c.id IS NULL;
