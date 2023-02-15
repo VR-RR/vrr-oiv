@@ -15,6 +15,8 @@ helling: &helling https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waarschu
 exotische_dieren: &exotische_dieren https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waarschuwing/W-NL-007_Exotische%20dieren.png?raw=true
 lithium_ion_batterijen: &lithium_ion_batterijen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waarschuwing/W-NL-008_li-ion_batterijen.png?raw=true
 niet_Lithium_houdende_batterijen: &niet_Lithium_houdende_batterijen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waarschuwing/W-NL-008_non-li_niet_lithium_houdende_batterijen.png?raw=true
+zonnepanelen: &zonnepanelen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waarschuwing/VRR-W-NL-010%20Zonnepanelen.png?raw=true
+oplaadpunt_elektrische_voertuigen: &oplaadpunt_elektrische_voertuigen https://github.com/VR-RR/vrr-oiv/blob/main/qgis/icons/Waarschuwing/VRR-W-NL-009%20Oplaadpunt%20%20Elektrische%20voertuigen.png?raw=true
 
 feature-styles:
   - rules:
@@ -238,4 +240,30 @@ feature-styles:
               symbols:
                 - external:
                     url: *niet_Lithium_houdende_batterijen
+                    format: image/png
+      - name: zonnepanelen
+        filter: ${omschrijving = 'zonnepanelen'}
+        title: zonnepanelen
+        scale: [min, 1000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/1.5}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *zonnepanelen
+                    format: image/png
+      - name: oplaadpunt_elektrische_voertuigen
+        filter: ${omschrijving = 'oplaadpunt elektrische voertuigen'}
+        title: oplaadpunt_elektrische_voertuigen
+        scale: [min, 1000]
+        symbolizers:
+          - point:
+              uom: metre
+              size: ${symboolgrootte/1.5}
+              rotation: ${symboolrotatie}
+              symbols:
+                - external:
+                    url: *oplaadpunt_elektrische_voertuigen
                     format: image/png
