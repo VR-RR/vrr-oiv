@@ -1,1 +1,0 @@
-xcopy qgis-auth.db C:\Users\%USERNAME%\AppData\Roaming\QGIS\QGIS3\profiles\default\ /Y 
