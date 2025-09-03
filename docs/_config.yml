@@ -2,7 +2,7 @@ title: VRR OIV
 description: Tekentool bereikbaarheidskaarten voor de VRR
 show_downloads: true
 google_analytics:
-remote_theme: rundocs/jekyll-rtd-theme
+remote_theme: carlosperate/jekyll-theme-rtd
 lang: nl
 readme_index:
   with_frontmatter: true
