@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="11.2889mm" height="11.2889mm"
+ viewBox="0 0 32 32"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+<title>Qt SVG Document</title>
+<desc>Generated with Qt</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="#ffff00" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,15.4375,12.7344)"
+font-family="MS Shell Dlg 2" font-size="9.8" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="nonzero" d="M-0.195313,5.93359 L-0.113281,5.93359 C0.0585937,6.04297 2.37109,9.99219 6.82422,17.7813 L13.1641,28.7266 L13.1641,28.8906 L-13.1445,28.8906 L-13.3086,28.8086 C-4.73828,13.8867 -0.367188,6.26172 -0.195313,5.93359 "/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="MS Shell Dlg 2" font-size="9.8" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,15.9063,12.7344)"
+font-family="MS Shell Dlg 2" font-size="9.8" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="nonzero" d="M-0.195313,5.32422 L-0.113281,5.32422 C0.0664062,5.44141 2.5,9.60156 7.1875,17.8047 L13.8672,29.3242 L13.8672,29.5 L-13.8242,29.5 L-14,29.4063 C-4.97656,13.7031 -0.375,5.67578 -0.195313,5.32422 M-10.3906,27.2969 L10.1758,27.2969 L10.1758,27.2148 L-0.0195313,9.46094 C-0.253906,9.63281 -2.74609,13.9375 -7.49609,22.375 C-7.55078,22.375 -8.51563,24.0156 -10.3906,27.2969 "/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="MS Shell Dlg 2" font-size="9.8" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,12.5234,18.5625)"
+font-family="MS Shell Dlg 2" font-size="9.8" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="nonzero" d="M-5.88812,2.01463 L-6.84812,0.358625 L-6.58488,0.191 L-5.62488,1.84662 C-5.40037,1.74887 -5.16787,1.7 -4.92737,1.7 C-4.70287,1.7 -4.47837,1.74762 -4.25387,1.84288 L-3.29125,0.188375 L-3.028,0.356 L-3.964,2.012 C-3.564,2.3 -3.34,2.692 -3.292,3.188 L-1.396,3.188 L-1.396,3.5 L-3.3055,3.5 C-3.35375,4.0005 -3.58737,4.396 -4.00637,4.6865 L-3.02575,6.3305 L-3.316,6.5 L-4.276,4.844 C-4.484,4.94 -4.7,4.988 -4.924,4.988 C-5.164,4.988 -5.388,4.94 -5.596,4.844 L-6.556,6.5 L-6.84587,6.3305 L-5.88363,4.67637 C-6.28362,4.38838 -6.50762,3.99625 -6.55562,3.5 L-8.476,3.5 L-8.476,3.188 L-6.559,3.188 C-6.511,2.693 -6.28737,2.30187 -5.88812,2.01463 M-4.924,2.036 C-5.292,2.036 -5.604,2.16 -5.86,2.408 C-6.116,2.656 -6.244,2.964 -6.244,3.332 C-6.244,3.7 -6.116,4.012 -5.86,4.268 C-5.604,4.524 -5.292,4.652 -4.924,4.652 C-4.556,4.652 -4.248,4.524 -4,4.268 C-3.752,4.012 -3.628,3.7 -3.628,3.332 C-3.628,2.98 -3.756,2.676 -4.012,2.42 C-4.268,2.164 -4.572,2.036 -4.924,2.036 M-5.284,3.33612 C-5.284,3.11462 -5.15937,3.00388 -4.91012,3.00388 C-4.69537,3.00388 -4.588,3.11462 -4.588,3.33612 C-4.588,3.57337 -4.7,3.692 -4.924,3.692 C-5.164,3.692 -5.284,3.57337 -5.284,3.33612 "/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="MS Shell Dlg 2" font-size="9.8" font-weight="400" font-style="normal" 
+>
+</g>
+</g>
+</svg>

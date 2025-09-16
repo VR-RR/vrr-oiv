@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="11.2889mm" height="11.2889mm"
+ viewBox="0 0 32 32"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+<title>Qt SVG Document</title>
+<desc>Generated with Qt</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="#ffff00" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,15.4375,12.7344)"
+font-family="MS Shell Dlg 2" font-size="9.8" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="nonzero" d="M-0.195313,5.93359 L-0.113281,5.93359 C0.0585937,6.04297 2.37109,9.99219 6.82422,17.7813 L13.1641,28.7266 L13.1641,28.8906 L-13.1445,28.8906 L-13.3086,28.8086 C-4.73828,13.8867 -0.367188,6.26172 -0.195313,5.93359 "/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="MS Shell Dlg 2" font-size="9.8" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,15.9063,12.7344)"
+font-family="MS Shell Dlg 2" font-size="9.8" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="nonzero" d="M-10.3789,27.3438 L10.2109,27.3438 C3.78125,16.2656 0.363281,10.3242 -0.0429688,9.51953 C-0.558594,10.2617 -4.00391,16.2031 -10.3789,27.3438 M-2.19922,17.2656 L-0.816406,19.4219 C-1.33984,19.6484 -1.625,20.1641 -1.67188,20.9688 L-4.17969,20.9688 C-4.11719,19.2422 -3.45703,18.0078 -2.19922,17.2656 M2.19531,17.1719 C3.57031,18.2109 4.25781,19.4766 4.25781,20.9688 L1.77344,20.9688 C1.77344,20.2266 1.45313,19.7109 0.8125,19.4219 L2.19531,17.1719 M0.0507813,20.0195 C0.558594,20.0195 0.84375,20.3086 0.90625,20.8867 C0.90625,21.457 0.621094,21.7422 0.0507813,21.7422 C-0.589844,21.7422 -0.910156,21.457 -0.910156,20.8867 C-0.792969,20.3086 -0.472656,20.0195 0.0507813,20.0195 M-0.816406,22.2695 C-0.527344,22.4414 -0.238281,22.5273 0.0507813,22.5273 C0.339844,22.5273 0.625,22.4414 0.90625,22.2695 L2.11328,24.5078 C1.42578,24.8672 0.742187,25.0469 0.0625,25.0469 C-0.671875,25.0469 -1.39844,24.8359 -2.11719,24.4141 L-0.816406,22.2695 M-0.195313,5.32422 L-0.113281,5.32422 C0.0664062,5.44141 2.5,9.60156 7.1875,17.8047 L13.8672,29.3242 L13.8672,29.5 L-13.8242,29.5 L-14,29.4063 C-4.97656,13.7031 -0.375,5.67578 -0.195313,5.32422 "/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="MS Shell Dlg 2" font-size="9.8" font-weight="400" font-style="normal" 
+>
+</g>
+</g>
+</svg>

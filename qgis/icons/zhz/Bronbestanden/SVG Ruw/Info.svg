@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="11.2889mm" height="11.2889mm"
+ viewBox="0 0 32 32"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+<title>Qt SVG Document</title>
+<desc>Generated with Qt</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,15.7266,12.7344)"
+font-family="MS Shell Dlg 2" font-size="9.8" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="nonzero" d="M11.5898,5.88672 L11.5898,29.1953 L-11.6367,29.1953 L-11.6367,5.88672 L11.5898,5.88672"/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="MS Shell Dlg 2" font-size="9.8" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#ff0000" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,15.9609,12.7344)"
+font-family="MS Shell Dlg 2" font-size="9.8" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="nonzero" d="M11.9414,5.52344 L11.9414,29.5586 L-12,29.5586 L-12,5.52344 L11.9414,5.52344 M-11.2031,6.33203 L-11.2031,28.9258 L11.1445,28.9258 L11.1445,6.33203 L-11.2031,6.33203 M-1.08984,9.25 L0.234375,9.25 L0.234375,11.9102 L-1.08984,11.9102 L-1.08984,9.25 M-3.75,14.5703 L0.234375,14.5703 L0.234375,23.8867 L4.23047,23.8867 C4.58203,23.8867 4.75781,24.0625 4.75781,24.4141 C4.75781,24.7656 4.58203,24.9414 4.23047,24.9414 L-4.81641,24.9414 C-5.16797,24.9414 -5.34375,24.7656 -5.34375,24.4141 C-5.34375,24.0625 -5.16797,23.8867 -4.81641,23.8867 L-0.832031,23.8867 L-0.832031,15.6367 L-3.75,15.6367 C-4.10156,15.6367 -4.27734,15.457 -4.27734,15.0977 C-4.27734,14.7461 -4.10156,14.5703 -3.75,14.5703 "/>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="MS Shell Dlg 2" font-size="9.8" font-weight="400" font-style="normal" 
+>
+</g>
+</g>
+</svg>

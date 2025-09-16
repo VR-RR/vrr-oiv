@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="11.2889mm" height="11.2889mm"
+ viewBox="0 0 32 32"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.2" baseProfile="tiny">
+<title>Qt SVG Document</title>
+<desc>Generated with Qt</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="#ffffff" fill-opacity="0" stroke="#005ce6" stroke-opacity="1" stroke-width="0.890505" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="MS Shell Dlg 2" font-size="9.8" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M16,8.12701 C20.3481,8.12701 23.873,11.6519 23.873,16 C23.873,20.3481 20.3481,23.873 16,23.873 C11.6519,23.873 8.12701,20.3481 8.12701,16 C8.12701,11.6519 11.6519,8.12701 16,8.12701 "/>
+</g>
+
+<g fill="#ffffff" fill-opacity="0" stroke="#005ce6" stroke-opacity="1" stroke-width="0.890505" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="MS Shell Dlg 2" font-size="9.8" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M19.7786,22.5446 L19.7786,9.45538 L8.44271,16 L19.7786,22.5446"/>
+</g>
+</g>
+</svg>
